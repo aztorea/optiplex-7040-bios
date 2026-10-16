@@ -99,6 +99,7 @@ not measured on this machine.**
 |---|---|
 | `*.md` | Living research docs (catalogue, plan, analysis, baseline) |
 | `mods\` | Sandbox-built modified images + per-build `CHANGES.md` |
+| `mods\FLASHING.md` | **Plain-English guide to flashing one of these files** |
 | `work\bios\` | Pristine BIOS baseline and extracted firmware analysis |
 | `work\scripts\` | Python builders and verification tools |
 | `tools\` | Third-party utilities used for analysis |
