@@ -9,7 +9,8 @@ RTX 3060 (12 GB) · 32 GB RAM.
 
 > This is a personal research repository. Everything here is **analysis and
 > sandbox-built images** unless stated otherwise. **Nothing here has been flashed
-> to real hardware by the author.**
+> to real hardware by the author.
+> **The combined image** mods\v06_all_in_one\ **(ReBAR + bypass + defaults + all unlocks)**
 
 ---
 
