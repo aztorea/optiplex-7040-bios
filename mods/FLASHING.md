@@ -21,9 +21,10 @@ mix files from two folders.**
 | `v01_defaults\` | Above 4G **on**, CSM **off** (defaults only, no ReBAR) | clean-UEFI defaults only |
 | `v02_rebar\` | Resizable BAR driver (no Boot Guard bypass — **will not boot**) | reference only |
 | `v02b_rebar_bgbypass\` | Resizable BAR **+ Boot Guard bypass** | ReBAR and nothing else |
-| `v03_hidden\` | ReBAR + bypass + **5 unlocked menus** | **best all-round** |
+| `v03_hidden\` | ReBAR + bypass + **5 unlocked menus** | lighter alternative to `v06` |
 | `v04_hidden_opts\` | ReBAR + bypass + all **19** hidden options | maximum visibility |
 | `v05_force_enable\` | ReBAR + bypass + force-enable all **21** items | maximum control, **highest risk** |
+| `v06_all_in_one\` | **everything above in one file** (ReBAR + bypass + Above 4G/CSM defaults + all 21 unlocks) | **recommended — single combined image** |
 
 > **Boot Guard is enabled on this PC.** Any modified image **must** include the
 > bypass (that is why `v02b` and later exist). Without it, the modified BIOS
@@ -64,7 +65,7 @@ If FPT refuses ("region is locked"), use the programmer instead.
 **Method A — Intel FPT (software, easiest).** Run as Administrator:
 
 ```
-fptw64.exe -bios -f "C:\path\to\mods\v03_hidden\System_BIOS.bin"
+fptw64.exe -bios -f "C:\path\to\mods\v06_all_in_one\System_BIOS.bin"
 ```
 
 Wait until it completes. **Do not interrupt or power off.** Then reboot.
