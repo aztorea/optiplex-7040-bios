@@ -66,6 +66,7 @@ BIOS screenshots, menu captures, and emulated UI. (See `VisionPipeline\USE_ME_OP
 | W3 | Hidden menu unlock | vol5 `Setup` IFR (SuppressIf) | **inside AMI v2 range** | **DONE** | L1 ✓ L2 ✓ |
 | W4 | Microcode / ME / option-ROM refresh | vol5 FVs, ME region | mixed | per-component | L1 |
 | W5 | OS / hardware tuning (no firmware) | Windows, drivers, NVMe | none | scripts | system tests |
+| W6 | All-in-one combined image | W1 + W2 + W2b + W5 | **inside AMI v2 range** | **DONE** | L1 ✓ L2 ✓ |
 
 ### W1 — Safe defaults (DONE)
 - `mods\v01_defaults\System_BIOS.bin`, SHA256 `187be662…f25925`; exactly **2 bytes** differ:
@@ -111,6 +112,13 @@ BIOS screenshots, menu captures, and emulated UI. (See `VisionPipeline\USE_ME_OP
   constant-true guards (19 SuppressIf + 1 GrayOutIf + 1 DisableIf) →
   `mods\v05_force_enable\System_BIOS.bin` (SHA256 `0FB73335…52EE63`), L1 **PASS**, L2
   `True=0 / False=21`.
+
+### W6 — All-in-one combined image (DONE)
+- `work\scripts\build_v06_all_in_one.py` combines **W1 + W2 + W2b + W5** into one
+  image → `mods\v06_all_in_one\System_BIOS.bin` (SHA256
+  `A0699EAE…19D067`). Triple-verified: decompressed FV byte-identical to
+  `v05_force_enable`; raw diff vs `v05` = exactly the 2 W1 NVAR bytes; L1 **PASS**;
+  L2 `True=0/False=21`. Single recommended file — see `mods\FLASHING.md`.
 
 ### W3b — Access-level unlock
 - Flip `AMITSESetup` / access-granularity so hidden questions expose to USER (if needed).

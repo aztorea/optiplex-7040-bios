@@ -13,7 +13,8 @@
 
 Each folder under `mods\` holds a complete BIOS region named `System_BIOS.bin`
 (9 MB) plus a `CHANGES.md` describing every change. **You flash one file — never
-mix files from two folders.**
+mix files from two folders.** For most people the **combined image
+`v06_all_in_one\System_BIOS.bin`** is the one to use.
 
 | Folder | What it contains | Best for |
 |---|---|---|
@@ -30,9 +31,11 @@ mix files from two folders.**
 > bypass (that is why `v02b` and later exist). Without it, the modified BIOS
 > **will not boot**.
 
-> **Important — ReBAR needs two extra settings ON.** The ReBAR images do **not**
-> change the *defaults* for them, so after flashing you must make sure
-> **Above 4G Decoding = Enabled** and **CSM = Disabled** (see Step 5).
+> **Important — ReBAR needs two extra settings ON.** The recommended image
+> `v06_all_in_one` **bakes in** the defaults **Above 4G = Enabled** and **CSM =
+> Disabled**. The other ReBAR images (`v02b`…`v05`) do **not**, so if you flash one
+> of those you must set **Above 4G Decoding = Enabled** and **CSM = Disabled**
+> yourself (see Step 5).
 
 ## 2. Get these ready first
 
@@ -89,13 +92,14 @@ Resizable BAR only works with **Above 4G Decoding = Enabled** and
 **CSM = Disabled**:
 
 1. Enter BIOS Setup (**F2** at boot).
-2. If you flashed a hidden-menu image (`v03`+), open the now-unlocked
-   Advanced / Chipset menu and set **Above 4G Decoding → Enabled**,
-   **CSM → Disabled**.
-3. If those options are not visible, flash `v03_hidden` (it reveals the menus)
-   or write the settings with `AMISCE`/`SCE`.
-4. **Save & Exit.** To apply the baked defaults, do **Load Setup Defaults**
-   and/or clear CMOS once.
+2. If you flashed `v06_all_in_one`, the defaults are already baked in — just do
+   **Load Setup Defaults** and/or clear CMOS once so **Above 4G = Enabled** and
+   **CSM = Disabled** take effect.
+3. If you flashed any other ReBAR image (`v02b`…`v05`), set **Above 4G Decoding →
+   Enabled** and **CSM → Disabled** in the unlocked Advanced / Chipset menu; if the
+   options are not visible, flash `v06_all_in_one` (it reveals them) or write the
+   settings with `AMISCE`/`SCE`.
+4. **Save & Exit.**
 
 ## 6. Confirm it worked
 

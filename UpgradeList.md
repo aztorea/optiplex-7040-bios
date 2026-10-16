@@ -314,6 +314,7 @@ Each is under `mods\<variant>\System_BIOS.bin` with its own `CHANGES.md`; baseli
 | `v03_hidden` | W2b + unlock 5 hidden menus | `4615B333…B38E60` | L1 ✓ L2 ✓ |
 | `v04_hidden_opts` | W2b + unlock all 19 `SuppressIf` guards | `CE616B15…3AEC93` | L1 ✓ L2 ✓ |
 | `v05_force_enable` | W2b + flip all 21 constant-true guards | `0FB73335…52EE63` | L1 ✓ L2 ✓ |
+| `v06_all_in_one` | **everything combined**: W1 defaults + ReBAR driver + bypass + all 21 flips | `A0699EAE…19D067` | L1 ✓ L2 ✓ |
 
 **Hidden-menu unlock (K1, done):** the Setup driver `899407D7-…` IFR hides menus/options behind
 `SuppressIf` / `GrayOutIf` / `DisableIf` wrapping a constant `True`; flip the operand `0x46`→`0x47`
@@ -332,3 +333,4 @@ FALSE=`0x47`. Builders: `work\scripts\build_wave{3,4,5}_*.py`. See `WAVE_PLAN.md
 - 2026-10-15 — inventor pass: added §Q (measured-boot/System Map, I219 GbE, ME vPro, Freeform defaults), §R (transformation playbooks); created `OPPORTUNITIES.md`, `work\docs\DELL_FIRMWARE_COMPONENTS.md`, `work\docs\NVRAM_DEFAULTS.md` (+ `nvram_defaults.csv`).
 - 2026-10-15 — build pass: added §S built-image matrix; K1 hidden-menu unlock implemented (W2b base + `SuppressIf` flip) → `v03_hidden`, `v04_hidden_opts`, `v05_force_enable`; W2b `BootGuardDxe` neutralization. See `WAVE_PLAN.md` / `FIRMWARE_CATALOG.md §4.1`.
 - 2026-10-15 — FPF check: read-only `MEInfoWin64 -verbose` (CSME Tools v11 r46 from the `CE1CECL/IntelCSTools` mirror) confirms Boot Guard **provisioned, Verified+Measured** (OEM key `A53EF0C1…B06C`); added `work\scripts\check_bootguard.py`. ⇒ W2b route required.
+- 2026-10-16 — all-in-one build: `v06_all_in_one` combines W1 + W2 + W2b + W5 into one image (triple-verified: FV identical to `v05`, diff vs `v05` = the 2 W1 bytes, L1 PASS, L2 `True=0/False=21`), builder `work\scripts\build_v06_all_in_one.py`; plain-English guide `mods\FLASHING.md`.

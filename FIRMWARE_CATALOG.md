@@ -186,6 +186,9 @@ Full write-up: `work\docs\DELL_FIRMWARE_COMPONENTS.md`. New evidence this pass:
   L2 `True=0/False=19`), `mods\v04_hidden_opts\` + `build_wave4_hidden_opts.py`.
 - 2026-10-15 — `v05_force_enable`: all 21 constant-true guards flipped (19 SuppressIf + 1 GrayOutIf +
   1 DisableIf; L2 `True=0/False=21`), `mods\v05_force_enable\` + `build_wave5_force_enable.py`.
+- 2026-10-16 — `v06_all_in_one`: single combined image (W1 defaults + W2 ReBAR + W2b bypass + W5 all 21
+  flips; diff vs `v05` = the 2 W1 bytes; L1 PASS, L2 `True=0/False=21`), `mods\v06_all_in_one\` +
+  `build_v06_all_in_one.py`. Recommended file; see `mods\FLASHING.md`.
 - 2026-10-15 — **FPF check (read-only).** Added `work\scripts\check_bootguard.py`; obtained Intel
   `MEInfoWin64.exe` v11 r46 from the `CE1CECL/IntelCSTools` GitHub mirror into
   `tools\MEInfo_v11r46\` (4 files; `MEInfoWin64.exe` SHA256 `E37035BF…74660F0`). Confirms Boot

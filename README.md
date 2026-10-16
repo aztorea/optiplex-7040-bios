@@ -52,8 +52,10 @@ just reveals settings Dell hid — it gives you knobs, it doesn't turn them.
 | **Force-enable everything** | ★☆☆☆☆ riskiest | Reveals **and switches on** all 21 hidden/greyed/disabled items (incl. TPM controls) | Maximum control; most likely to break something | Indirect; **highest risk** | Built + offline-verified |
 | **OS / hardware tuning** | ★★★★☆ safe gain | RAM 32→64 GB, driver/power tuning, etc. | Measurable on its own; no firmware risk | Real and measurable (RAM/VMs/AI); **not BIOS** | Doable now |
 
-> **Note:** the hidden-menu / force-enable images are **alternatives** built on the
-> Resizable BAR base — you would flash **one** image, not all of them.
+> **Note:** the individual builds are **alternatives** on the Resizable BAR base.
+> There is also a single **combined image** — `mods\v06_all_in_one\System_BIOS.bin`
+> — that already contains all of the firmware changes. You flash **one** file, never
+> a mix.
 
 ## How we would *actually* prove the speed boost
 
@@ -62,7 +64,7 @@ Once flashing is authorized, turn "projected" into "measured on this exact PC":
 1. **Baseline** (stock BIOS): 3DMark (Time Spy) + 1–2 ReBAR-sensitive games
    (e.g. Forza Horizon 4, Gears 5) at 1080p and 1440p, 3 runs each — record
    **average FPS** and **1% low FPS**.
-2. Flash the Resizable BAR image.
+2. Flash the combined image `mods\v06_all_in_one\System_BIOS.bin` (see `mods\FLASHING.md`).
 3. Re-run the **exact same** tests, same settings, same driver.
 4. Compare average + 1% low, and measure **boot time** with CSM on vs. off.
 
@@ -99,6 +101,7 @@ not measured on this machine.**
 |---|---|
 | `*.md` | Living research docs (catalogue, plan, analysis, baseline) |
 | `mods\` | Sandbox-built modified images + per-build `CHANGES.md` |
+| `mods\v06_all_in_one\` | **The combined image** (ReBAR + bypass + defaults + all unlocks) |
 | `mods\FLASHING.md` | **Plain-English guide to flashing one of these files** |
 | `work\bios\` | Pristine BIOS baseline and extracted firmware analysis |
 | `work\scripts\` | Python builders and verification tools |
