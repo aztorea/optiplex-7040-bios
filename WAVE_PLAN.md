@@ -68,12 +68,12 @@ BIOS screenshots, menu captures, and emulated UI. (See `VisionPipeline\USE_ME_OP
 | W5 | OS / hardware tuning (no firmware) | Windows, drivers, NVMe | none | scripts | system tests |
 
 ### W1 — Safe defaults (DONE)
-- `work\mods\v01_defaults\System_BIOS.bin`, SHA256 `187be662…f25925`; exactly **2 bytes** differ:
+- `mods\v01_defaults\System_BIOS.bin`, SHA256 `187be662…f25925`; exactly **2 bytes** differ:
   `0x0003DD` Above 4G MMIO `00→01`, `0x000D2A` CSM `01→00`. AMI v2 range hash & IBB unchanged.
-- `work\mods\v01_defaults\CHANGES.md` written.
+- `mods\v01_defaults\CHANGES.md` written.
 
 ### W2b — ReBAR + BootGuardDxe bypass (DONE, offline)
-- `work\mods\v02b_rebar_bgbypass\System_BIOS.bin` (SHA256 `BA464B00…E359D5D`): W2 plus a
+- `mods\v02b_rebar_bgbypass\System_BIOS.bin` (SHA256 `BA464B00…E359D5D`): W2 plus a
   3-byte patch of the `BootGuardDxe` worker (RVA `0x1070` = dec `0x1E2494`, `40 53 48` →
   `31 C0 C3`) so the stale AMI hash cannot halt. IBB untouched → Intel ACM chain intact; works
   whether or not fuses are burned. L1 **PASS**. See its `CHANGES.md`.
@@ -98,18 +98,18 @@ BIOS screenshots, menu captures, and emulated UI. (See `VisionPipeline\USE_ME_OP
   Advanced `0x2712`, Chipset `0x2713`, Security `0x2714`, Dell "Advanced configurations" `0x80A0`,
   ASPM `0x2816`.
 - **Build (DONE):** `work\scripts\build_wave3_hidden.py` (W2b base + 5 IFR flips) →
-  `work\mods\v03_hidden\System_BIOS.bin` (SHA256 `4615B333…B38E60`). L1 **PASS**; **L2** via
+  `mods\v03_hidden\System_BIOS.bin` (SHA256 `4615B333…B38E60`). L1 **PASS**; **L2** via
   `work\scripts\extract_setup_body.py` + IFRExtractor 1.6.1 re-extract shows all 5 menus now
   `SuppressIf → False` (`True=15 / False=5`; patched body SHA256 `e0b39cb1…5efa32`). See its
   `CHANGES.md`.
 - **Hidden-options variant (DONE):** `work\scripts\build_wave4_hidden_opts.py` flips **all 19**
   `SuppressIf True` guards (5 menus + 14 options: Boot List, TPM Owner Status, Kill TPM, Vendor
-  Keys, ASPM, ALS, …) → `work\mods\v04_hidden_opts\System_BIOS.bin` (SHA256 `CE616B15…3AEC93`),
+  Keys, ASPM, ALS, …) → `mods\v04_hidden_opts\System_BIOS.bin` (SHA256 `CE616B15…3AEC93`),
   L1 **PASS**, L2 confirms `SuppressIf` guards now `True=0 / False=19` (only a `GrayOutIf` and a
   `DisableIf` retain a constant `True`).
 - **Force-enable variant (DONE):** `work\scripts\build_wave5_force_enable.py` flips **all 21**
   constant-true guards (19 SuppressIf + 1 GrayOutIf + 1 DisableIf) →
-  `work\mods\v05_force_enable\System_BIOS.bin` (SHA256 `0FB73335…52EE63`), L1 **PASS**, L2
+  `mods\v05_force_enable\System_BIOS.bin` (SHA256 `0FB73335…52EE63`), L1 **PASS**, L2
   `True=0 / False=21`.
 
 ### W3b — Access-level unlock
@@ -190,8 +190,8 @@ BIOS screenshots, menu captures, and emulated UI. (See `VisionPipeline\USE_ME_OP
 ## 7. Status
 
 - W0 done. W1 built+verified. QEMU harness works; full-image boot characterized as SEC-hang.
-- v01/v02 build pipeline + L1 done; W2 image built (`work\mods\v02_rebar\`).
-- **W2b built + L1 PASS** (`work\mods\v02b_rebar_bgbypass\`): W2 + `BootGuardDxe` neutralization
+- v01/v02 build pipeline + L1 done; W2 image built (`mods\v02_rebar\`).
+- **W2b built + L1 PASS** (`mods\v02b_rebar_bgbypass\`): W2 + `BootGuardDxe` neutralization
   (§4.1) → boots regardless of FPF state. Awaiting hardware validation; recover with CH341A.
 - Guard enforcement reverse-engineered: AMI v2 hash is **runtime-enforced** (BootGuardPei +
   BootGuardDxe, MSR `0x13A` bit 32); FIT parsed (ACM/KMSM/BPM in vol7, no IBB entry).
@@ -201,11 +201,11 @@ BIOS screenshots, menu captures, and emulated UI. (See `VisionPipeline\USE_ME_OP
   Measured** (all policy rows Enabled; KM ID `0xF`; Enforcement `0x3`; OEM key hash
   `A53EF0C1…B06C`). Raw: `work\bios\meinfo_verbose.txt`; summary: `work\bios\bootguard_fpf.txt`.
   ⇒ route is settled: **use the W2b base** (BootGuardDxe bypass) for all in-FV variants.
-- **W3 built + L1 PASS + L2 PASS** (`work\mods\v03_hidden\`): W2b + hidden-menu unlock (5 menus);
+- **W3 built + L1 PASS + L2 PASS** (`mods\v03_hidden\`): W2b + hidden-menu unlock (5 menus);
   re-extracted IFR confirms the guards now read `False`. Awaiting hardware validation.
-- **W3-variant v04 built + L1/L2 PASS** (`work\mods\v04_hidden_opts\`): maximal unlock — all 19
+- **W3-variant v04 built + L1/L2 PASS** (`mods\v04_hidden_opts\`): maximal unlock — all 19
   `SuppressIf` guards flipped (menus + options).
-- **v05 built + L1/L2 PASS** (`work\mods\v05_force_enable\`): force-enable — all 21 constant-true
+- **v05 built + L1/L2 PASS** (`mods\v05_force_enable\`): force-enable — all 21 constant-true
   guards (SuppressIf + GrayOutIf + DisableIf) flipped.
 - Next: (a) FPF check. If **not** provisioned (or Measured-only) → in-FV W2/W3 boot as-is (the
   check is inactive). If **provisioned (Verified)** → the §4.1 `BootGuardDxe` bypass in W2b/W3 image

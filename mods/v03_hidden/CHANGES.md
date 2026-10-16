@@ -11,7 +11,7 @@ file `9E21FD93-…`):
 Offline sandbox build only — **never flashed**.
 
 ## Artifact
-- Image:     `work\mods\v03_hidden\System_BIOS.bin`
+- Image:     `mods\v03_hidden\System_BIOS.bin`
 - Size:      9437184 (0x900000) — unchanged
 - SHA256:    `4615B33378B36ED51D8AE14068982A518FDF2409D2ACA2C50C3DE9A806B38E60`
 - Baseline:  `work\bios\System_BIOS.bin` (sha256 `505D5F19…B5968E`)
@@ -72,7 +72,7 @@ variant which flips all 19.
 ## Reproduce
 ```
 python_embeded\python.exe work\scripts\build_wave3_hidden.py
-python_embeded\python.exe work\scripts\verify_image.py work\mods\v03_hidden\System_BIOS.bin
+python_embeded\python.exe work\scripts\verify_image.py mods\v03_hidden\System_BIOS.bin
 ```
 
 ## Open risk (NOT hardware-verified)

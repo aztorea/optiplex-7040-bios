@@ -7,7 +7,7 @@ Above 4G decoding, which Wave 1 enables). Offline sandbox build only —
 **never flashed**.
 
 ## Artifact
-- Image:            `work\mods\v02_rebar\System_BIOS.bin`
+- Image:            `mods\v02_rebar\System_BIOS.bin`
 - Size:             9437184 (0x900000) — unchanged
 - SHA256:           `F696E8D23FD914C845580A1F4D178566218CC624CF9AF50D1F4866E195280696`
 - Baseline:         `work\bios\System_BIOS.bin` (sha256 `505D5F19…B5968E`)
@@ -81,5 +81,5 @@ concern is AMI's own firmware-volume hash/verification path.
 ## Reproduce
 ```
 python_embeded\python.exe work\scripts\build_wave2_rebar.py
-python_embeded\python.exe work\scripts\verify_image.py work\mods\v02_rebar\System_BIOS.bin
+python_embeded\python.exe work\scripts\verify_image.py mods\v02_rebar\System_BIOS.bin
 ```

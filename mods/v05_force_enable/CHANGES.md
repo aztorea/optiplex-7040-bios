@@ -11,7 +11,7 @@ constant-`True` condition guards in the Setup IFR:
 build only — never flashed.
 
 ## Artifact
-- Image:    `work\mods\v05_force_enable\System_BIOS.bin`
+- Image:    `mods\v05_force_enable\System_BIOS.bin`
 - Size:     9437184 (0x900000) — unchanged
 - SHA256:   `0FB733355040108E6CA6CCC408A4EA6EEE5A86021ECB4938E1B8295D7D52EE63`
 - Baseline: `work\bios\System_BIOS.bin`
@@ -46,7 +46,7 @@ True=`0x46` → False=`0x47`, same length. Guard bytes = `<opcode> 82 46 02`:
 ## Reproduce
 ```
 python_embeded\python.exe work\scripts\build_wave5_force_enable.py
-python_embeded\python.exe work\scripts\verify_image.py work\mods\v05_force_enable\System_BIOS.bin
+python_embeded\python.exe work\scripts\verify_image.py mods\v05_force_enable\System_BIOS.bin
 ```
 
 ## Notes / risk

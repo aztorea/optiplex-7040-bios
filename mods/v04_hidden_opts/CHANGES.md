@@ -7,7 +7,7 @@ menu refs **and** the 14 option-level guards. Offline sandbox build only — nev
 flashed.
 
 ## Artifact
-- Image:     `work\mods\v04_hidden_opts\System_BIOS.bin`
+- Image:     `mods\v04_hidden_opts\System_BIOS.bin`
 - Size:      9437184 (0x900000) — unchanged
 - SHA256:    `CE616B15BD78C8BFBD40ACD22BF917696EBEEBB8E44E85C12C118E37903AEC93`
 - Baseline:  `work\bios\System_BIOS.bin` (sha256 `505D5F19…B5968E`)
@@ -67,7 +67,7 @@ so `body = dec − 0xF2478`.
 ## Reproduce
 ```
 python_embeded\python.exe work\scripts\build_wave4_hidden_opts.py
-python_embeded\python.exe work\scripts\verify_image.py work\mods\v04_hidden_opts\System_BIOS.bin
+python_embeded\python.exe work\scripts\verify_image.py mods\v04_hidden_opts\System_BIOS.bin
 ```
 
 ## Notes / risk

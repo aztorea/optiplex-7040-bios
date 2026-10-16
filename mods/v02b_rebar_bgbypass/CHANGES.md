@@ -13,7 +13,7 @@ The Intel ACM only hardware-verifies the **IBB (vol7)**, which is left byte-iden
 `BootGuardPei` only sets a flag and the only halting actor is this DXE driver.
 
 ## Artifact
-- Image:            `work\mods\v02b_rebar_bgbypass\System_BIOS.bin`
+- Image:            `mods\v02b_rebar_bgbypass\System_BIOS.bin`
 - Size:             9437184 (0x900000) — unchanged
 - SHA256:           `BA464B00EAFEE31D141CFD810E0857CC0963C6A98B290083EBDCA34E9E359D5D`
 - Baseline:         `work\bios\System_BIOS.bin` (sha256 `505D5F19…B5968E`)
@@ -90,5 +90,5 @@ patch is inert and equally safe.
 ## Reproduce
 ```
 python_embeded\python.exe work\scripts\build_wave2b_bg_bypass.py
-python_embeded\python.exe work\scripts\verify_image.py work\mods\v02b_rebar_bgbypass\System_BIOS.bin
+python_embeded\python.exe work\scripts\verify_image.py mods\v02b_rebar_bgbypass\System_BIOS.bin
 ```

@@ -303,7 +303,7 @@ Full "inventor's compendium": `OPPORTUNITIES.md`.
 
 ## S. Built sandbox images (offline, L1/L2-verified — NEVER flashed)
 
-Each is under `work\mods\<variant>\System_BIOS.bin` with its own `CHANGES.md`; baseline
+Each is under `mods\<variant>\System_BIOS.bin` with its own `CHANGES.md`; baseline
 `work\bios\System_BIOS.bin`. All keep the Boot Guard IBB (`0x700000..0x900000`) byte-identical.
 
 | Variant | Contents | SHA256 | Tests |

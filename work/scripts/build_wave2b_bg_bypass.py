@@ -16,7 +16,7 @@ import struct
 import lzma
 
 IMG = os.path.join("work", "bios", "System_BIOS.bin")
-OUTDIR = os.path.join("work", "mods", "v02b_rebar_bgbypass")
+OUTDIR = os.path.join("mods", "v02b_rebar_bgbypass")
 OUT = os.path.join(OUTDIR, "System_BIOS.bin")
 FFS = os.path.join("tools", "ReBARUEFI_0.3", "ReBarDxe.ffs")
 

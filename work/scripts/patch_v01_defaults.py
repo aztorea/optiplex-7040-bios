@@ -1,7 +1,7 @@
 import hashlib, shutil, os
 
-SRC = r"C:\Users\Ghost\Desktop\bestproject\work\mods\original\System_BIOS.bin"
-DST = r"C:\Users\Ghost\Desktop\bestproject\work\mods\v01_defaults\System_BIOS.bin"
+SRC = r"C:\Users\Ghost\Desktop\bestproject\mods\original\System_BIOS.bin"
+DST = r"C:\Users\Ghost\Desktop\bestproject\mods\v01_defaults\System_BIOS.bin"
 
 BASE_SHA = "505d5f1971ba11f577a10fd16cb1bc52248be5c678e40e5049024ac367b5968e"
 AMIV2_STORED = "6c8e1c15ef5f70d23710fccbebf71866e5acd73c34bcaa6a535bbe1509eb3098"

@@ -124,12 +124,12 @@ insertion point for a DXE driver: vol5's free space begins `0x360` B *inside* th
 **Neutralization implemented (offline, 2026-10-15).** Because the halting actor is a *DXE driver*
 (`BootGuardDxe`) and the only hardware verifier covers the IBB (vol7), patching its worker
 (RVA `0x1070` → `xor eax,eax; ret`) makes the stale AMI hash inert while the Intel ACM/KMSM/BPM
-chain still verifies. Built as `work\mods\v02b_rebar_bgbypass\` (W2 + bypass) and
-`work\mods\v03_hidden\` (W2b + hidden-menu unlock); both keep the IBB byte-identical, L1 PASS.
+chain still verifies. Built as `mods\v02b_rebar_bgbypass\` (W2 + bypass) and
+`mods\v03_hidden\` (W2b + hidden-menu unlock); both keep the IBB byte-identical, L1 PASS.
 The hidden-menu unlock flips the Setup IFR `SuppressIf` constant (`0x46` True → `0x47` False) for
 the menu `Ref`s: Advanced `0x2712`, Chipset `0x2713`, Security `0x2714`, Dell "Advanced
 configurations" `0x80A0`, ASPM `0x2816`. Re-extracted IFR now reads True=15 / False=5 (see
-`work\mods\v03_hidden\CHANGES.md`). Not yet hardware-validated.
+`mods\v03_hidden\CHANGES.md`). Not yet hardware-validated.
 
 ---
 
@@ -181,11 +181,11 @@ Full write-up: `work\docs\DELL_FIRMWARE_COMPONENTS.md`. New evidence this pass:
   safe-region finding.
 - 2026-10-15 — Wave 2b/3 builds: §4.1 neutralization implemented (`BootGuardDxe` worker RVA `0x1070`
   → `xor eax,eax; ret`) and hidden-menu unlock (Setup IFR `SuppressIf` `0x46`→`0x47`); artifacts
-  `work\mods\v02b_rebar_bgbypass\` and `work\mods\v03_hidden\` (builders in `work\scripts\`).
+  `mods\v02b_rebar_bgbypass\` and `mods\v03_hidden\` (builders in `work\scripts\`).
 - 2026-10-15 — `v04_hidden_opts`: maximal unlock (all 19 `SuppressIf` guards: 5 menus + 14 options;
-  L2 `True=0/False=19`), `work\mods\v04_hidden_opts\` + `build_wave4_hidden_opts.py`.
+  L2 `True=0/False=19`), `mods\v04_hidden_opts\` + `build_wave4_hidden_opts.py`.
 - 2026-10-15 — `v05_force_enable`: all 21 constant-true guards flipped (19 SuppressIf + 1 GrayOutIf +
-  1 DisableIf; L2 `True=0/False=21`), `work\mods\v05_force_enable\` + `build_wave5_force_enable.py`.
+  1 DisableIf; L2 `True=0/False=21`), `mods\v05_force_enable\` + `build_wave5_force_enable.py`.
 - 2026-10-15 — **FPF check (read-only).** Added `work\scripts\check_bootguard.py`; obtained Intel
   `MEInfoWin64.exe` v11 r46 from the `CE1CECL/IntelCSTools` GitHub mirror into
   `tools\MEInfo_v11r46\` (4 files; `MEInfoWin64.exe` SHA256 `E37035BF…74660F0`). Confirms Boot

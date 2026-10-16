@@ -8,8 +8,8 @@ Modified Dell OptiPlex 7040 BIOS region (1.24.0) to bake new **defaults**:
 ## Files
 | file | sha256 |
 |---|---|
-| `work\mods\original\System_BIOS.bin` (pristine) | `505d5f1971ba11f577a10fd16cb1bc52248be5c678e40e5049024ac367b5968e` |
-| `work\mods\v01_defaults\System_BIOS.bin` (patched) | `187be662567c7123a27c74685f80ffaa75c7de62b975fd74c53c1e1bb7f25925` |
+| `mods\original\System_BIOS.bin` (pristine) | `505d5f1971ba11f577a10fd16cb1bc52248be5c678e40e5049024ac367b5968e` |
+| `mods\v01_defaults\System_BIOS.bin` (patched) | `187be662567c7123a27c74685f80ffaa75c7de62b975fd74c53c1e1bb7f25925` |
 
 ## Exact edits (file offsets, 9,437,184 B image)
 | file offset | meaning | old | new |
