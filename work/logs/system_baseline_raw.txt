@@ -1,0 +1,828 @@
+# System baseline capture  2026-10-15 04:52:11Z
+Running as Administrator: False
+
+===== ComputerSystem =====
+
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : DESKTOP-7OGJ352
+PowerManagementCapabilities : 
+PowerManagementSupported    : 
+Caption                     : DESKTOP-7OGJ352
+Description                 : AT/AT COMPATIBLE
+InstallDate                 : 
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  : 
+PrimaryOwnerContact         : 
+PrimaryOwnerName            : 
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             : 
+LastLoadInfo                : 
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : False
+AutomaticResetCapability    : True
+BootOptionOnLimit           : 
+BootOptionOnWatchDog        : 
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 0…}
+ChassisSKUNumber            : 
+CurrentTimeZone             : -300
+DaylightInEffect            : 
+DNSHostName                 : DESKTOP-7OGJ352
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : True
+InfraredSupported           : False
+Manufacturer                : Dell Inc.
+Model                       : OptiPlex 7040
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 8
+NumberOfProcessors          : 1
+OEMLogoBitmap               : 
+OEMStringArray              : {Dell System, 1[06B9], 3[1.0], 12[www.dell.com]…}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 1
+PCSystemTypeEx              : 1
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   : 
+SystemFamily                : OptiPlex
+SystemSKUNumber             : 06B9
+SystemStartupDelay          : 
+SystemStartupOptions        : 
+SystemStartupSetting        : 
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 34240372736
+UserName                    : DESKTOP-7OGJ352\Ghost
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              : 
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name…}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== BIOS =====
+
+Status                         : OK
+Name                           : 1.24.0
+Caption                        : 1.24.0
+SMBIOSPresent                  : True
+Description                    : 1.24.0
+InstallDate                    : 
+BuildNumber                    : 
+CodeSet                        : 
+IdentificationCode             : 
+LanguageEdition                : 
+Manufacturer                   : Dell Inc.
+OtherTargetOS                  : 
+SerialNumber                   : 6JR8SD2
+SoftwareElementID              : 1.24.0
+SoftwareElementState           : 3
+TargetOperatingSystem          : 0
+Version                        : DELL   - 1072009
+PrimaryBIOS                    : True
+BiosCharacteristics            : {7, 9, 11, 12…}
+BIOSVersion                    : {DELL   - 1072009, 1.24.0, American Megatrends - 5000B}
+CurrentLanguage                : en|US|iso8859-1
+EmbeddedControllerMajorVersion : 255
+EmbeddedControllerMinorVersion : 255
+InstallableLanguages           : 2
+ListOfLanguages                : {en|US|iso8859-1, }
+ReleaseDate                    : 7/13/2022 7:00:00 PM
+SMBIOSBIOSVersion              : 1.24.0
+SMBIOSMajorVersion             : 3
+SMBIOSMinorVersion             : 0
+SystemBiosMajorVersion         : 1
+SystemBiosMinorVersion         : 24
+PSComputerName                 : 
+CimClass                       : root/cimv2:Win32_BIOS
+CimInstanceProperties          : {Caption, Description, InstallDate, Name…}
+CimSystemProperties            : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== BaseBoard =====
+
+Status                  : OK
+Name                    : Base Board
+PoweredOn               : True
+Caption                 : Base Board
+Description             : Base Board
+InstallDate             : 
+CreationClassName       : Win32_BaseBoard
+Manufacturer            : Dell Inc.
+Model                   : 
+OtherIdentifyingInfo    : 
+PartNumber              : 
+SerialNumber            : /6JR8SD2/CN7016368901GL/
+SKU                     : 
+Tag                     : Base Board
+Version                 : A00
+Depth                   : 
+Height                  : 
+HotSwappable            : False
+Removable               : False
+Replaceable             : True
+Weight                  : 
+Width                   : 
+HostingBoard            : True
+RequirementsDescription : 
+RequiresDaughterBoard   : False
+SlotLayout              : 
+SpecialRequirements     : 
+ConfigOptions           : {To Be Filled By O.E.M.}
+Product                 : 0Y7WYT
+PSComputerName          : 
+CimClass                : root/cimv2:Win32_BaseBoard
+CimInstanceProperties   : {Caption, Description, InstallDate, Name…}
+CimSystemProperties     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== System Enclosure =====
+
+Tag                       : System Enclosure 0
+Status                    : 
+Name                      : System Enclosure
+SecurityStatus            : 3
+Caption                   : System Enclosure
+Description               : System Enclosure
+InstallDate               : 
+CreationClassName         : Win32_SystemEnclosure
+Manufacturer              : Dell Inc.
+Model                     : 
+OtherIdentifyingInfo      : 
+PartNumber                : 
+PoweredOn                 : 
+SerialNumber              : 6JR8SD2
+SKU                       : 
+Version                   : 
+Depth                     : 
+Height                    : 
+HotSwappable              : 
+Removable                 : 
+Replaceable               : 
+Weight                    : 
+Width                     : 
+AudibleAlarm              : 
+BreachDescription         : 
+CableManagementStrategy   : 
+LockPresent               : False
+SecurityBreach            : 
+ServiceDescriptions       : 
+ServicePhilosophy         : 
+VisibleAlarm              : 
+ChassisTypes              : {3}
+CurrentRequiredOrProduced : 
+HeatGeneration            : 
+NumberOfPowerCords        : 
+TypeDescriptions          : 
+SMBIOSAssetTag            : 
+PSComputerName            : 
+CimClass                  : root/cimv2:Win32_SystemEnclosure
+CimInstanceProperties     : {Caption, Description, InstallDate, Name…}
+CimSystemProperties       : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== CPU =====
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 11
+DeviceID                                : CPU0
+ErrorCleared                            : 
+ErrorDescription                        : 
+LastErrorCode                           : 
+LoadPercentage                          : 77
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 1024
+L2CacheSpeed                            : 
+MaxClockSpeed                           : 3408
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 24067
+SocketDesignation                       : Socket 0
+Version                                 : 
+VoltageCaps                             : 
+Caption                                 : Intel64 Family 6 Model 94 Stepping 3
+Description                             : Intel64 Family 6 Model 94 Stepping 3
+InstallDate                             : 
+Name                                    : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+ConfigManagerErrorCode                  : 
+ConfigManagerUserConfig                 : 
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             : 
+PowerManagementCapabilities             : 
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : DESKTOP-7OGJ352
+CurrentClockSpeed                       : 3408
+Family                                  : 198
+OtherFamilyDescription                  : 
+Role                                    : CPU
+Stepping                                : 
+UniqueId                                : 
+UpgradeMethod                           : 1
+Architecture                            : 9
+AssetTag                                : 
+Characteristics                         : 252
+L3CacheSize                             : 8192
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 4
+NumberOfEnabledCore                     : 4
+NumberOfLogicalProcessors               : 8
+PartNumber                              : 
+ProcessorId                             : BFEBFBFF000506E3
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            : 
+ThreadCount                             : 8
+VirtualizationFirmwareEnabled           : False
+VMMonitorModeExtensions                 : False
+PSComputerName                          : 
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name…}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== Physical Memory =====
+
+Caption               : Physical Memory
+Description           : Physical Memory
+InstallDate           : 
+Name                  : Physical Memory
+Status                : 
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : 029E0000802C
+Model                 : 
+OtherIdentifyingInfo  : 
+PartNumber            : CMK32GX4M2E3200C16  
+PoweredOn             : 
+SerialNumber          : 00000000
+SKU                   : 
+Tag                   : Physical Memory 0
+Version               : 
+HotSwappable          : 
+Removable             : 
+Replaceable           : 
+FormFactor            : 8
+BankLabel             : 
+Capacity              : 17179869184
+DataWidth             : 64
+InterleavePosition    : 1
+MemoryType            : 0
+PositionInRow         : 1
+Speed                 : 2133
+TotalWidth            : 64
+Attributes            : 1
+ConfiguredClockSpeed  : 2133
+ConfiguredVoltage     : 1200
+DeviceLocator         : DIMM1
+InterleaveDataDepth   : 2
+MaxVoltage            : 0
+MinVoltage            : 0
+SMBIOSMemoryType      : 26
+TypeDetail            : 128
+PSComputerName        : 
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name…}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Caption               : Physical Memory
+Description           : Physical Memory
+InstallDate           : 
+Name                  : Physical Memory
+Status                : 
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : 80AD000080AD
+Model                 : 
+OtherIdentifyingInfo  : 
+PartNumber            : HMA41GU6AFR8N-TF    
+PoweredOn             : 
+SerialNumber          : 26986264
+SKU                   : 
+Tag                   : Physical Memory 1
+Version               : 
+HotSwappable          : 
+Removable             : 
+Replaceable           : 
+FormFactor            : 8
+BankLabel             : 
+Capacity              : 8589934592
+DataWidth             : 64
+InterleavePosition    : 2
+MemoryType            : 0
+PositionInRow         : 1
+Speed                 : 2133
+TotalWidth            : 64
+Attributes            : 2
+ConfiguredClockSpeed  : 2133
+ConfiguredVoltage     : 1200
+DeviceLocator         : DIMM2
+InterleaveDataDepth   : 2
+MaxVoltage            : 0
+MinVoltage            : 0
+SMBIOSMemoryType      : 26
+TypeDetail            : 128
+PSComputerName        : 
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name…}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Caption               : Physical Memory
+Description           : Physical Memory
+InstallDate           : 
+Name                  : Physical Memory
+Status                : 
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : 80AD000080AD
+Model                 : 
+OtherIdentifyingInfo  : 
+PartNumber            : HMA41GU6AFR8N-TF    
+PoweredOn             : 
+SerialNumber          : 26986267
+SKU                   : 
+Tag                   : Physical Memory 2
+Version               : 
+HotSwappable          : 
+Removable             : 
+Replaceable           : 
+FormFactor            : 8
+BankLabel             : 
+Capacity              : 8589934592
+DataWidth             : 64
+InterleavePosition    : 0
+MemoryType            : 0
+PositionInRow         : 1
+Speed                 : 2133
+TotalWidth            : 64
+Attributes            : 2
+ConfiguredClockSpeed  : 2133
+ConfiguredVoltage     : 1200
+DeviceLocator         : DIMM3
+InterleaveDataDepth   : 0
+MaxVoltage            : 0
+MinVoltage            : 0
+SMBIOSMemoryType      : 26
+TypeDetail            : 128
+PSComputerName        : 
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name…}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== Memory Array =====
+
+Status                : 
+Name                  : Physical Memory Array
+Replaceable           : 
+Location              : 3
+Caption               : Physical Memory Array
+Description           : Physical Memory Array
+InstallDate           : 
+CreationClassName     : Win32_PhysicalMemoryArray
+Manufacturer          : 
+Model                 : 
+OtherIdentifyingInfo  : 
+PartNumber            : 
+PoweredOn             : 
+SerialNumber          : 
+SKU                   : 
+Tag                   : Physical Memory Array 0
+Version               : 
+Depth                 : 
+Height                : 
+HotSwappable          : 
+Removable             : 
+Weight                : 
+Width                 : 
+MaxCapacity           : 67108864
+MaxCapacityEx         : 67108864
+MemoryDevices         : 4
+MemoryErrorCorrection : 3
+Use                   : 3
+PSComputerName        : 
+CimClass              : root/cimv2:Win32_PhysicalMemoryArray
+CimInstanceProperties : {Caption, Description, InstallDate, Name…}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== Disk Drives =====
+
+ConfigManagerErrorCode      : 0
+LastErrorCode               : 
+NeedsCleaning               : 
+Status                      : OK
+DeviceID                    : \\.\PHYSICALDRIVE0
+StatusInfo                  : 
+Partitions                  : 3
+BytesPerSector              : 512
+ConfigManagerUserConfig     : False
+DefaultBlockSize            : 
+Index                       : 0
+InstallDate                 : 
+InterfaceType               : SCSI
+MaxBlockSize                : 
+MaxMediaSize                : 
+MinBlockSize                : 
+NumberOfMediaSupported      : 
+SectorsPerTrack             : 63
+Size                        : 1000202273280
+TotalCylinders              : 121601
+TotalHeads                  : 255
+TotalSectors                : 1953520065
+TotalTracks                 : 31008255
+TracksPerCylinder           : 255
+Caption                     : PCIe SSD
+Description                 : Disk drive
+Name                        : \\.\PHYSICALDRIVE0
+Availability                : 
+CreationClassName           : Win32_DiskDrive
+ErrorCleared                : 
+ErrorDescription            : 
+PNPDeviceID                 : SCSI\DISK&VEN_NVME&PROD_PCIE_SSD\5&1ED76387&0&000000
+PowerManagementCapabilities : 
+PowerManagementSupported    : 
+SystemCreationClassName     : Win32_ComputerSystem
+SystemName                  : DESKTOP-7OGJ352
+Capabilities                : {3, 4}
+CapabilityDescriptions      : {Random Access, Supports Writing}
+CompressionMethod           : 
+ErrorMethodology            : 
+FirmwareRevision            : ECFM53.0
+Manufacturer                : (Standard disk drives)
+MediaLoaded                 : True
+MediaType                   : Fixed hard disk media
+Model                       : PCIe SSD
+SCSIBus                     : 0
+SCSILogicalUnit             : 0
+SCSIPort                    : 1
+SCSITargetId                : 0
+SerialNumber                : 6479_A743_F020_01A0.
+Signature                   : 
+PSComputerName              : 
+CimClass                    : root/cimv2:Win32_DiskDrive
+CimInstanceProperties       : {Caption, Description, InstallDate, Name…}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== Get-Disk / PhysicalDisk / Partition =====
+
+Number Friendly Name Serial Number        HealthStatus OperationalStatus Total Size Partition Style
+------ ------------- -------------        ------------ ----------------- ---------- ---------------
+0      PCIe SSD      6479_A743_F020_01A0. Healthy      Online             931.51 GB GPT
+
+
+
+Number FriendlyName SerialNumber         MediaType CanPool OperationalStatus HealthStatus Usage            Size
+------ ------------ ------------         --------- ------- ----------------- ------------ -----            ----
+0      PCIe SSD     6479_A743_F020_01A0. SSD       False   OK                Healthy      Auto-Select 931.51 GB
+
+
+
+   DiskPath: \\?\scsi#disk&ven_nvme&prod_pcie_ssd#5&1ed76387&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+
+PartitionNumber DriveLetter Offset            Size Type
+--------------- ----------- ------            ---- ----
+1                           1048576         200 MB System
+2                           210763776        16 MB Reserved
+3               C           227540992    930.44 GB Basic
+4                           999279296512    881 MB Recovery
+
+
+
+DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------ -------------- --------- ------------ ----------------- -------------      ----
+                         NTFS           Fixed     Healthy      OK                     86.74 MB    881 MB
+C                        NTFS           Fixed     Healthy      OK                    112.51 GB 930.44 GB
+
+
+===== Video =====
+
+Caption                      : NVIDIA GeForce RTX 3060
+Description                  : NVIDIA GeForce RTX 3060
+InstallDate                  : 
+Name                         : NVIDIA GeForce RTX 3060
+Status                       : OK
+Availability                 : 3
+ConfigManagerErrorCode       : 0
+ConfigManagerUserConfig      : False
+CreationClassName            : Win32_VideoController
+DeviceID                     : VideoController1
+ErrorCleared                 : 
+ErrorDescription             : 
+LastErrorCode                : 
+PNPDeviceID                  : PCI\VEN_10DE&DEV_2504&SUBSYS_40721458&REV_A1\4&214D7871&0&0008
+PowerManagementCapabilities  : 
+PowerManagementSupported     : 
+StatusInfo                   : 
+SystemCreationClassName      : Win32_ComputerSystem
+SystemName                   : DESKTOP-7OGJ352
+MaxNumberControlled          : 
+ProtocolSupported            : 
+TimeOfLastReset              : 
+AcceleratorCapabilities      : 
+CapabilityDescriptions       : 
+CurrentBitsPerPixel          : 32
+CurrentHorizontalResolution  : 1920
+CurrentNumberOfColors        : 4294967296
+CurrentNumberOfColumns       : 0
+CurrentNumberOfRows          : 0
+CurrentRefreshRate           : 59
+CurrentScanMode              : 4
+CurrentVerticalResolution    : 1080
+MaxMemorySupported           : 
+MaxRefreshRate               : 59
+MinRefreshRate               : 59
+NumberOfVideoPages           : 
+VideoMemoryType              : 2
+VideoProcessor               : NVIDIA GeForce RTX 3060
+NumberOfColorPlanes          : 
+VideoArchitecture            : 5
+VideoMode                    : 
+AdapterCompatibility         : NVIDIA
+AdapterDACType               : Integrated RAMDAC
+AdapterRAM                   : 4293918720
+ColorTableEntries            : 
+DeviceSpecificPens           : 
+DitherType                   : 0
+DriverDate                   : 4/22/2026 7:00:00 PM
+DriverVersion                : 32.0.15.9636
+ICMIntent                    : 
+ICMMethod                    : 
+InfFilename                  : oem50.inf
+InfSection                   : Section021
+InstalledDisplayDrivers      : C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvldumdx.dll
+Monochrome                   : False
+ReservedSystemPaletteEntries : 
+SpecificationVersion         : 
+SystemPaletteEntries         : 
+VideoModeDescription         : 1920 x 1080 x 4294967296 colors
+PSComputerName               : 
+CimClass                     : root/cimv2:Win32_VideoController
+CimInstanceProperties        : {Caption, Description, InstallDate, Name…}
+CimSystemProperties          : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+===== Network =====
+
+Name                    InterfaceDescription                     ifIndex Status       MacAddress        LinkSpeed
+----                    --------------------                     ------- ------       ----------        ---------
+Local Area Connection 2 Phantom TAP-Windows Adapter V9                19 Disconnected 00-FF-CE-5C-A0-BA    1 Gbps
+Ethernet                Intel(R) Ethernet Connection (2) I219-LM      17 Up           F4-8E-38-B4-3C-F2    1 Gbps
+
+
+
+InterfaceAlias       : Ethernet
+InterfaceIndex       : 17
+InterfaceDescription : Intel(R) Ethernet Connection (2) I219-LM
+NetProfile.Name      : Network
+IPv6Address          : 2800:410:f430:3700:f1b:f541:b57d:6467
+                       2800:410:f430:3700::1
+IPv4Address          : 192.168.100.5
+IPv6DefaultGateway   : fe80::1
+IPv4DefaultGateway   : 192.168.100.1
+DNSServer            : 2800:410:533:53::53
+                       2001:4860:4860::8844
+                       2800:410:533:53::53
+                       2001:4860:4860::8844
+                       200.32.192.130
+                       200.32.205.130
+
+InterfaceAlias       : Local Area Connection 2
+InterfaceIndex       : 19
+InterfaceDescription : Phantom TAP-Windows Adapter V9
+NetAdapter.Status    : Disconnected
+
+
+===== OS =====
+
+Status                                    : OK
+Name                                      : Microsoft Windows 11 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3
+FreePhysicalMemory                        : 6186632
+FreeSpaceInPagingFiles                    : 17108640
+FreeVirtualMemory                         : 14200428
+Caption                                   : Microsoft Windows 11 Pro
+Description                               : 
+InstallDate                               : 5/13/2026 11:03:18 PM
+CreationClassName                         : Win32_OperatingSystem
+CSCreationClassName                       : Win32_ComputerSystem
+CSName                                    : DESKTOP-7OGJ352
+CurrentTimeZone                           : -300
+Distributed                               : False
+LastBootUpTime                            : 10/14/2026 9:34:03 AM
+LocalDateTime                             : 10/15/2026 4:52:24 AM
+MaxNumberOfProcesses                      : 4294967295
+MaxProcessMemorySize                      : 137438953344
+NumberOfLicensedUsers                     : 
+NumberOfProcesses                         : 227
+NumberOfUsers                             : 2
+OSType                                    : 18
+OtherTypeDescription                      : 
+SizeStoredInPagingFiles                   : 17825792
+TotalSwapSpaceSize                        : 
+TotalVirtualMemorySize                    : 51263656
+TotalVisibleMemorySize                    : 33437864
+Version                                   : 10.0.26200
+BootDevice                                : \Device\HarddiskVolume1
+BuildNumber                               : 26200
+BuildType                                 : Multiprocessor Free
+CodeSet                                   : 1252
+CountryCode                               : 1
+CSDVersion                                : 
+DataExecutionPrevention_32BitApplications : True
+DataExecutionPrevention_Available         : True
+DataExecutionPrevention_Drivers           : True
+DataExecutionPrevention_SupportPolicy     : 2
+Debug                                     : False
+EncryptionLevel                           : 256
+ForegroundApplicationBoost                : 2
+LargeSystemCache                          : 
+Locale                                    : 0409
+Manufacturer                              : Microsoft Corporation
+MUILanguages                              : {en-US}
+OperatingSystemSKU                        : 48
+Organization                              : 
+OSArchitecture                            : 64-bit
+OSLanguage                                : 1033
+OSProductSuite                            : 256
+PAEEnabled                                : 
+PlusProductID                             : 
+PlusVersionNumber                         : 
+PortableOperatingSystem                   : False
+Primary                                   : True
+ProductType                               : 1
+RegisteredUser                            : 
+SerialNumber                              : 00330-50280-67367-AAOEM
+ServicePackMajorVersion                   : 0
+ServicePackMinorVersion                   : 0
+SuiteMask                                 : 272
+SystemDevice                              : \Device\HarddiskVolume3
+SystemDirectory                           : C:\WINDOWS\system32
+SystemDrive                               : C:
+WindowsDirectory                          : C:\WINDOWS
+PSComputerName                            : 
+CimClass                                  : root/cimv2:Win32_OperatingSystem
+CimInstanceProperties                     : {Caption, Description, InstallDate, Name…}
+CimSystemProperties                       : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+Host Name:                     DESKTOP-7OGJ352
+OS Name:                       Microsoft Windows 11 Pro
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              N/A
+Registered Organization:       N/A
+Product ID:                    00330-50280-67367-AAOEM
+Original Install Date:         5/13/2026, 11:03:18 PM
+System Boot Time:              10/14/2026, 9:34:03 AM
+System Manufacturer:           Dell Inc.
+System Model:                  OptiPlex 7040
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~3408 Mhz
+BIOS Version:                  Dell Inc. 1.24.0, 7/14/2022
+Windows Directory:             C:\WINDOWS
+System Directory:              C:\WINDOWS\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC-05:00) Chetumal
+Total Physical Memory:         32,654 MB
+Available Physical Memory:     6,033 MB
+Virtual Memory: Max Size:      50,062 MB
+Virtual Memory: Available:     13,865 MB
+Virtual Memory: In Use:        36,197 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\DESKTOP-7OGJ352
+Hotfix(s):                     4 Hotfix(s) Installed.
+                               [01]: KB5127690
+                               [02]: KB5054156
+                               [03]: KB5127648
+                               [04]: KB5127647
+Network Card(s):               2 NIC(s) Installed.
+                               [01]: Intel(R) Ethernet Connection (2) I219-LM
+                                     Connection Name: Ethernet
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     192.168.100.1
+                                     IP address(es)
+                                     [01]: 192.168.100.5
+                                     [02]: fe80::4d72:4ef0:72f9:9045
+                                     [03]: 2800:410:f430:3700:6c71:eb28:229a:bb0c
+                                     [04]: 2800:410:f430:3700:f1b:f541:b57d:6467
+                                     [05]: 2800:410:f430:3700::1
+                               [02]: Phantom TAP-Windows Adapter V9
+                                     Connection Name: Local Area Connection 2
+                                     Status:          Media disconnected
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     DMA Protection
+                                     UEFI Code Readonly
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+===== Updates =====
+
+Source Description     HotFixID  InstalledBy         InstalledOn
+------ -----------     --------  -----------         -----------
+       Update          KB5127690 NT AUTHORITY\SYSTEM 10/14/2026 12:00:00 AM
+       Update          KB5054156                     11/12/2025 12:00:00 AM
+       Security Update KB5127648 NT AUTHORITY\SYSTEM 10/14/2026 12:00:00 AM
+       Security Update KB5127647 NT AUTHORITY\SYSTEM 10/14/2026 12:00:00 AM
+
+
+===== Users =====
+
+Name               Enabled Description
+----               ------- -----------
+Administrator      False   Built-in account for administering the computer/domain
+DefaultAccount     False   A user account managed by the system.
+Ghost              True    
+Guest              False   Built-in account for guest access to the computer/domain
+WDAGUtilityAccount False   A user account managed and used by the system for Windows Defender Application Guard scenarios.
+
+
+
+ObjectClass Name                          PrincipalSource
+----------- ----                          ---------------
+User        DESKTOP-7OGJ352\Administrator Local
+User        DESKTOP-7OGJ352\Ghost         Local
+
+
+===== Security =====
+UEFISecureBootEnabled (reg): 0
+Administrator privilege is required to execute this command.
+
+
+
+AMServiceEnabled          : True
+AntivirusEnabled          : True
+RealTimeProtectionEnabled : True
+AntivirusSignatureVersion : 1.461.34.0
+AMEngineVersion           : 1.1.26090.9
+
+
+N/A: Must be an administrator to view exclusions
+===== GPU (nvidia-smi) =====
+Thu Oct 15 04:52:42 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 596.36                 Driver Version: 596.36         CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3060      WDDM  |   00000000:01:00.0  On |                  N/A |
+| 84%   49C    P2             42W /  170W |    3864MiB /  12288MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            3084    C+G   ...xyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A            4308    C+G   ...5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A            5280    C+G   ...yb3d8bbwe\WindowsTerminal.exe      N/A      |
+|    0   N/A  N/A            6228    C+G   ...indows\System32\ShellHost.exe      N/A      |
+|    0   N/A  N/A            6312      C   ...ble\python_embeded\python.exe      N/A      |
+|    0   N/A  N/A            7036    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A            7844    C+G   ...2txyewy\CrossDeviceResume.exe      N/A      |
+|    0   N/A  N/A            9280    C+G   ....0.4283.45\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A            9332    C+G   ...y\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A            9356    C+G   ..._cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A            9720    C+G   ....0.4283.45\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           11152    C+G   ....0.4283.45\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           12132    C+G   ...0_x64__8j3eq9eme6ctt\IGCC.exe      N/A      |
+|    0   N/A  N/A           12236    C+G   ...Browser\Application\brave.exe      N/A      |
+|    0   N/A  N/A           13912    C+G   ...Browser\Application\brave.exe      N/A      |
+|    0   N/A  N/A           14380    C+G   ...1g1gvanyjgm\WhatsApp.Root.exe      N/A      |
++-----------------------------------------------------------------------------------------+
+

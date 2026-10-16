@@ -1,0 +1,199 @@
+
+Intel(R) MEInfo Version: 11.8.92.4189
+Copyright(C) 2005 - 2020, Intel Corporation. All rights reserved.
+
+
+
+
+Windows OS Version : 10.0
+
+FW Status Register1: 0x94000245
+FW Status Register2: 0x89100106
+FW Status Register3: 0x00000030
+FW Status Register4: 0x00684000
+FW Status Register5: 0x00001F01
+FW Status Register6: 0x47C00BC9
+
+  CurrentState:                               Normal
+  ManufacturingMode:                          Disabled
+  FlashPartition:                             Valid
+  OperationalState:                           CM0 with UMA
+  InitComplete:                               Complete
+  BUPLoadState:                               Success
+  ErrorCode:                                  No Error
+  ModeOfOperation:                            Normal
+  SPI Flash Log:                              Not Present
+  FPF HW Source value:                        Original FPF HW Fuse Bank
+  ME FPF Fusing Patch Status:                 ME FPF Fusing patch NOT required
+  Phase:                                      Maestro
+  ICC:                                        Valid OEM data, ICC programmed
+  ME File System Corrupted:                   No
+  FPF and ME Config Status:                   Match
+FW Capabilities value is 0x7DFE5147
+Feature enablement is 0x5DFE5147
+Platform type is 0x42221422
+No Intel Wireless device was found
+Intel(R) Manageability and Security Application code versions:
+
+    Table Type  85 ( 0x 55 ) found, size of   0 (0x 00 ) bytes 
+BIOS Version                                 1.24.0
+    Table Type  85 ( 0x 55 ) found, size of   0 (0x 00 ) bytes 
+    Table Type   0 ( 0x 00 ) found, size of  53 (0x 35 ) bytes 
+    Table Type   1 ( 0x 01 ) found, size of  74 (0x 4A ) bytes 
+    Table Type   2 ( 0x 02 ) found, size of  62 (0x 3E ) bytes 
+    Table Type   3 ( 0x 03 ) found, size of  52 (0x 34 ) bytes 
+    Table Type  11 ( 0x 0B ) found, size of  84 (0x 54 ) bytes 
+    Table Type  12 ( 0x 0C ) found, size of  29 (0x 1D ) bytes 
+    Table Type  15 ( 0x 0F ) found, size of  37 (0x 25 ) bytes 
+    Table Type  25 ( 0x 19 ) found, size of  11 (0x 0B ) bytes 
+    Table Type  32 ( 0x 20 ) found, size of  22 (0x 16 ) bytes 
+    Table Type  34 ( 0x 22 ) found, size of  19 (0x 13 ) bytes 
+    Table Type  36 ( 0x 24 ) found, size of  18 (0x 12 ) bytes 
+    Table Type   7 ( 0x 07 ) found, size of  29 (0x 1D ) bytes 
+    Table Type   4 ( 0x 04 ) found, size of 119 (0x 77 ) bytes 
+    Table Type  16 ( 0x 10 ) found, size of  25 (0x 19 ) bytes 
+    Table Type  17 ( 0x 11 ) found, size of  47 (0x 2F ) bytes 
+    Table Type  19 ( 0x 13 ) found, size of  33 (0x 21 ) bytes 
+    Table Type   8 ( 0x 08 ) found, size of  35 (0x 23 ) bytes 
+    Table Type   9 ( 0x 09 ) found, size of  24 (0x 18 ) bytes 
+    Table Type  10 ( 0x 0A ) found, size of  24 (0x 18 ) bytes 
+    Table Type  41 ( 0x 29 ) found, size of  28 (0x 1C ) bytes 
+    Table Type  20 ( 0x 14 ) found, size of  37 (0x 25 ) bytes 
+    Table Type  27 ( 0x 1B ) found, size of  32 (0x 20 ) bytes 
+    Table Type  28 ( 0x 1C ) found, size of  36 (0x 24 ) bytes 
+    Table Type 177 ( 0x B1 ) found, size of  14 (0x 0E ) bytes 
+    Table Type 178 ( 0x B2 ) found, size of 126 (0x 7E ) bytes 
+    Table Type 208 ( 0x D0 ) found, size of  35 (0x 23 ) bytes 
+    Table Type 210 ( 0x D2 ) found, size of  14 (0x 0E ) bytes 
+    Table Type 216 ( 0x D8 ) found, size of  31 (0x 1F ) bytes 
+    Table Type 218 ( 0x DA ) found, size of 253 (0x FD ) bytes 
+    Table Type 218 ( 0x DA ) found, size of  79 (0x 4F ) bytes 
+    Table Type 218 ( 0x DA ) found, size of  67 (0x 43 ) bytes 
+    Table Type 220 ( 0x DC ) found, size of  24 (0x 18 ) bytes 
+    Table Type 221 ( 0x DD ) found, size of  21 (0x 15 ) bytes 
+    Table Type 222 ( 0x DE ) found, size of  18 (0x 12 ) bytes 
+    Table Type 130 ( 0x 82 ) found, size of  22 (0x 16 ) bytes 
+MEBx Version                                 11.0.0.0012
+GbE Version                                  0.8
+Vendor ID                                    8086
+PCH Version                                  31
+FW Version                                   11.8.92.4222 H
+Security Version (SVN)                       3
+LMS Version                                  2130.1.16.38
+MEI Driver Version                           2603.9.4.0
+Wireless Hardware Version                    Not Available
+Wireless Driver Version                      Not Available
+                                             
+FW Capabilities                              0x7DFE5147
+                                             
+	Intel(R) Active Management Technology - PRESENT/ENABLED
+	Intel(R) Capability Licensing Service - PRESENT/ENABLED
+	Protect Audio Video Path - PRESENT/ENABLED
+	Intel(R) Dynamic Application Loader - PRESENT/ENABLED
+	Service Advertisement & Discovery - PRESENT/ENABLED
+	Intel(R) NFC Capabilities - NOT PRESENT
+	Intel(R) Platform Trust Technology - PRESENT/DISABLED
+                                             
+Re-key needed                                False
+Platform is re-key capable                   True
+Intel(R) AMT State                           Enabled
+AMT Global State                             Enabled
+TLS                                          Enabled
+Last ME reset reason                         Global system reset
+Local FWUpdate                               Enabled
+BIOS Config Lock                             Enabled
+GbE Config Lock                              Enabled
+Get flash master region access status...done
+Host Read Access to ME                       Disabled
+Host Write Access to ME                      Disabled
+Get EC region access status...done
+Host Read Access to EC                       Disabled
+Host Write Access to EC                      Disabled
+Protected Range Register Base #0 0x0
+Protected Range Register Limit #0 0x0
+Protected Range Register Base #1 0x0
+Protected Range Register Limit #1 0x0
+Protected Range Register Base #2 0x0
+Protected Range Register Limit #2 0x0
+Protected Range Register Base #3 0x0
+Protected Range Register Limit #3 0x0
+Protected Range Register Base #4 0x0
+Protected Range Register Limit #4 0x0
+SPI Flash ID 1                               C22018
+SPI Flash ID 2                               Unknown
+BIOS boot State                              Post Boot
+OEM ID                                       68853622-eed3-4e83-8a86-6cde315f6b78
+Link Status                                  Link Up
+System UUID                                  4c4c4544-004a-5210-8038-b6c04f534432
+MAC Address                                  f4-8e-38-b4-3c-f2
+IPv4 Address                                 0.0.0.0
+IPv6 Enablement                              Disabled
+Privacy/Security Level                       Default
+Configuration State                          Not Started
+Provisioning Mode                            PKI
+Capability Licensing Service                 Enabled
+OEM Tag                                      0x00000000
+Slot 1 Board Manufacturer                    0x00001028
+Slot 2 System Assembler                      0x00000000
+Slot 3 Reserved                              0x00000000
+M3 Autotest                                  Enabled
+C-link Status                                Enabled
+Wireless Micro-code Mismatch                 No
+Wireless Micro-code ID in Firmware           0x24F3
+Wireless LAN in Firmware                     Intel(R) Dual Band Wireless-AC 8260
+Wireless Hardware ID                         No Intel WLAN card installed
+Wireless LAN Hardware                        No Intel WLAN card installed
+Localized Language                           English
+Independent Firmware Recovery                Disabled
+EPID Group ID                                0x1FAC
+
+Retrieving Variable "LSPCON Port Configuration" 
+LSPCON Ports                                 None
+
+Retrieving Variable "eDP Port Configuration" 
+5K Ports                                     None
+OEM Public Key Hash FPF                      A53EF0C178D288B02E61FD71FC31874E89F041FE9332BA2A787A97F7146FB06C
+
+Retrieving Variable "OEM Public Key Hash" 
+OEM Public Key Hash ME                       A53EF0C178D288B02E61FD71FC31874E89F041FE9332BA2A787A97F7146FB06C
+ACM SVN FPF                                  0x2
+KM SVN FPF                                   0x0
+BSMM SVN FPF                                 0x0
+GuC Encryption Key FPF                       0000000000000000000000000000000000000000000000000000000000000000
+
+Retrieving Variable "GuC Encryption Key" 
+GuC Encryption Key ME                        0000000000000000000000000000000000000000000000000000000000000000
+                                             
+                                             FPF                      ME
+                                             ---                      --
+Force Boot Guard ACM                         Enabled        
+Retrieving Variable "Force Boot Guard ACM Enabled" 
+          Enabled
+Protect BIOS Environment                     Enabled        
+Retrieving Variable "Protect BIOS Environment Enabled" 
+          Enabled
+CPU Debugging                                Enabled        
+Retrieving Variable "CPU Debugging" 
+          Enabled
+BSP Initialization                           Enabled        
+Retrieving Variable "BSP Initialization" 
+          Enabled
+Measured Boot                                Enabled        
+Retrieving Variable "Measured Boot Enabled" 
+          Enabled
+Verified Boot                                Enabled        
+Retrieving Variable "Verified Boot Enabled" 
+          Enabled
+Key Manifest ID                              0xF            
+Retrieving Variable "Key Manifest ID" 
+          0xF
+Enforcement Policy                           0x3            
+Retrieving Variable "Error Enforcement Policy" 
+          0x3
+PTT                                          Enabled        
+Retrieving Variable "Intel(R) PTT Supported" 
+          Enabled
+PTT Lockout Override Counter                 0x0
+EK Revoke State                              Not Revoked
+PTT RTC Clear Detection FPF                  0x0
+                                             

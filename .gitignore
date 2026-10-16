@@ -1,0 +1,26 @@
+# --- Large / reinstallable, not project work ---
+python_embeded/
+.opencode/node_modules/
+tools/qemu/
+
+# --- Regenerable firmware extraction trees (deep paths, huge file counts) ---
+*.dump/
+
+# --- Secrets (never commit) ---
+API Key/
+*.key
+*.pem
+*.pfx
+*.p12
+*.token
+*.secret
+id_rsa*
+id_ed25519*
+.env
+.env.*
+credentials*
+
+# --- OS / editor junk ---
+Thumbs.db
+Desktop.ini
+*.tmp

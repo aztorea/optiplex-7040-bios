@@ -1,0 +1,144 @@
+modules: 581
+[('DXE driver', 288), ('SMM module', 135), ('PEI module', 81), ('Freeform', 48), ('Raw', 12), ('Pad', 7), ('Application', 4), ('Volume image', 2), ('DXE core', 1), ('PEI core', 1), ('SEC core', 1), ('SMM core', 1)]
+with PE32 + notable strings: 224
+
+sample (refined):
+  01EEF8A9-C2E3-4A20-B1BD-A23A756F37AC  hint=Setup/HII          UsbSupport | AMITSESetup | StdDefaults
+  025BBFC7-E6A9-4B8B-82AD-6815A1AEAF4A  hint=Network            HxL9+t | NetworkStackVar | MNP Network Service Driver | , ProtocolType=0x%X, Vla
+  038CE287-B806-45B6-A819-514DAF4B91B9  hint=Setup/HII          MpMemory | Power Off - No Memory | Power Off - Boot Error | Power Off - WiFi Cat
+  0718AD81-F26A-4850-A6EC-F268E309D707  hint=Setup/HII          BootOrder | SecureBoot | LastBootFailed | RhG&^0 | Boot%04X | PlatformLang | Exi
+  09B98059-2D74-43C5-9709-AD0A0051867D  hint=AMI modules        GigaDevice 25Q Series
+  0A602C5B-05A0-40C4-9181-EDCD891D0001  hint=Memory/MRC         MrcS3Resume | LogoResolution | GigaDevice 25Q Series
+  0B234DF1-0080-412B-8716-8A81A3A11FAA  hint=AMI modules        GigaDevice 25Q Series
+  0C989D41-F4B4-4244-9D7F-E9FFB4163273  hint=                   BootFlow | BootOrder | Boot%04X
+  0D57B171-A6D2-49C9-95AD-ABC02546E605  hint=                   Front Port 1 w/Power Share(Bottom)* | Front Port 2 w/Power Share(Top Left)
+  10B12ADD-F5E2-CC78-5CA0-B77F76223ACD  hint=Setup/HII          AmiCpuSetupFeatures | SgxSetupFeatures
+  11DD0F6C-209B-47CE-8A98-418C9B7CC756  hint=AMI modules        GigaDevice 25Q Series
+  1314216C-CB8D-421C-B854-06231386E642  hint=                   AdbcDN | PlatformInfo
+  14257B56-BDA2-4FAF-8E4F-C885DF75583C  hint=                   IccMbpData
+  16271FCA-55D9-4A33-93FC-5A3EB128DEB6  hint=                   APreviousMemoryTypeInformation
+  16D0A23E-C09C-407D-A14A-AD058FDD0CA1  hint=Setup/HII          IsaIrqMask | FPDT_Variable_NV
+  171F43DC-C4D9-47A6-9641-65DDCDD5AA30  hint=                   sNfD9g | D8OEtQ | f9Cpu3 | @:uEtZ | <HBuEA | uSfD9S | t]<PuUH | MSDOtdA
+  17390333-4CE6-48A8-AFB9-0EF55B666B74  hint=SMM                =SMBAtg=PSMItM=SDBSt%=WMBS
+  17ED0DA9-EAC5-4613-BDE7-C3A506917676  hint=Setup/HII          HstiBiosVersion | PartialDefaultStepping
+  1807040D-5934-41A2-A088-8E0F777F71AB  hint=System Agent       PchSetup | CpuSetup | UsbSupport | MemoryConfig | SecureBootSetup | AcpiGlobalVa
+  1830A6DD-E03D-4BC0-B115-94D91950FE4A  hint=Setup/HII          PlatformLang | Configuration | SIO Configuration | AMI SIO Driver Version : | To
+  194EE52B-02FE-418D-AA10-2E61E51CB894  hint=Dell/OEM           DellMonotonicCounter
+  196CA3D8-9A5A-4735-B328-8FFC1D93D188  hint=Setup/HII          TpmOldvar | InternalDisallowTpmFlag | TcgInternalSyncFlag
+  1A7E4468-2F55-4A56-903C-01265EB7622B  hint=Network            EfiNicIp4ConfigVariable | HhD9y0u | NetworkStackVar | TCP Network Service Driver
+  1DB43EC9-DF5F-4CF5-AAF0-0E85DB4E149A  hint=                   Boot Guard verified failed
+  1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609  hint=Storage (NVMe/SD)  Partition Driver(MBR/GPT/El Torito)
+  21891A9E-763E-4377-8841-8D5C90D88C51  hint=Network            NetworkStackVar
+  24CCD374-3DF6-4181-86F6-E3C66920A145  hint=                   MemorySize
+  25ACF158-DD61-4E64-9A49-55851E9A26C7  hint=AMI modules        gAMI CSM Block I/O Driver
+  26841BDE-920A-4E7A-9FBE-637F477143A6  hint=Network            EfiNicIp4ConfigVariable | NetworkStackVar | IP4 CONFIG Network Service Driver
+  26A2481E-4424-46A2-9943-CC4039EAD8F8  hint=Runtime/Variable   AcpiGlobalVariable
+  290EA249-6E88-423C-B0DA-75CDDE7920CC  hint=Intel RC           BootCurrent | Boot%04X | Boot%04x | PetAlertCfg
+  29CF55F8-B675-4F5D-8F2F-B87A3ECFD063  hint=                   MvCN:qH | gBIOS[INT10] Video Driver
+  2CE5604F-A982-4D2E-8FD0-D1600C2E1515  hint=Setup/HII          OnBoard | PlatformLang | Old Pci Device | Memory Controller | Disable PCIe Init 
+  2F2295B6-1BB6-4CB7-BB9E-15C2C3424277  hint=Setup/HII          PcieSataSetupVar | AMI PCIe IDE Controller Driver | AMI PCIe AHCI Controller Dri
+  3237418A-478C-4700-B59F-768E2CCBC726  hint=                   uMfA94
+  32C1C9F8-D53F-41C8-94D0-F6739F231011  hint=Setup/HII          MeBiosExtensionSetup | M2PCIeSsd
+  33C6406D-2F6B-41B5-8705-52BAFB633C09  hint=Console/Input      ConsoleLock | AmtForcePushErrorPET
+  348C4D62-BFBD-4882-9ECE-C80BB1C4783B  hint=Intel RC           9HiDpI | PlatformLang
+  3500D8BD-3D06-45E8-9F66-43B72C4635CD  hint=                   PcieM2CardInformation
+  39045756-FCA3-49BD-8DAE-C7BAE8389AFF  hint=Setup/HII          Tpm20PCRallocateReset | MemoryOverwriteRequestControl | RhG&^q | TPM Driver
+  3C1DE39F-D207-408A-AACC-731CFB7F1DD7  hint=Setup/HII          BootFlow | uEfD9} | IsaIrqMask | AmiOutOfRes
+  3FE89372-C0CC-466B-AA4A-B76DBBB11BBB  hint=Setup/HII          AmiGopPolicySetupData | UsbSupport | UsbMassDevNum | SecureBootSetup | UsbMassDe
+  42857F0A-13F2-4B21-8A23-53D3F714B840  hint=Capsule/FWUpdate   CapsuleUpdateData | CapsuleLongModeBuffer
+  43E7ABDD-E352-4CFB-A230-4CDC1D350E5C  hint=Console/Input      AMI Graphic Console Driver
+  4551F2F5-C684-4F27-936F-C7B04A5C5FF1  hint=Setup/HII          SecureBootSetup | SetupMode | SecureBoot | VendorKeys
+  490D0119-4448-440D-8F5C-F58FB53EE057  hint=Setup/HII          MeSetup | MeInfoSetup | MeSetupStorage | MeBiosExtensionSetup | (A7) Me FW Downg
+  4A3602BC-1A05-4C82-99B4-588CD2A32CD5  hint=Setup/HII          PciSerialPortsLocationVar | SerialPortsEnabledVar | SioSerialPortsLocationVar
+  4C8BDF60-2085-4577-8A46-96CB180967BC  hint=TPM/Security       Tpm2TablH | TpmServFlags
+  4E82091E-32A1-4689-8A00-CDE41ED63CDD  hint=Setup/HII          Generic SIO Driver
+  4F4FF580-B8A0-4332-A6B0-E2E568E36C9C  hint=Dell/OEM           F12 for Boot Menu
+  502B04F3-71AB-47B4-BEAE-4736EA190AA4  hint=AMI modules        AMI PCI Bus Driver
+  50F6096D-7C98-4C78-9A1D-C5A1833B6A88  hint=TPM/Security       TcgInterfaceVar
+  529D3F93-E8E9-4E73-B1E1-BDF6A9D50113  hint=Network            :CRugH | NetworkStackVar | ARP Network Service Driver
+  534F73CF-0937-418A-90C7-4F1079DCAED1  hint=                   F-/PtL | HobRomImage
+  54891A9E-763E-4377-8841-8D5C90D88CDE  hint=Setup/HII          PciSerialPortsLocationVar | AMI Terminal Driver | SerialPortsEnabledVar | SioSer
+  54B070F3-9EB8-47CC-ADAF-39029C853CBB  hint=                   H9HXuXL95 | NvramSmiBuffer
+  55BB5A4B-3B3F-442C-BF09-0F87A67E8EE7  hint=                   QcJ w! | "Intel HD Graphics"
+  580DD900-385D-11D7-883A-00500473D4EB  hint=AMI modules        UsbSupport | UsbMassDevNum | UsbMassDevValid | UsbControllerNum | tMfE9{NtFL | A
+  5BEDB5CC-D830-4EB2-8742-2D4CC9B54F2C  hint=Network            SdD9s` | Policy | CdD9sdum | CdD9sdux | SdD9s`u/L | NetworkStackVar | Advanced C
+  5E9CABA3-F2B1-497A-ADAC-24F575E9CDE9  hint=                   MemoryOverwriteRequestControl | 9xPvO3
+  5FECEF6B-5FA4-4570-8163-0CF72A9C04C5  hint=Console/Input      AMI PS/2 Driver
+  60740CF3-D428-4500-80E6-04A5798241ED  hint=SMM                - Boot Guard Configuration - | Thermal Configuration unlocked | - Measured Boot 
+  61422D26-81EC-47FF-B6CF-939EAEE73FBA  hint=Console/Input      uNfE9!tH | No ConIn | No ConOut | Boot option failed | Boot option loading faile
+  628A497D-2BF6-4264-8741-069DBD3399D6  hint=Setup/HII          AMI Console Splitter Driver | AMI Console Splitter Text In Driver | AMI Console 
+  634E8DB5-C432-43BE-A653-9CA2922CC458  hint=NVMe               AMI NVMe BUS Driver
+  668706B2-BCFC-4AD4-A185-75E79F3FE169  hint=NVMe               Nvme Size
+  6AA1A3CC-52C4-4B03-99F7-288F345C1DB3  hint=                   RealTek ALC269 | RealTek ALC3226 | RealTek ALC3234 | RealTek ALC3235
+  6B38F7B4-AD98-40E9-9093-ACA2B5A253C4  hint=                   Generic Disk I/O Driver
+  6D1D13B3-8874-4E92-AED5-22FC7C4F7391  hint=Runtime/Variable   BiosGuardVariable
+  6D6963AB-906D-4A65-A7CA-BD40E5D6AF2B  hint=Network            NetworkStackVar | UDP Network Service Driver | gUDPv4 (SrcPort=%d, DestPort=%d)
+  755877A6-4F10-4A5C-9B2E-852123B9682C  hint=SMM                FSMIfD | FlashSmiBuffer | GigaDevice 25Q Series
+  76BE1ABF-1E1E-321D-B7F0-9E0984FDDABC  hint=AMI modules        LogoResolution | PostScreenIsChanged | GigaDevice 25Q Series
+  773CB08B-511A-4BD5-85AD-41D4F4B64A52  hint=Setup/HII          SetupAmtFeatures
+  80D7491A-F7D9-479D-A8F7-1B393B02ED66  hint=Memory/MRC         LastBoot | FastBootOption | LastBootFailed | AMITSESetup
+  81A4F912-E72F-44ED-8931-16A9FE9650E0  hint=                   UsbSupport
+  83C30E53-7A4C-4273-A686-65E9DC09D75B  hint=Setup/HII          ADebTablH9G
+  85984EC9-E300-4277-AC62-640FABADB6A5  hint=Setup/HII          InSetup | AssetTag | ServiceTag | GigaDevice 25Q Series
+  899407D7-99FE-43D8-9A21-79EC328CAC21  hint=Memory/MRC         AmiGopPolicySetupData | PchSetup | UsbSupport | UsbMassDevNum | SecureBootSetup 
+  8AEC0770-34EA-415E-8595-396A4E15F88B  hint=Intel RC           BootNext | Boot%04X
+  8D6756B9-E55E-4D6A-A3A5-5E4D72DDF772  hint=Setup/HII          MemCeil. | AmiOutOfRes
+  8EEF9AD2-463E-425F-A4FE-2F6783D6F97E  hint=AMI modules        AdbcDN | IsaIrqMask | IsaDmaMask | AMI Generic LPC Super I/O Driver
+  8F4B8F82-9B91-4028-86E6-F4DB7D4C1DFF  hint=Memory/MRC         ConnectRootBridgeHandlesBeforeEndOfDxe | FastBootHook | ConnectUsbConIn | DellSk
+  8F5A2E02-538C-4D59-B920-C4786ACBC552  hint=AMI modules        RaidDriverBlockingStatus | AMI AHCI BUS Driver
+  908C3852-B61B-4F26-AB66-F74F97E7DC1C  hint=Setup/HII          AMITSESetupBackup | AMITSESetup | NetworkStackVar
+  94734718-0BBC-47FB-96A5-EE7A5AE6A2AD  hint=Network            DHCPv4 (State=7, InitReboot) | uZH9wPuNH | NetworkStackVar | DHCP Protocol Drive
+  95E3669D-34BE-4775-A651-7EA41B69D89E  hint=Network            CxD8h1t | ClientId | NetworkStackVar | DHCP6 Protocol Driver | DHCPv6 (State=0, 
+  961578FE-B6B7-44C3-AF35-6BC705CD2B1F  hint=                   PlatformLang | FAT File System Driver
+  97C81E5D-8FA0-486A-AAEA-0EFDF090FE4F  hint=AMI modules        AMI Serial I/O Driver | COM (Pci Dev%X, Func%X) | COM (Pci Dev%X, Func%X, Port%X
+  98A4CA0B-7FE1-48B0-B68D-23EB0E259C13  hint=                   f9ChuzA
+  99F03B99-98D8-49DD-A8D3-3219D0FFE41E  hint=Network            NetworkStackVar | MTFTP6 Network Service Driver
+  9B680FCE-AD6B-4F3A-B60B-F59899003443  hint=SATA/AHCI          UsbHub | UsbHID | UsbWwid | UsbVideo | UsbImage | UsbAudio | UsbClass | UsbCDCDa
+  9BCEDB6D-13CA-473E-B605-8A47688729FA  hint=Setup/HII          PmmConfigured | RstPCIeStorageExist
+  9BFF300D-D647-480E-9FF3-2006D3D7CCC6  hint=Setup/HII          GigaDevice 25Q Series
+  9FB1A1F3-3B71-4324-B39A-745CBB015FFF  hint=Network            NetworkStackVar | IPv4 (SrcIP=%d.%d.%d.%d) | IP4 Network Service Driver
+  A04C966C-6D62-45B9-A6B2-1C0F8B56566E  hint=Dell/OEM           OptiPlex 7040
+  A062CF1F-8473-4AA3-8793-600BC4FFE9A8  hint=Setup/HII          SecureBoot | IsaIrqMask | PrimaryVideoDp
+  A29A63E3-E4E7-495F-8A6A-07738300CBB3  hint=Setup/HII          BootOrder | TpmOldvar | SecureBoot | TpmServFlags | LastBootFailed | RhG&^q | Bo
+  A2F436EA-A127-4EF8-957C-8048606FF670  hint=Network            NetworkStackVar | Simple Network Protocol Driver
+  A37A9E43-9077-4539-9B90-BD719B032B23  hint=AMI modules        GigaDevice 25Q Series
+  A4F2909C-5E2A-438A-91BA-272B0923049A  hint=Setup/HII          CpuSetup | SetupCpuFeatures | SetupVolatileData | AdbcDN
+  A919B3B6-D44E-41F0-9179-8AA24FF2260E  hint=Setup/HII          PcieSataSetupVar | PcieSataModVar | Sata Mode | Offboard SATA Controller Configu
+  AAECDC89-2A49-46F1-A163-F7979C039998  hint=AMI modules        AMI IDE BUS Driver
+  ACD28235-075B-48B5-98A1-DA04FCAF84F3  hint=Intel RC           Intel(R) Core(TM) M | Intel(R) Core(TM) i7 | Intel(R) Core(TM) i5 | Intel(R) Cor
+  B13EDD38-684C-41ED-A305-D7B7E32497DF  hint=AMI modules        SanDisk | uDmiArray | PlatformLang | MaximumTableSize | PlatformLangCodes | Smbi
+  B7D19491-E55A-470D-8508-85A5DFA41974  hint=Setup/HII          BootOrder | SbWarmResetVar | SetupPlatformData | 9_ADRueH | 9_ADRuRH | SbAslBuff
+  B7EE4835-84CE-4B15-BF52-2D11574CE470  hint=                   HardwareConfigData | SetUpdateCountVar
+  B95E9FDA-26DE-48D2-8807-1F9107AC5E3A  hint=Network            NetworkStackVar | UEFI PXE Base Code Driver
+  BB1FBD4F-2E30-4793-9BED-74F672BC8FFE  hint=Capsule/FWUpdate   CapsuleUpdateData
+  C007C321-E87E-46B4-A5B5-C33E845D89EB  hint=Setup/HII          LastSsdState
+  C5046EFD-7BC3-4206-987C-32DA45026E6D  hint=Setup/HII          CpuSetup | SaSetup | SinitSvnSetup | SetupVolatileData
+  C642C14C-0E9C-4AEF-94A5-A213BAA35DE0  hint=                   PlatformConfigurationChange | HstiCheckFlag | HstiBiosVersion
+  CBC59C4A-383A-41EB-A8EE-4498AEA567E4  hint=AMI modules        GigaDevice 25Q Series
+  CBF486B7-D196-4C03-AFE2-33F38E64DA16  hint=                   Integrated Touch Driver | Integrated Touchpanel Driver
+  CDC1C80D-E6D3-4A42-9229-75F3BEFCF109  hint=AMI modules        AmiOutOfRes | It is strongly recommended to Power Off the system | and select Bo
+  CE366D33-B057-4C03-8561-CAF17738B66F  hint=                   WdtPersistentData
+  CEE33516-58E3-47DB-BB3F-2758B5A76C28  hint=Setup/HII          PlatformFviSetupDataVar | SensorSerialNumber
+  D77C900D-A1C7-41C5-B989-0C3D37FCA432  hint=Setup/HII          UsbHub | UsbHID | UsbVideo | UsbImage | UsbAudio | UsbCDCData | UsbPrinter | Usb
+  D912C7BC-F098-4367-92BA-E911083C7B0E  hint=Network            NetworkStackVar | UDP6 Network Service Driver | gUDPv6 (SrcPort=%d, DestPort=%d)
+  DB941521-4EA7-4C87-A711-354DB5D6D7E6  hint=Setup/HII          DisplayPort 1 | DisplayPort 2 | Intel HD Graphics
+  DC3641B8-2FA8-4ED3-BC1F-F9962A03454B  hint=Network            TFTPfD | NetworkStackVar | MTFTPv4 (ServerIp=%d.%d.%d.%d, ServerPort=%d)
+  DC571B6D-D570-4862-A95F-299B28FDC2D2  hint=                   CPU Thermal Probe
+  DD5E92D1-DDAC-48CB-907A-882D8610E89E  hint=                   SaPegData
+  DE23ACEE-CF55-4FB6-AA77-984AB53DE811  hint=ACPI               BootCurrent | IntelGraphicsMem | SaSsdt | Boot%04x
+  DE23ACEE-CF55-4FB6-AA77-984AB53DE823  hint=                   RstPCIeStorageExist
+  E0ECBEC9-B193-4351-A488-36A655F22F9F  hint=                   MemoryConfig
+  E23F86E1-056E-4888-B685-CFCD67C179D4  hint=Capsule/FWUpdate   SbWarmResetVar | CapsuleUpdateData | EfiTime
+  E305E101-913A-4A51-8E0E-B4618C5DB326  hint=AMI modules        GigaDevice 25Q Series
+  E4ECD0B2-E277-4F2B-BECB-E4D75C9A812E  hint=Setup/HII          MemoryConfig | AcpiGlobalVariable | SecureBoot | MemCeil. | SaPegData | NBPlatfo
+  E5B24906-CF08-4DCD-9EE3-0D163FCA34BF  hint=Setup/HII          InternalDisallowTpmFlag
+  E764500B-E398-4AB7-BBBC-99A8E683681F  hint=Setup/HII          AmiCpuSetupFeatures | SetupVolatileData | MeBiosExtensionSetup
+  EB84A9E4-288F-4637-AC61-6D3966EF6179  hint=Dell/OEM           NeedToChange | HDDRecoveryRomStorageError
+  F7731B4C-58A2-4DF4-8980-5645D39ECE58  hint=ACPI               CpuSsdt | HwpLvt | Cpu0Hwp | Cpu0Cst | Cpu0Ist | Cpu0Tst
+  F80697E9-7FD6-4665-8646-88E33EF71DFC  hint=TPM/Security       SecureBoot
+  FA990751-0795-4D5E-AB70-A6F5A6771AC9  hint=Setup/HII          SaSetup
+  FB142B99-DF57-46CB-BC69-0BF858A734F9  hint=Setup/HII          MeBiosExtensionSetup | PCI Serial Driver
+  FC90EB7A-3E0A-483C-A26C-484D36593FF4  hint=Setup/HII          CpuSetup | MeSetup | SetupPlatformData | 9_TSPtF | 9_TSPtQ | 9PSDTtMH | DELLdGPU
+
+CSV: C:\Users\Ghost\Desktop\bestproject\work\docs\modules_catalog.csv
+MD : C:\Users\Ghost\Desktop\bestproject\work\docs\modules_catalog.md

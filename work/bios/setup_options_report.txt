@@ -1,0 +1,3186 @@
+TOTAL questions: 2993
+
+FORMS (questions / named prompts):
+    10/233   0x2716 Save & Exit
+    89/89    0x27BE SATA Configuration
+    81/81    0x2771 PEG Port Configuration
+    77/77    0x274C CPU Configuration
+    65/65    0x2757 Platform Setting
+     5/58    0x800C Debug
+    52/52    0x2772 Memory Configuration
+    45/45    0x2785 PCH-IO Configuration
+    41/41    0x2786 PCI Express Configuration
+    41/41    0x27AF SkyCam Configuration
+    39/39    0x2788 PCI Express Root Port 1
+    39/39    0x2789 PCI Express Root Port 2
+    39/39    0x278A PCI Express Root Port 3
+    39/39    0x278B PCI Express Root Port 4
+    39/39    0x278C PCI Express Root Port 5
+    39/39    0x278D PCI Express Root Port 6
+    39/39    0x278E PCI Express Root Port 7
+    39/39    0x278F PCI Express Root Port 8
+    39/39    0x2790 PCI Express Root Port 9
+    39/39    0x2791 PCI Express Root Port 10
+    39/39    0x2792 PCI Express Root Port 11
+    39/39    0x2793 PCI Express Root Port 12
+    39/39    0x2794 PCI Express Root Port 13
+    39/39    0x2795 PCI Express Root Port 14
+    39/39    0x2796 PCI Express Root Port 15
+    39/39    0x2797 PCI Express Root Port 16
+    39/39    0x2798 PCI Express Root Port 17
+    39/39    0x2799 PCI Express Root Port 18
+    39/39    0x279A PCI Express Root Port 19
+    39/39    0x279B PCI Express Root Port 20
+    37/37    0x27B4 Link options
+    37/37    0x27B5 Link options
+    37/37    0x27B6 Link options
+    37/37    0x27B7 Link options
+    34/36    0x27EA USB Configuration
+    30/35    0x8001 System Information
+    33/33    0x2779 Memory Training Algorithms
+    33/33    0x27A1 Serial IO Configuration
+    31/31    0x279C USB Configuration
+    30/30    0x27BB Pch Thermal Throttling Control
+    29/29    0x27BD Platform Thermal Configuration
+    28/28    0x27A0 HD Audio DSP Features Configuration
+    26/26    0x8004 Security
+    25/26    0x2712 Advanced
+    26/26    0x2754 RTD3 settings
+    26/26    0x27B0 Control Logic options
+    26/26    0x27B1 Control Logic options
+    26/26    0x27B2 Control Logic options
+    26/26    0x27B3 Control Logic options
+    16/24    0x2723 Intel ICC
+    22/22    0x2768 Graphics Configuration
+    22/22    0x277B Dram Power Meter
+    21/21    0x2753 Platform Misc Configuration
+    20/20    0x277C Memory Thermal Reporting
+    17/17    0x2711 Main
+    17/17    0x2767 System Agent (SA) Configuration
+    17/17    0x27B9 ISH Configuration
+    16/16    0x8002 System Configuration
+     7/16    0x280E Drives
+    16/16    0x271C Trusted Computing
+    16/16    0x272D PCH-FW Configuration
+    16/16    0x2773  Gen3 Root Port Preset value for each Lane
+    16/16    0x2774  Gen3 Endpoint Preset value for each Lane
+    16/16    0x2775  Gen3 Endpoint Hint value for each Lane
+    16/16    0x27AE SerialIO timing parameters
+    15/15    0x272B AMT Configuration
+    15/15    0x277F DMI Configuration
+    14/14    0x277A Memory Power and Thermal Throttling
+    13/13    0x271B Trusted Computing
+    13/13    0x2730 Hardware Monitor
+    12/12    0x2738 COM0
+    12/12    0x2742
+    12/12    0x27BF Software Feature Mask Configuration
+    12/12    0x2715 Boot
+    11/11    0x8700 Auto On Time
+    11/11    0x277E Memory RAPL
+    11/11    0x2787 PCI Express Gen3 Eq Lanes
+    10/10    0x8809 TPM 1.2 Security
+    10/10    0x8918 Front USB Configuration
+    10/10    0x8919 Rear USB Configuration
+    10/10    0x891A Side USB Configuration
+    10/10    0x2815 Primary Display
+    10/10    0x27C2 AMI Graphic Output Protocol Policy
+    10/10    0x27D7 Secure Boot menu
+     9/9     0x8821 TPM 2.0 Security
+     9/9     0x2735 Serial Port Console Redirection
+     9/9     0x27D0 CSM Configuration
+     9/9     0x276F LCD Control
+     9/9     0x2776 Gen3 RxCTLE Control
+     4/9     0x27DB Key Management
+     8/8     0x8006 Power Management
+     8/8     0x800A Maintenance
+     8/8     0x2752 Intel TXT Information
+     8/8     0x279F HD Audio Advanced Configuration
+     7/7     0x2736 Console Redirection Settings
+     7/7     0x276E Intel(R) Ultrabook Event Support
+     6/6     0x2710 Setup
+     6/6     0x8005 Performance
+     6/6     0x8007 POST Behavior
+     5/6     0x880A TCM Security
+     6/6     0x271D ACPI Settings
+     6/6     0x2778 Memory Thermal Configuration
+     6/6     0x279E HD Audio Configuration
+     6/6     0x27A2 Serial IO I2C0 Settings
+     6/6     0x27A3 Serial IO I2C1 Settings
+     5/5     0x8000 General
+     5/5     0x274D Power Limit 3 Settings
+     5/5     0x27CE Network Stack Configuration
+     4/4     0x8808 Password Configuration
+     4/4     0x890B USB Configuration
+     4/4     0x2769 GOP Configuration
+     4/4     0x2780  Gen3 Root Port Preset value for each Lane
+     4/4     0x2781  Gen3 Endpoint Preset value for each Lane
+     4/4     0x2782  Gen3 Endpoint Hint value for each Lane
+     4/4     0x27B8 SCS Configuration
+     3/3     0x8008 Virtualization Support
+     3/3     0x8A00 BIOS Events
+     3/3     0x8D01 Wireless Device Enable
+     3/3     0x8502 Multi Core Support
+     3/3     0x880B Computrace®
+     2/3     0x8802 Chassis Intrusion
+     3/3     0x890F Audio
+     3/3     0x274E Power Limit 4 Settings
+     3/3     0x274F Cpu Thermal Configuration
+     3/3     0x27A9 Serial IO SPI1 Settings
+     3/3     0x27AA Serial IO UART0 Settings
+     3/3     0x27BA TraceHub Configuration Menu
+     3/3     0x2714 Security
+     2/2     0x8003 Video
+     2/2     0x8010 Secure Boot
+     2/2     0x8011 Intel® Software Guard Extensions™
+     2/2     0x8200 Boot Sequence
+     2/2     0x8701 ERROR
+     2/2     0x8730 Error! String not set.
+     2/2     0x8201 Advanced Boot Options
+     2/2     0x8814 Dell Encryption
+     2/2     0x890D Integrated NIC
+     2/2     0x8905 Miscellaneous Devices
+     2/2     0x271A Trusted Computing
+     2/2     0x272E Firmware Update Configuration
+     2/2     0x2713 Chipset
+     2/2     0x271F SB Porting Configuration
+     2/2     0x2770 GT - Power Management Control
+     2/2     0x2783 Gen3 RxCTLE Control
+     2/2     0x279D BIOS Security Configuration
+     2/2     0x27AB Serial IO UART1 Settings
+     1/1     0x8009 Wireless
+     1/1     0x800B System Logs
+     1/1     0x80A0 Advanced configurations
+     1/1     0x8402 SERR Messages
+     1/1     0x8404 Dell Development Configuration
+     1/1     0x8403 Enable Watchdog Timer
+     1/1     0x8405 BIOS Downgrade
+     1/1     0x8406 Data Wipe
+     1/1     0x8407 BIOS Recovery
+     1/1     0x8B04 Multi-Display
+     1/1     0x8A01 BIOS Events
+     1/1     0x8C00 Virtualization
+     1/1     0x8C01 VT for Direct I/O
+     1/1     0x8C02 Trusted Execution
+     1/1     0x8500 Intel® SpeedStep™
+     1/1     0x27F0 C-States Control
+     1/1     0x27F1 Limit CPUID Value
+     1/1     0x8501 Intel® TurboBoost™
+     1/1     0x27EF HyperThread control
+     1/1     0x27F5 Deep Sleep Control
+     1/1     0x27F7 Fan Control Override
+     1/1     0x8702 USB Wake Support
+     1/1     0x8707 Block Sleep
+     1/1     0x8711 Intel Ready Mode
+     1/1     0x8F00 Secure Boot Enable
+     1/1     0x8818 Intel® Software Guard Extensions™
+     1/1     0x8819 Enclave Memory Size
+     1/1     0x8202 UEFI Boot Path Security
+     1/1     0x8806 Password Bypass
+     1/1     0x8807 Password Change
+     1/1     0x880C CPU XD Support
+     1/1     0x880E Admin Setup Lockout
+     1/1     0x880F Strong Password
+     1/1     0x8825 Master Password Lockout
+     1/1     0x8503 HDD Protection Support
+     1/1     0x280B OROM Keyboard Access
+     1/1     0x280C UEFI Capsule Firmware Updates
+     1/1     0x280D SMM Security Mitigation
+     1/1     0x8901 System Management
+     1/1     0x890A System Management
+     1/1     0x8903 Serial Port
+     1/1     0x8904 SATA Operation
+     1/1     0x8909 Enable SMART Reporting
+     1/1     0x890E Unobtrusive Mode
+     1/1     0x8908 USB PowerShare
+     1/1     0x8600 Adapter Warnings
+     1/1     0x8603 Numlock LED
+     1/1     0xA002 MEBx Hotkey
+     1/1     0x8606 Fastboot
+     1/1     0x8608 Keyboard Errors
+     1/1     0x2816 ASPM
+     0/1     0x2717 Driver Health
+     0/1     0x2718 Driver Health
+     1/1     0x2721 Demo Board
+     1/1     0x272F SMART Settings
+     1/1     0x2732 Intel(R) Bios Guard Technology
+     1/1     0x2737 Legacy Console Redirection Settings
+     1/1     0x27BC Thermal Configuration
+     1/1     0x27A4 Serial IO I2C2 Settings
+     1/1     0x27A5 Serial IO I2C3 Settings
+     1/1     0x27A6 Serial IO I2C4 Settings
+     1/1     0x27A7 Serial IO I2C5 Settings
+     1/1     0x27A8 Serial IO SPI0 Settings
+     1/1     0x27AC Serial IO UART2 Settings
+     1/1     0x27AD Serial IO GPIO Settings
+
+Setup varstore (0x1) questions: 2382  |  with visible prompt: 2205
+
+NAMED Setup prompts by form (offset | type | prompt):
+
+== 0x2715 Boot ==
+  0x   0x0 OneOf    Bootup NumLock State
+  0x   0x1 OneOf    Fast Boot
+  0x   0x2 OneOf    SATA Support
+  0x   0x3 OneOf    VGA Support
+  0x   0x4 OneOf    USB Support
+  0x   0x5 OneOf    PS2 Devices Support
+  0x   0x7 OneOf    NetWork Stack Driver Support
+  0x   0x6 OneOf    Redirection Support
+
+== 0x271A Trusted Computing ==
+  0x   0xE OneOf    TPM Support in BIOS
+
+== 0x271B Trusted Computing ==
+  0x   0xE OneOf    TPM Support in BIOS
+  0x   0x9 OneOf    TPM State
+  0x   0xA OneOf    Pending operation
+  0x   0xE OneOf    Security Device Support
+  0x   0x9 OneOf    TCM State
+  0x   0xA OneOf    Pending operation
+  0x  0x1B OneOf    Device Select
+
+== 0x271C Trusted Computing ==
+  0x   0xE OneOf    TPM Support in BIOS
+  0x 0xFE0 OneOf    SHA-1 PCR Bank
+  0x 0xFE1 OneOf    SHA256 PCR Bank
+  0x 0xFE2 OneOf    SHA384 PCR Bank
+  0x 0xFE3 OneOf    SHA512 PCR Bank
+  0x 0xFE4 OneOf    SM3_256 PCR Bank
+  0x   0xA OneOf    Pending operation
+  0x  0x17 OneOf    Platform Hierarchy
+  0x  0x18 OneOf    Storage Hierarchy
+  0x  0x19 OneOf    Endorsement Hierarchy
+  0x 0xFD9 OneOf    TPM2.0 UEFI Spec Version
+  0x 0xFE6 OneOf    Physical Presence Spec Version
+  0x  0x1A OneOf    TPM 20 InterfaceType
+  0x  0x1B OneOf    Device Select
+
+== 0x271D ACPI Settings ==
+  0x  0x1C CheckBox Enable ACPI Auto Configuration
+  0x  0x20 CheckBox Enable Hibernation
+  0x  0x1D OneOf    ACPI Sleep State
+  0x  0x1F CheckBox Lock Legacy Resources
+  0x  0x21 OneOf    S3 Video Repost
+  0x  0x23 OneOf    ACPI Low Power S0 Idle
+
+== 0x271F SB Porting Configuration ==
+  0x  0x24 OneOf    SATA RAID ROM
+  0x  0x24 OneOf    SATA RAID ROM
+
+== 0x2721 Demo Board ==
+  0x  0x25 CheckBox CRB Test
+
+== 0x2723 Intel ICC ==
+  0x  0x26 OneOf    ICC/OC Watchdog Timer
+  0x  0x27 OneOf    ICC PLL Shutdown
+
+== 0x272B AMT Configuration ==
+  0x  0x28 OneOf    Intel AMT
+  0x  0x2A CheckBox BIOS Hotkey Pressed
+  0x  0x2B CheckBox MEBx Selection Screen
+  0x  0x2D CheckBox Hide Un-Configure ME Confirmation Prompt
+  0x  0x2E CheckBox MEBx Debug Message Output
+  0x  0x2F CheckBox Un-Configure ME
+  0x  0x31 Numeric  Amt Wait Timer
+  0x  0x37 OneOf    ASF
+  0x  0x33 CheckBox Activate Remote Assistance Process
+  0x  0x35 OneOf    USB Provisioning of AMT
+  0x  0x36 OneOf    PET Progress
+  0x  0x34 Numeric  AMT CIRA Timeout
+  0x  0x38 OneOf    WatchDog
+  0x  0x39 Numeric  OS Timer
+  0x  0x3B Numeric  BIOS Timer
+
+== 0x272D PCH-FW Configuration ==
+  0x  0x42 OneOf    MEBx Type
+  0x  0x4C OneOf    NFC Feature State
+  0x  0x48 OneOf    ME Unconfig on RTC Clear State
+  0x  0x4E OneOf    ME State
+
+== 0x272E Firmware Update Configuration ==
+  0x  0x3F OneOf    Me FW Image Re-Flash
+  0x  0x40 OneOf    Local FW Update
+
+== 0x272F SMART Settings ==
+  0x 0xF93 CheckBox Enable SMART Reporting
+
+== 0x2732 Intel(R) Bios Guard Technology ==
+  0x  0x53 OneOf    Intel Bios Guard Support
+
+== 0x2735 Serial Port Console Redirection ==
+  0x  0x5E CheckBox Console Redirection
+  0x  0x5F CheckBox Console Redirection
+  0x  0x6E CheckBox Console Redirection
+
+== 0x2736 Console Redirection Settings ==
+  0x  0x6F OneOf    Out-of-Band Mgmt Port
+  0x  0x70 OneOf    Terminal Type
+  0x  0x71 OneOf    Bits per second
+  0x  0x72 OneOf    Flow Control
+
+== 0x2737 Legacy Console Redirection Settings ==
+  0x  0x76 OneOf    Legacy Serial Redirection Port
+
+== 0x2738 COM0 ==
+  0x  0x60 OneOf    Terminal Type
+  0x  0x54 OneOf    Bits per second
+  0x  0x56 OneOf    Data Bits
+  0x  0x58 OneOf    Parity
+  0x  0x5A OneOf    Stop Bits
+  0x  0x5C OneOf    Flow Control
+  0x  0x62 CheckBox VT-UTF8 Combo Key Support
+  0x  0x64 CheckBox Recorder Mode
+  0x  0x66 CheckBox Resolution 100x31
+  0x  0x68 OneOf    Legacy OS Redirection Resolution
+  0x  0x6A OneOf    Putty KeyPad
+  0x  0x6C OneOf    Redirection After BIOS POST
+
+== 0x2742 ==
+  0x  0x61 OneOf    Terminal Type
+  0x  0x55 OneOf    Bits per second
+  0x  0x57 OneOf    Data Bits
+  0x  0x59 OneOf    Parity
+  0x  0x5B OneOf    Stop Bits
+  0x  0x5D OneOf    Flow Control
+  0x  0x63 CheckBox VT-UTF8 Combo Key Support
+  0x  0x65 CheckBox Recorder Mode
+  0x  0x67 CheckBox Resolution 100x31
+  0x  0x69 OneOf    Legacy OS Redirection Resolution
+  0x  0x6B OneOf    Putty KeyPad
+  0x  0x6D OneOf    Redirection After BIOS POST
+
+== 0x274C CPU Configuration ==
+  0x  0x78 OneOf    CPU Flex Ratio Override
+  0x  0x77 Numeric  CPU Flex Ratio Settings
+  0x  0x7A OneOf    Active Processor Cores
+  0x  0x7A OneOf    Active Processor Cores
+  0x  0x7A OneOf    Active Processor Cores
+  0x 0x144 OneOf    Overclocking lock
+  0x 0x136 OneOf    Intel Virtualization Technology
+  0x 0x13C OneOf    Hardware Prefetcher
+  0x 0x13D OneOf    Adjacent Cache Line Prefetch
+  0x 0x137 OneOf    CPU AES
+  0x  0x7F OneOf    Boot performance mode
+  0x  0x7E OneOf    Intel(R) Speed Shift Technology
+  0x  0x82 OneOf    Turbo Mode
+  0x  0x9C OneOf    Package Power Limit MSR Lock
+  0x  0x87 OneOf    Long Term Power Limit Override
+  0x  0x83 Numeric  Power Limit 1
+  0x  0x88 OneOf    Power Limit 1 Window
+  0x  0x89 OneOf    Power Limit 2 Override
+  0x  0x8A Numeric  Short Term Power Limit
+  0x 0x140 Numeric  1-Core Ratio Limit Override
+  0x 0x141 Numeric  2-Core Ratio Limit Override
+  0x 0x142 Numeric  3-Core Ratio Limit Override
+  0x 0x143 Numeric  4-Core Ratio Limit Override
+  0x  0xB0 OneOf    Configurable TDP Boot Mode
+  0x  0xB1 OneOf    Configurable TDP Lock
+  0x  0xB2 OneOf    CTDP BIOS control
+  0x  0x9D OneOf    Platform PL1 Enable
+  0x  0x9E Numeric  Platform PL1 Power
+  0x  0xA2 OneOf    Platform PL1 Time Window
+  0x  0xA3 OneOf    Platform PL2 Enable
+  0x  0xA4 Numeric  Platform PL2 Power
+  0x  0x81 OneOf    Enhanced C-states
+  0x  0xAA OneOf    C-State Auto Demotion
+  0x  0xAB OneOf    C-State Un-demotion
+  0x  0xAC OneOf    Package C state demotion
+  0x  0xAD OneOf    Package C state undemotion
+  0x  0xA9 OneOf    CState Pre-Wake
+  0x  0xB7 OneOf    Package C State limit
+  0x  0xB7 OneOf    Package C State limit
+  0x  0xB7 OneOf    Package C State limit
+  0x  0xB7 OneOf    Package C State limit
+  0x  0xAF OneOf    CFG lock
+  0x 0x145 OneOf    Debug Interface
+  0x 0x146 OneOf    Debug Interface Lock
+  0x 0x14A OneOf    SW Guard Extensions (SGX)
+  0x 0x14B OneOf    Owner Epoch
+  0x 0x1EB OneOf    Reset EPOCHs to Factory default
+  0x 0x150 Numeric  Software Guard Extensions Epoch 0
+  0x 0x158 Numeric  Software Guard Extensions Epoch 1
+  0x 0x14C OneOf    Enclave Memory Size
+  0x 0x14C OneOf    Enclave Memory Size
+
+== 0x274D Power Limit 3 Settings ==
+  0x  0x8E OneOf    Power Limit 3 Override
+  0x  0x8F Numeric  Power Limit 3
+  0x  0x93 Numeric  Power Limit 3 Time Window
+  0x  0x94 Numeric  Powet Limit 3 Duty Cycle
+  0x  0x95 OneOf    Power Limit 3 Lock
+
+== 0x274E Power Limit 4 Settings ==
+  0x  0x96 OneOf    Power Limit 4 Override
+  0x  0x97 Numeric  Power Limit 4
+  0x  0x9B OneOf    Power Limit 4 Lock
+
+== 0x274F Cpu Thermal Configuration ==
+  0x 0x1EA OneOf    CPU DTS
+  0x  0xF4 Numeric  TCC Activation Offset
+  0x  0xEE OneOf    ACPI 3.0 T-States
+
+== 0x2753 Platform Misc Configuration ==
+  0x 0x21C OneOf    Native PCIE Enable
+  0x 0x21D OneOf    Native ASPM
+  0x 0x21E OneOf    BDAT ACPI Table Support
+  0x 0x272 OneOf    Intel Ready Mode Technology
+  0x 0x273 OneOf    Intel RMT State
+  0x 0x274 OneOf    HW Notification
+  0x 0x275 OneOf    ACPI Debug
+  0x 0x21F OneOf    PTID Support
+  0x 0x220 OneOf    PECI Access Method
+  0x 0x276 OneOf    Firmware Configuration
+  0x 0xFAF OneOf    ZpODD Support
+  0x 0x221 OneOf    10Sec Power Button OVR
+  0x 0x222 OneOf    Low Power Idle SATA Constraint
+  0x 0x224 OneOf    EC Notification
+  0x 0x226 OneOf    EC Low Power Mode
+  0x 0x227 OneOf    Sensor Standby
+  0x 0x228 OneOf    CS PL1 Limit
+  0x 0x229 Numeric  CS PL1 Value
+  0x 0x278 OneOf    PCI Delay Optimization
+
+== 0x2754 RTD3 settings ==
+  0x 0x1F0 OneOf    RTD3 Support
+  0x 0x1F1 OneOf    Consolidated Power Resource
+  0x 0x1F2 Numeric  VR Staggering delay
+  0x 0x1F4 Numeric  VR Ramp up delay
+  0x 0x1F6 Numeric  PCIE Slot Device Power-on
+  0x 0x1F7 Numeric  PCIE Slot Device Power-off
+  0x 0x1FA Numeric  ADSP Delay
+  0x 0x1FC Numeric  I2C0 Controller
+  0x 0x1FE Numeric  SensorHub
+  0x 0x200 Numeric  I2C1 Controller
+  0x 0x202 Numeric  TouchPad
+  0x 0x204 Numeric  TouchPanel
+  0x 0x207 OneOf    PEP SATA Support
+  0x 0x212 OneOf    P-state Capping
+  0x 0x213 OneOf    USB Port 1
+  0x 0x214 OneOf    USB Port 2
+  0x 0x215 OneOf    I2C0 Sensor Hub
+  0x 0x216 OneOf    ZPODD
+  0x 0x217 OneOf    USB Camera
+  0x 0x218 OneOf    WWAN
+  0x 0xFAC OneOf    HD Audio
+  0x 0x219 OneOf    Sata Port 1
+  0x 0x21A OneOf    Sata Port 2
+  0x 0x21B OneOf    MiniCard SATA Port3
+  0x 0xFAD OneOf    PCIe NVMe(Port5)
+  0x 0xFAE OneOf    I2C Touch Panel
+
+== 0x2757 Platform Setting ==
+  0x 0xFBD OneOf    Pmic Vcc IO Level
+  0x 0xFBE OneOf    Pmic Vddq Level
+  0x 0x26F OneOf    Audio Connector
+  0x 0x22B OneOf    Power Sharing Manager
+  0x 0x22C Numeric  Domain Type SPLC 1
+  0x 0x22D Numeric  Default Power Limit 1 SPLC
+  0x 0x22F Numeric  Default Time Windows 1 SPLC
+  0x 0x231 Numeric  Domain Type SPLC 2
+  0x 0x232 Numeric  Default Power Limit 2 SPLC
+  0x 0x234 Numeric  Default Time Windows 1 SPLC
+  0x 0x236 Numeric  Domain Type DPLC 1
+  0x 0x237 Numeric  Domain Preference DPLC 1
+  0x 0x238 Numeric  Power Limit Index 1 DPLC
+  0x 0x23A Numeric  Default Power Limit 1 DPLC
+  0x 0x23C Numeric  Default Time Window 1 DPLC
+  0x 0x23E Numeric  Minimum Power Limit 1 DPLC
+  0x 0x240 Numeric  Maximum Power Limit 1 DPLC
+  0x 0x242 Numeric  Maximum Time Window 1 DPLC
+  0x 0x244 Numeric  Domain Type DPLC 2
+  0x 0x245 Numeric  Domain Preference DPLC 2
+  0x 0x246 Numeric  Power Limit Index 2 DPLC
+  0x 0x248 Numeric  Default Power Limit 2 DPLC
+  0x 0x24A Numeric  Default Time Window 2 DPLC
+  0x 0x24C Numeric  Minimum Power Limit 2 DPLC
+  0x 0x24E Numeric  Maximum Power Limit 2 DPLC
+  0x 0x250 Numeric  Maximum Time Window 2 DPLC
+  0x 0x26C OneOf    Select Camera
+  0x 0x26D Numeric  Delay needed for DS4 Camera Enumeration
+  0x 0xFBF OneOf    Enable 3D Camera DFU device
+  0x 0xFAA OneOf    Enable EInk DFU device
+  0x 0x252 OneOf    Wireless device
+  0x 0x253 Numeric  Domain Type SPLC 1
+  0x 0x254 Numeric  Default Power Limit
+  0x 0x256 Numeric  Default Time Window
+  0x 0x258 Numeric  Domain Type SPLC 2
+  0x 0x259 Numeric  Default Power Limit
+  0x 0x25B Numeric  Default Time Window
+  0x 0x25D Numeric  Domain Type SPLC 3
+  0x 0x25E Numeric  Default Power Limit
+  0x 0x260 Numeric  Default Time Window
+  0x 0x262 Numeric  TRxDelay_A
+  0x 0x263 Numeric  TRxCableLength_A
+  0x 0x264 Numeric  TRxDelay_B
+  0x 0x265 Numeric  TRxCableLength_B
+  0x 0x266 Numeric  Domain Type
+  0x 0x267 Numeric  Country Identifier
+  0x 0x269 Numeric  Domain Type
+  0x 0x26A Numeric  Country Identifier
+  0x 0xFB0 OneOf    WiFi SAR
+  0x 0xFB1 Numeric  SAR 2400 MHz Chain A
+  0x 0xFB2 Numeric  SAR 5150-5350 MHz Chain A
+  0x 0xFB3 Numeric  SAR 5350-5470 MHz Chain A
+  0x 0xFB4 Numeric  SAR 5470-5725 MHz Chain A
+  0x 0xFB5 Numeric  SAR 5725-5950 MHz Chain A
+  0x 0xFB6 Numeric  SAR 2400 MHz Chain B
+  0x 0xFB7 Numeric  SAR 5150-5350 MHz Chain B
+  0x 0xFB8 Numeric  SAR 5350-5470 MHz Chain B
+  0x 0xFB9 Numeric  SAR 5470-5725 MHz Chain B
+  0x 0xFBA Numeric  SAR 5725-5950 MHz Chain B
+  0x 0xF90 OneOf    HID Event Filter Driver
+  0x 0x270 OneOf    Enable Wireless Charge Support
+  0x 0x271 OneOf    Enable FFU Support
+
+== 0x2767 System Agent (SA) Configuration ==
+  0x 0x352 OneOf    CHAP Device (B0:D7:F0)
+  0x 0x353 OneOf    Thermal Device (B0:D4:F0)
+  0x 0x356 OneOf    GMM Device (B0:D8:F0)
+  0x 0x410 OneOf    CRID Support
+  0x 0x355 OneOf    Above 4GB MMIO BIOS assignment
+  0x 0x35A OneOf    X2APIC Opt Out
+  0x 0x357 OneOf    SKY CAM Device (B0:D5:F0)
+  0x 0x358 OneOf    eDRAM Mode
+  0x 0xFA8 OneOf    eDRAM Mode
+
+== 0x2768 Graphics Configuration ==
+  0x 0x37A Numeric  Graphics Turbo IMON Current
+  0x 0x40F OneOf    Skip Scaning of External Gfx Card
+  0x 0x373 OneOf    Primary Display
+  0x 0x373 OneOf    Primary Display
+  0x 0x373 OneOf    Primary Display
+  0x 0x444 OneOf    Primary PEG
+  0x 0x445 OneOf    Primary PCIE
+  0x 0x379 OneOf    Internal Graphics
+  0x 0x2B8 OneOf    GTT Size
+  0x 0x2B9 OneOf    Aperture Size
+  0x 0x350 OneOf    DVMT Pre-Allocated
+  0x 0x351 OneOf    DVMT Total Gfx Mem
+  0x 0x2B5 OneOf    Gfx Low Power Mode
+  0x 0x2B4 OneOf    ALS Support
+  0x 0x2BA OneOf    VDD Enable
+  0x 0x2BB OneOf    PM Support
+  0x 0x2BD OneOf    PAVP Enable
+  0x 0xFC0 OneOf    Cdynmax Clamping Enable
+  0x 0x443 OneOf    Cd Clock Frequency
+
+== 0x276E Intel(R) Ultrabook Event Support ==
+  0x 0x416 OneOf    IUER Slate Enable
+  0x 0x411 OneOf    Slate Mode boot value
+  0x 0x412 OneOf    Slate Mode on S3 and S4 resume
+  0x 0x417 OneOf    IUER Dock Enable
+  0x 0x413 OneOf    Dock Mode boot value
+  0x 0x414 OneOf    Dock Mode upon S3 and S4 resume
+  0x 0x415 OneOf    IUER Button Enable
+
+== 0x276F LCD Control ==
+  0x 0x2AC OneOf    IGFX - Boot Type
+  0x 0x2AD OneOf    Secondary IGFX Boot Display
+  0x 0x2AE OneOf    LCD Panel Type
+  0x 0x2AF OneOf    Panel Scaling
+  0x 0x2B1 OneOf    Backlight Control
+  0x 0x2B2 OneOf    BIA
+  0x 0x2B3 OneOf    Spread Spectrum clock Chip
+  0x 0x2B6 OneOf    Active LFP
+  0x 0x2B7 OneOf    Panel Color Depth
+
+== 0x2770 GT - Power Management Control ==
+  0x 0x2B0 OneOf    RC6(Render Standby)
+
+== 0x2771 PEG Port Configuration ==
+  0x 0x2C9 OneOf    Enable Root Port
+  0x 0x2CC OneOf    PEG0 - Gen X
+  0x 0x2CF OneOf    Max Link Width
+  0x 0x2D2 OneOf    Power Down Unused Lanes
+  0x 0x2DA OneOf    Gen3 Eq Phase 2
+  0x 0x2D7 OneOf    Gen3 Eq Phase 3 Method
+  0x 0x2C3 OneOf    ASPM
+  0x 0x2C6 OneOf    ASPM L0s
+  0x 0x2DD OneOf    De-emphasis Control
+  0x 0x2E6 OneOf    OBFF
+  0x 0x2E3 OneOf    LTR
+  0x 0x336 Numeric  PEG0 Slot Power Limit Value
+  0x 0x333 OneOf    PEG0 Slot Power Limit Scale
+  0x 0x339 Numeric  PEG0 Physical Slot Number
+  0x 0x330 OneOf    PEG0 Hotplug
+  0x 0x33F Numeric  Extra Bus Reserved
+  0x 0x342 Numeric  Reseved Memory
+  0x 0x348 Numeric  Reserved I/O
+  0x 0x2CA OneOf    Enable Root Port
+  0x 0x2CD OneOf    PEG1 - Gen X
+  0x 0x2D0 OneOf    Max Link Width
+  0x 0x2D3 OneOf    Power Down Unused Lanes
+  0x 0x2DB OneOf    Gen3 Eq Phase 2
+  0x 0x2D8 OneOf    Gen3 Eq Phase 3 Method
+  0x 0x2C4 OneOf    ASPM
+  0x 0x2C7 OneOf    ASPM L0s
+  0x 0x2DE OneOf    De-emphasis Control
+  0x 0x2E7 OneOf    OBFF
+  0x 0x2E4 OneOf    LTR
+  0x 0x337 Numeric  PEG1 Slot Power Limit Value
+  0x 0x334 OneOf    PEG1 Slot Power Limit Scale
+  0x 0x33B Numeric  PEG1 Physical Slot Number
+  0x 0x331 OneOf    PEG1 Hotplug
+  0x 0x340 Numeric  Extra Bus Reserved
+  0x 0x344 Numeric  Reseved Memory
+  0x 0x349 Numeric  Reserved I/O
+  0x 0x2CB OneOf    Enable Root Port
+  0x 0x2CE OneOf    PEG2 - Gen X
+  0x 0x2D1 OneOf    Max Link Width
+  0x 0x2D4 OneOf    Power Down Unused Lanes
+  0x 0x2DC OneOf    Gen3 Eq Phase 2
+  0x 0x2D9 OneOf    Gen3 Eq Phase 3 Method
+  0x 0x2C5 OneOf    ASPM
+  0x 0x2C8 OneOf    ASPM L0s
+  0x 0x2DF OneOf    De-emphasis Control
+  0x 0x2E8 OneOf    OBFF
+  0x 0x2E5 OneOf    LTR
+  0x 0x338 Numeric  PEG2 Slot Power Limit Value
+  0x 0x335 OneOf    PEG2 Slot Power Limit Scale
+  0x 0x33D Numeric  PEG2 Physical Slot Number
+  0x 0x332 OneOf    PEG2 Hotplug
+  0x 0x341 Numeric  Extra Bus Reserved
+  0x 0x346 Numeric  Reseved Memory
+  0x 0x34A Numeric  Reserved I/O
+  0x 0x2E0 OneOf    PEG0 Max Payload size
+  0x 0x2E1 OneOf    PEG1 Max Payload size
+  0x 0x2E2 OneOf    PEG2 Max Payload size
+  0x 0x446 OneOf    Detect Non-Compliance Device
+  0x 0x325 OneOf    Program PCIe ASPM after OpROM
+  0x 0x2E9 OneOf    Program Static Phase1 Eq
+  0x 0x324 OneOf    Always Attempt SW EQ
+  0x 0x32F OneOf    Number of Presets to test
+  0x 0x326 OneOf    Allow PERST# GPIO Usage
+  0x 0x32A OneOf    SW EQ Enable VOC
+  0x 0x322 Numeric  Jitter Dwell Time
+  0x 0x327 Numeric  Jitter Error Target
+  0x 0x32B Numeric  VOC Dwell Time
+  0x 0x32D Numeric  VOC Error Target
+  0x 0x329 OneOf    Generate BDAT PEG Margin Data
+  0x 0x2D5 OneOf    PCIe Rx CEM Test Mode
+  0x 0x2D6 Numeric  PEG Lane number for Test
+  0x 0xF99 OneOf    Non-Protocol Awareness
+  0x 0xF9A OneOf    PCIe Spread Spectrum Clocking
+
+== 0x2772 Memory Configuration ==
+  0x 0x409 OneOf    MRC ULT Safe Config
+  0x 0x37E OneOf    Memory Frequency
+  0x 0x37E OneOf    Memory Frequency
+  0x 0x37E OneOf    Memory Frequency
+  0x 0x37B OneOf    HOB Buffer Size
+  0x 0x37C OneOf    ECC Support
+  0x 0x37D OneOf    Max TOLUD
+  0x 0x39B OneOf    SA GV
+  0x 0x39C OneOf    SA GV Low Freq
+  0x 0x34B OneOf    Energy Performance Gain
+  0x 0x34C Numeric  EPG DIMM Idd3N
+  0x 0x34E Numeric  EPG DIMM Idd3P
+  0x 0x394 OneOf    Retrain on Fast Fail
+  0x 0x40A OneOf    Enable RH Prevention
+  0x 0x40B OneOf    Row Hammer Solution
+  0x 0x40C OneOf    RH Activation Probability
+  0x 0x40E OneOf    Exit On Failure (MRC)
+  0x 0x395 OneOf    MC Lock
+  0x 0x397 OneOf    Probeless Trace
+  0x 0x398 Numeric  GDXC IOT size
+  0x 0x399 Numeric  GDXC MOT size
+  0x 0x39A OneOf    Memory Trace
+  0x 0x359 OneOf    Enable/Disable IED (Intel Enhanced Debug)
+  0x 0x384 OneOf    Ch Hash Support
+  0x 0x385 Numeric  Ch Hash Mask
+  0x 0x387 OneOf    Ch Hash Interleaved Bit
+  0x 0x388 OneOf    VC1 Read Metering
+  0x 0x389 Numeric  VC1 RdMeter Time Window
+  0x 0x38D Numeric  VC1 RdMeter Threshold
+  0x 0x38F Numeric  Strong Weak Leaker
+  0x 0x405 OneOf    Memory Scrambler
+  0x 0x406 OneOf    Channel A DIMM Control
+  0x 0x407 OneOf    Channel B DIMM Control
+  0x 0x390 OneOf    Force Single Rank
+  0x 0x408 OneOf    Memory Remap
+  0x 0x381 OneOf    Time Measure
+  0x 0x391 OneOf    Lpddr Mem WL Set
+  0x 0x392 OneOf    EV Loader
+  0x 0x393 OneOf    EV Loader Delay
+  0x 0x382 OneOf    Fast Boot
+  0x 0x44A OneOf    DLL Weak Lock Support
+
+== 0x2773  Gen3 Root Port Preset value for each Lane ==
+  0x 0x2EA Numeric  Lane 0
+  0x 0x2EB Numeric  Lane 1
+  0x 0x2EC Numeric  Lane 2
+  0x 0x2ED Numeric  Lane 3
+  0x 0x2EE Numeric  Lane 4
+  0x 0x2EF Numeric  Lane 5
+  0x 0x2F0 Numeric  Lane 6
+  0x 0x2F1 Numeric  Lane 7
+  0x 0x2F2 Numeric  Lane 8
+  0x 0x2F3 Numeric  Lane 9
+  0x 0x2F4 Numeric  Lane 10
+  0x 0x2F5 Numeric  Lane 11
+  0x 0x2F6 Numeric  Lane 12
+  0x 0x2F7 Numeric  Lane 13
+  0x 0x2F8 Numeric  Lane 14
+  0x 0x2F9 Numeric  Lane 15
+
+== 0x2774  Gen3 Endpoint Preset value for each Lane ==
+  0x 0x2FA Numeric  Lane 0
+  0x 0x2FB Numeric  Lane 1
+  0x 0x2FC Numeric  Lane 2
+  0x 0x2FD Numeric  Lane 3
+  0x 0x2FE Numeric  Lane 4
+  0x 0x2FF Numeric  Lane 5
+  0x 0x300 Numeric  Lane 6
+  0x 0x301 Numeric  Lane 7
+  0x 0x302 Numeric  Lane 8
+  0x 0x303 Numeric  Lane 9
+  0x 0x304 Numeric  Lane 10
+  0x 0x305 Numeric  Lane 11
+  0x 0x306 Numeric  Lane 12
+  0x 0x307 Numeric  Lane 13
+  0x 0x308 Numeric  Lane 14
+  0x 0x309 Numeric  Lane 15
+
+== 0x2775  Gen3 Endpoint Hint value for each Lane ==
+  0x 0x30A Numeric  Lane 0
+  0x 0x30B Numeric  Lane 1
+  0x 0x30C Numeric  Lane 2
+  0x 0x30D Numeric  Lane 3
+  0x 0x30E Numeric  Lane 4
+  0x 0x30F Numeric  Lane 5
+  0x 0x310 Numeric  Lane 6
+  0x 0x311 Numeric  Lane 7
+  0x 0x312 Numeric  Lane 8
+  0x 0x313 Numeric  Lane 9
+  0x 0x314 Numeric  Lane 10
+  0x 0x315 Numeric  Lane 11
+  0x 0x316 Numeric  Lane 12
+  0x 0x317 Numeric  Lane 13
+  0x 0x318 Numeric  Lane 14
+  0x 0x319 Numeric  Lane 15
+
+== 0x2776 Gen3 RxCTLE Control ==
+  0x 0x31A Numeric  Bundle0
+  0x 0x31B Numeric  Bundle1
+  0x 0x31C Numeric  Bundle2
+  0x 0x31D Numeric  Bundle3
+  0x 0x31E Numeric  Bundle4
+  0x 0x31F Numeric  Bundle5
+  0x 0x320 Numeric  Bundle6
+  0x 0x321 Numeric  Bundle7
+  0x 0xFA6 OneOf    RxCTLE Override
+
+== 0x2778 Memory Thermal Configuration ==
+  0x 0x400 OneOf    Memory Thermal Management
+  0x 0x401 OneOf    PECI Injected Temperature
+  0x 0x402 OneOf    EXTTS# via TS-on-Board
+  0x 0x403 OneOf    EXTTS# via TS-on-DIMM
+  0x 0x404 OneOf    Virtual Temperature Sensor (VTS)
+
+== 0x2779 Memory Training Algorithms ==
+  0x 0x39E OneOf    Early Command Training
+  0x 0x39F OneOf    SenseAmp Offset Training
+  0x 0x3A0 OneOf    Early ReadMPR Timing Centering 2D
+  0x 0x3A1 OneOf    Read MPR Training
+  0x 0x3A2 OneOf    Receive Enable Training
+  0x 0x3A3 OneOf    Jedec Write Leveling
+  0x 0x3A4 OneOf    Early Write Time Centering 2D
+  0x 0x3A5 OneOf    Early Read Time Centering 2D
+  0x 0x3A6 OneOf    Write Timing Centering 1D
+  0x 0x3A7 OneOf    Write Voltage Centering 1D
+  0x 0x3A8 OneOf    Read Timing Centering 1D
+  0x 0x3A9 OneOf    Dimm ODT Training*
+  0x 0x40D OneOf    Max RTT_WR
+  0x 0x3AA OneOf    DIMM RON Training*
+  0x 0x3AB OneOf    Write Drive Strength/Equalization 2D*
+  0x 0x3AC OneOf    Write Slew Rate Training*
+  0x 0x3AD OneOf    Read ODT Training*
+  0x 0x3AE OneOf    Read Equalization Training*
+  0x 0x3AF OneOf    Read Amplifier Training*
+  0x 0x3B0 OneOf    Write Timing Centering 2D
+  0x 0x3B1 OneOf    Read Timing Centering 2D
+  0x 0x3B2 OneOf    Command Voltage Centering
+  0x 0x3B3 OneOf    Write Voltage Centering 2D
+  0x 0x3B4 OneOf    Read Voltage Centering 2D
+  0x 0x3B5 OneOf    Late Command Training
+  0x 0x3B6 OneOf    Round Trip Latency
+  0x 0x3B7 OneOf    Turn Around Timing Training
+  0x 0x3B8 OneOf    Rank Margin Tool
+  0x 0x3B9 OneOf    Memory Test
+  0x 0x3BA OneOf    DIMM SPD Alias Test
+  0x 0x3BB OneOf    Receive Enable Centering 1D
+  0x 0x3BC OneOf    Retrain Margin Check
+  0x 0x3BD OneOf    Command Power Training
+
+== 0x277A Memory Power and Thermal Throttling ==
+  0x 0x3C1 OneOf    DDR PowerDown and idle counter
+  0x 0x3C2 OneOf    For LPDDR Only: DDR PowerDown and idle counter
+  0x 0x3C3 OneOf    REFRESH_2X_MODE
+  0x 0x3C4 OneOf    LPDDR Thermal Sensor
+  0x 0x3F9 OneOf    SelfRefresh Enable
+  0x 0x3FA Numeric  SelfRefresh IdleTimer
+  0x 0x3FC OneOf    Throttler CKEMin Defeature
+  0x 0x3FD Numeric  Throttler CKEMin Timer
+  0x 0x3FE OneOf    For LPDDR Only: Throttler CKEMin Defeature
+  0x 0x3FF Numeric  For LPDDR Only: Throttler CKEMin Timer
+  0x 0x449 Numeric  Pwr Down Idle Timer
+
+== 0x277B Dram Power Meter ==
+  0x 0x3C6 OneOf    Use user provided power weights, scale factor, and channel power floor values
+  0x 0x3C7 Numeric  Energy Scale Factor
+  0x 0x3E6 Numeric  Idle Energy Ch0Dimm0
+  0x 0x3E8 Numeric  PowerDown Energy Ch0Dimm0
+  0x 0x3EA Numeric  Activate Energy Ch0Dimm0
+  0x 0x3EC Numeric  Read Energy Ch0Dimm0
+  0x 0x3EE Numeric  Write Energy Ch0Dimm0
+  0x 0x3E5 Numeric  Idle Energy Ch0Dimm1
+  0x 0x3E7 Numeric  PowerDown Energy Ch0Dimm1
+  0x 0x3E9 Numeric  Activate Energy Ch0Dimm1
+  0x 0x3EB Numeric  Read Energy Ch0Dimm1
+  0x 0x3ED Numeric  Write Energy Ch0Dimm1
+  0x 0x3F0 Numeric  Idle Energy Ch1Dimm0
+  0x 0x3F2 Numeric  PowerDown Energy Ch1Dimm0
+  0x 0x3F4 Numeric  Activate Energy Ch1Dimm0
+  0x 0x3F6 Numeric  Read Energy Ch1Dimm0
+  0x 0x3F8 Numeric  Write Energy Ch1Dimm0
+  0x 0x3EF Numeric  Idle Energy Ch1Dimm1
+  0x 0x3F1 Numeric  PowerDown Energy Ch1Dimm1
+  0x 0x3F3 Numeric  Activate Energy Ch1Dimm1
+  0x 0x3F5 Numeric  Read Energy Ch1Dimm1
+  0x 0x3F7 Numeric  Write Energy Ch1Dimm1
+
+== 0x277C Memory Thermal Reporting ==
+  0x 0x3C5 OneOf    Lock Thermal Management Registers
+  0x 0x3BE OneOf    Extern Therm Status
+  0x 0x3BF OneOf    Closed Loop Therm Manage
+  0x 0x3C0 OneOf    Open Loop Therm Manage
+  0x 0x3D5 Numeric  Warm Threshold Ch0 Dimm0
+  0x 0x3D6 Numeric  Warm Threshold Ch0 Dimm1
+  0x 0x3D9 Numeric  Hot Threshold Ch0 Dimm0
+  0x 0x3DA Numeric  Hot Threshold Ch0 Dimm1
+  0x 0x3D7 Numeric  Warm Threshold Ch1 Dimm0
+  0x 0x3D8 Numeric  Warm Threshold Ch1 Dimm1
+  0x 0x3DB Numeric  Hot Threshold Ch1 Dimm0
+  0x 0x3DC Numeric  Hot Threshold Ch1 Dimm1
+  0x 0x3DD Numeric  Warm Budget Ch0 Dimm0
+  0x 0x3DE Numeric  Warm Budget Ch0 Dimm1
+  0x 0x3E1 Numeric  Hot Budget Ch0 Dimm0
+  0x 0x3E2 Numeric  Hot Budget Ch0 Dimm1
+  0x 0x3DF Numeric  Warm Budget Ch1 Dimm0
+  0x 0x3E0 Numeric  Warm Budget Ch1 Dimm1
+  0x 0x3E3 Numeric  Hot Budget Ch1 Dimm0
+  0x 0x3E4 Numeric  Hot Budget Ch1 Dimm1
+
+== 0x277E Memory RAPL ==
+  0x 0x3C9 Numeric  Rapl Power Floor Ch0
+  0x 0x3C8 Numeric  Rapl Power Floor Ch1
+  0x 0x3CA OneOf    RAPL PL Lock
+  0x 0x3D2 OneOf    RAPL PL 1 enable
+  0x 0x3D3 Numeric  RAPL PL 1 Power
+  0x 0x3D0 Numeric  RAPL PL 1 WindowX
+  0x 0x3D1 Numeric  RAPL PL 1 WindowY
+  0x 0x3CD OneOf    RAPL PL 2 enable
+  0x 0x3CE Numeric  RAPL PL 2 Power
+  0x 0x3CB Numeric  RAPL PL 2 WindowX
+  0x 0x3CC Numeric  RAPL PL 2 WindowY
+
+== 0x277F DMI Configuration ==
+  0x 0x35D OneOf    DMI Max Link Speed
+  0x 0x360 OneOf    DMI Gen3 Eq Phase 2
+  0x 0x361 OneOf    DMI Gen3 Eq Phase 3 Method
+  0x 0x35B OneOf    DMI Vc1 Control
+  0x 0x35C OneOf    DMI Vcm Control
+  0x 0x362 OneOf    Program Static Phase1 Eq
+  0x 0x371 OneOf    DMI Link ASPM Control
+  0x 0x372 OneOf    DMI Extended Synch Control
+  0x 0x35F OneOf    DMI De-emphasis Control
+  0x 0x35E OneOf    DMI IOT
+
+== 0x2780  Gen3 Root Port Preset value for each Lane ==
+  0x 0x363 Numeric  Lane 0
+  0x 0x364 Numeric  Lane 1
+  0x 0x365 Numeric  Lane 2
+  0x 0x366 Numeric  Lane 3
+
+== 0x2781  Gen3 Endpoint Preset value for each Lane ==
+  0x 0x367 Numeric  Lane 0
+  0x 0x368 Numeric  Lane 1
+  0x 0x369 Numeric  Lane 2
+  0x 0x36A Numeric  Lane 3
+
+== 0x2782  Gen3 Endpoint Hint value for each Lane ==
+  0x 0x36B Numeric  Lane 0
+  0x 0x36C Numeric  Lane 1
+  0x 0x36D Numeric  Lane 2
+  0x 0x36E Numeric  Lane 3
+
+== 0x2783 Gen3 RxCTLE Control ==
+  0x 0x36F Numeric  Bundle0
+  0x 0x370 Numeric  Bundle1
+
+== 0x2785 PCH-IO Configuration ==
+  0x 0x455 OneOf    DCI enable (HDCIEN)
+  0x 0x456 OneOf    DCI Auto Detect Enable
+  0x 0x452 OneOf    USB/UART
+  0x 0x453 OneOf    Debug Port Selection
+  0x 0xC35 OneOf    GNSS
+  0x 0xC36 OneOf    GNSS Device Model
+  0x 0x457 OneOf    LAN PHY Drives LAN_WAKE#
+  0x 0x44C OneOf    Sensor Hub Type
+  0x 0x450 OneOf    Deep Sleep
+  0x 0x451 OneOf    LAN Wake From DeepSx
+  0x 0x458 OneOf    Wake on LAN
+  0x 0x459 OneOf    SLP_LAN# Low on DC Power
+  0x 0x45A OneOf    K1 off
+  0x 0x45B OneOf    Wake on WLAN Enable
+  0x 0x45C OneOf    Wake on WLAN Enable From DeepSx
+  0x 0xFC1 OneOf    Disable DSX ACPRESENT PullDown
+  0x 0x45D OneOf    CLKRUN# Logic
+  0x 0x466 OneOf    Serial IRQ Mode
+  0x 0x467 OneOf    Port 61h Bit-4 Emulation
+  0x 0x462 OneOf    High Precision Timer
+  0x 0x463 OneOf    State After G3
+  0x 0x464 OneOf    Port 80h Redirection
+  0x 0x465 OneOf    Enhance Port 80h LPC Decoding
+  0x 0x45F OneOf    Compatible Revision ID
+  0x 0x9AF OneOf    PCH Cross Throttling
+  0x 0x45E OneOf    Disable Energy Reporting
+  0x 0xF9C OneOf    Capsule Reset Type
+  0x 0x468 OneOf    Pcie Pll SSC
+  0x 0x9AE OneOf    IOAPIC 24-119 Entries
+  0x 0xC78 OneOf    Unlock PCH P2SB
+  0x 0xF9B OneOf    PMC READ DISABLE
+
+== 0x2786 PCI Express Configuration ==
+  0x 0x4FC OneOf    PCI Express Clock Gating
+  0x 0x897 OneOf    DMI Link ASPM Control
+  0x 0x4FD OneOf    Port8xh Decode
+  0x 0x4FE Numeric  Port8xh Decode Port#
+  0x 0x4FF OneOf    Peer Memory Write Enable
+  0x 0x500 OneOf    Compliance Test Mode
+  0x 0x501 OneOf    PCIe-USB Glitch W/A
+  0x 0xF9D OneOf    PCIe function swap
+
+== 0x2787 PCI Express Gen3 Eq Lanes ==
+  0x 0x6FC OneOf    Override SW EQ settings
+  0x 0x6FD Numeric  Coeff0 Cm
+  0x 0x702 Numeric  Coeff0 Cp
+  0x 0x6FE Numeric  Coeff1 Cm
+  0x 0x703 Numeric  Coeff1 Cp
+  0x 0x6FF Numeric  Coeff2 Cm
+  0x 0x704 Numeric  Coeff2 Cp
+  0x 0x700 Numeric  Coeff3 Cm
+  0x 0x705 Numeric  Coeff3 Cp
+  0x 0x701 Numeric  Coeff4 Cm
+  0x 0x706 Numeric  Coeff4 Cp
+
+== 0x2788 PCI Express Root Port 1 ==
+  0x 0x508 OneOf    PCI Express Root Port 1
+  0x 0x6E8 OneOf    Topology
+  0x 0x51C OneOf    Automatic ASPM
+  0x 0x648 OneOf    L1 Substates
+  0x 0x684 OneOf    Gen3 Eq Phase3 Method
+  0x 0x698 Numeric  UPTP
+  0x 0x6AC Numeric  DPTP
+  0x 0x65C OneOf    ACS
+  0x 0x530 OneOf    URR
+  0x 0x544 OneOf    FER
+  0x 0x558 OneOf    NFER
+  0x 0x56C OneOf    CER
+  0x 0x580 OneOf    CTO
+  0x 0x5A8 OneOf    SEFE
+  0x 0x5BC OneOf    SENFE
+  0x 0x5D0 OneOf    SECE
+  0x 0x5E4 OneOf    PME SCI
+  0x 0x5F8 OneOf    Hot Plug
+  0x 0x60C OneOf    Advanced Error Reporting
+  0x 0x620 OneOf    PCIe Speed
+  0x 0x634 OneOf    Transmitter Half Swing
+  0x 0x670 OneOf    Detect Non-Compliance Device
+  0x 0x707 Numeric  Extra Bus Reserved
+  0x 0x71B Numeric  Reseved Memory
+  0x 0x757 Numeric  Prefetchable Memory
+  0x 0x793 Numeric  Reserved I/O
+  0x 0x6D4 Numeric  PCIE Cp
+  0x 0x6C0 Numeric  PCIE Cm
+  0x 0x7A7 OneOf    PCIE LTR
+  0x 0x7BB OneOf    PCIE LTR Lock
+  0x 0x86F OneOf    PCIE1 CLKREQ Mapping Override
+  0x 0x883 Numeric  CLKREQ Number
+  0x 0x7CF OneOf    Snoop Latency Ocerride
+  0x 0x7E3 OneOf    Snoop Latency Multiplier
+  0x 0x81F Numeric  Snoop Latency Value
+  0x 0x7F7 OneOf    Non Snoop Latency Ocerride
+  0x 0x80B OneOf    Non Snoop Latency Multiplier
+  0x 0xFC2 OneOf    Force LTR Override
+  0x 0x847 Numeric  Non Snoop Latency Value
+
+== 0x2789 PCI Express Root Port 2 ==
+  0x 0x509 OneOf    PCI Express Root Port 2
+  0x 0x6E9 OneOf    Topology
+  0x 0x51D OneOf    Automatic ASPM
+  0x 0x649 OneOf    L1 Substates
+  0x 0x685 OneOf    Gen3 Eq Phase3 Method
+  0x 0x699 Numeric  UPTP
+  0x 0x6AD Numeric  DPTP
+  0x 0x65D OneOf    ACS
+  0x 0x531 OneOf    URR
+  0x 0x545 OneOf    FER
+  0x 0x559 OneOf    NFER
+  0x 0x56D OneOf    CER
+  0x 0x581 OneOf    CTO
+  0x 0x5A9 OneOf    SEFE
+  0x 0x5BD OneOf    SENFE
+  0x 0x5D1 OneOf    SECE
+  0x 0x5E5 OneOf    PME SCI
+  0x 0x5F9 OneOf    Hot Plug
+  0x 0x60D OneOf    Advanced Error Reporting
+  0x 0x621 OneOf    PCIe Speed
+  0x 0x635 OneOf    Transmitter Half Swing
+  0x 0x671 OneOf    Detect Non-Compliance Device
+  0x 0x708 Numeric  Extra Bus Reserved
+  0x 0x71D Numeric  Reseved Memory
+  0x 0x759 Numeric  Prefetchable Memory
+  0x 0x794 Numeric  Reserved I/O
+  0x 0x6D5 Numeric  PCIE Cp
+  0x 0x6C1 Numeric  PCIE Cm
+  0x 0x7A8 OneOf    PCIE LTR
+  0x 0x7BC OneOf    PCIE LTR Lock
+  0x 0x870 OneOf    PCIE2 CLKREQ Mapping Override
+  0x 0x884 Numeric  CLKREQ Number
+  0x 0x7D0 OneOf    Snoop Latency Ocerride
+  0x 0x7E4 OneOf    Snoop Latency Multiplier
+  0x 0x821 Numeric  Snoop Latency Value
+  0x 0x7F8 OneOf    Non Snoop Latency Ocerride
+  0x 0x80C OneOf    Non Snoop Latency Multiplier
+  0x 0xFC3 OneOf    Force LTR Override
+  0x 0x849 Numeric  Non Snoop Latency Value
+
+== 0x278A PCI Express Root Port 3 ==
+  0x 0x50A OneOf    PCI Express Root Port 3
+  0x 0x6EA OneOf    Topology
+  0x 0x51E OneOf    Automatic ASPM
+  0x 0x64A OneOf    L1 Substates
+  0x 0x686 OneOf    Gen3 Eq Phase3 Method
+  0x 0x69A Numeric  UPTP
+  0x 0x6AE Numeric  DPTP
+  0x 0x65E OneOf    ACS
+  0x 0x532 OneOf    URR
+  0x 0x546 OneOf    FER
+  0x 0x55A OneOf    NFER
+  0x 0x56E OneOf    CER
+  0x 0x582 OneOf    CTO
+  0x 0x5AA OneOf    SEFE
+  0x 0x5BE OneOf    SENFE
+  0x 0x5D2 OneOf    SECE
+  0x 0x5E6 OneOf    PME SCI
+  0x 0x5FA OneOf    Hot Plug
+  0x 0x60E OneOf    Advanced Error Reporting
+  0x 0x622 OneOf    PCIe Speed
+  0x 0x636 OneOf    Transmitter Half Swing
+  0x 0x672 OneOf    Detect Non-Compliance Device
+  0x 0x709 Numeric  Extra Bus Reserved
+  0x 0x71F Numeric  Reseved Memory
+  0x 0x75B Numeric  Prefetchable Memory
+  0x 0x795 Numeric  Reserved I/O
+  0x 0x6D6 Numeric  PCIE Cp
+  0x 0x6C2 Numeric  PCIE Cm
+  0x 0x7A9 OneOf    PCIE LTR
+  0x 0x7BD OneOf    PCIE LTR Lock
+  0x 0x871 OneOf    PCIE3 CLKREQ Mapping Override
+  0x 0x885 Numeric  CLKREQ Number
+  0x 0x7D1 OneOf    Snoop Latency Ocerride
+  0x 0x7E5 OneOf    Snoop Latency Multiplier
+  0x 0x823 Numeric  Snoop Latency Value
+  0x 0x7F9 OneOf    Non Snoop Latency Ocerride
+  0x 0x80D OneOf    Non Snoop Latency Multiplier
+  0x 0xFC4 OneOf    Force LTR Override
+  0x 0x84B Numeric  Non Snoop Latency Value
+
+== 0x278B PCI Express Root Port 4 ==
+  0x 0x50B OneOf    PCI Express Root Port 4
+  0x 0x6EB OneOf    Topology
+  0x 0x51F OneOf    Automatic ASPM
+  0x 0x64B OneOf    L1 Substates
+  0x 0x687 OneOf    Gen3 Eq Phase3 Method
+  0x 0x69B Numeric  UPTP
+  0x 0x6AF Numeric  DPTP
+  0x 0x65F OneOf    ACS
+  0x 0x533 OneOf    URR
+  0x 0x547 OneOf    FER
+  0x 0x55B OneOf    NFER
+  0x 0x56F OneOf    CER
+  0x 0x583 OneOf    CTO
+  0x 0x5AB OneOf    SEFE
+  0x 0x5BF OneOf    SENFE
+  0x 0x5D3 OneOf    SECE
+  0x 0x5E7 OneOf    PME SCI
+  0x 0x5FB OneOf    Hot Plug
+  0x 0x60F OneOf    Advanced Error Reporting
+  0x 0x623 OneOf    PCIe Speed
+  0x 0x637 OneOf    Transmitter Half Swing
+  0x 0x673 OneOf    Detect Non-Compliance Device
+  0x 0x70A Numeric  Extra Bus Reserved
+  0x 0x721 Numeric  Reseved Memory
+  0x 0x75D Numeric  Prefetchable Memory
+  0x 0x796 Numeric  Reserved I/O
+  0x 0x6D7 Numeric  PCIE Cp
+  0x 0x6C3 Numeric  PCIE Cm
+  0x 0x7AA OneOf    PCIE LTR
+  0x 0x7BE OneOf    PCIE LTR Lock
+  0x 0x872 OneOf    PCIE4 CLKREQ Mapping Override
+  0x 0x886 Numeric  CLKREQ Number
+  0x 0x7D2 OneOf    Snoop Latency Ocerride
+  0x 0x7E6 OneOf    Snoop Latency Multiplier
+  0x 0x825 Numeric  Snoop Latency Value
+  0x 0x7FA OneOf    Non Snoop Latency Ocerride
+  0x 0x80E OneOf    Non Snoop Latency Multiplier
+  0x 0xFC5 OneOf    Force LTR Override
+  0x 0x84D Numeric  Non Snoop Latency Value
+
+== 0x278C PCI Express Root Port 5 ==
+  0x 0x50C OneOf    PCI Express Root Port 5
+  0x 0x6EC OneOf    Topology
+  0x 0x520 OneOf    Automatic ASPM
+  0x 0x64C OneOf    L1 Substates
+  0x 0x688 OneOf    Gen3 Eq Phase3 Method
+  0x 0x69C Numeric  UPTP
+  0x 0x6B0 Numeric  DPTP
+  0x 0x660 OneOf    ACS
+  0x 0x534 OneOf    URR
+  0x 0x548 OneOf    FER
+  0x 0x55C OneOf    NFER
+  0x 0x570 OneOf    CER
+  0x 0x584 OneOf    CTO
+  0x 0x5AC OneOf    SEFE
+  0x 0x5C0 OneOf    SENFE
+  0x 0x5D4 OneOf    SECE
+  0x 0x5E8 OneOf    PME SCI
+  0x 0x5FC OneOf    Hot Plug
+  0x 0x610 OneOf    Advanced Error Reporting
+  0x 0x624 OneOf    PCIe Speed
+  0x 0x638 OneOf    Transmitter Half Swing
+  0x 0x674 OneOf    Detect Non-Compliance Device
+  0x 0x70B Numeric  Extra Bus Reserved
+  0x 0x723 Numeric  Reseved Memory
+  0x 0x75F Numeric  Prefetchable Memory
+  0x 0x797 Numeric  Reserved I/O
+  0x 0x6D8 Numeric  PCIE Cp
+  0x 0x6C4 Numeric  PCIE Cm
+  0x 0x7AB OneOf    PCIE LTR
+  0x 0x7BF OneOf    PCIE LTR Lock
+  0x 0x873 OneOf    PCIE5 CLKREQ Mapping Override
+  0x 0x887 Numeric  CLKREQ Number
+  0x 0x7D3 OneOf    Snoop Latency Ocerride
+  0x 0x7E7 OneOf    Snoop Latency Multiplier
+  0x 0x827 Numeric  Snoop Latency Value
+  0x 0x7FB OneOf    Non Snoop Latency Ocerride
+  0x 0x80F OneOf    Non Snoop Latency Multiplier
+  0x 0xFC6 OneOf    Force LTR Override
+  0x 0x84F Numeric  Non Snoop Latency Value
+
+== 0x278D PCI Express Root Port 6 ==
+  0x 0x50D OneOf    PCI Express Root Port 6
+  0x 0x6ED OneOf    Topology
+  0x 0x521 OneOf    Automatic ASPM
+  0x 0x64D OneOf    L1 Substates
+  0x 0x689 OneOf    Gen3 Eq Phase3 Method
+  0x 0x69D Numeric  UPTP
+  0x 0x6B1 Numeric  DPTP
+  0x 0x661 OneOf    ACS
+  0x 0x535 OneOf    URR
+  0x 0x549 OneOf    FER
+  0x 0x55D OneOf    NFER
+  0x 0x571 OneOf    CER
+  0x 0x585 OneOf    CTO
+  0x 0x5AD OneOf    SEFE
+  0x 0x5C1 OneOf    SENFE
+  0x 0x5D5 OneOf    SECE
+  0x 0x5E9 OneOf    PME SCI
+  0x 0x5FD OneOf    Hot Plug
+  0x 0x611 OneOf    Advanced Error Reporting
+  0x 0x625 OneOf    PCIe Speed
+  0x 0x639 OneOf    Transmitter Half Swing
+  0x 0x675 OneOf    Detect Non-Compliance Device
+  0x 0x70C Numeric  Extra Bus Reserved
+  0x 0x725 Numeric  Reseved Memory
+  0x 0x761 Numeric  Prefetchable Memory
+  0x 0x798 Numeric  Reserved I/O
+  0x 0x6D9 Numeric  PCIE Cp
+  0x 0x6C5 Numeric  PCIE Cm
+  0x 0x7AC OneOf    PCIE LTR
+  0x 0x7C0 OneOf    PCIE LTR Lock
+  0x 0x874 OneOf    PCIE6 CLKREQ Mapping Override
+  0x 0x888 Numeric  CLKREQ Number
+  0x 0x7D4 OneOf    Snoop Latency Ocerride
+  0x 0x7E8 OneOf    Snoop Latency Multiplier
+  0x 0x829 Numeric  Snoop Latency Value
+  0x 0x7FC OneOf    Non Snoop Latency Ocerride
+  0x 0x810 OneOf    Non Snoop Latency Multiplier
+  0x 0xFC7 OneOf    Force LTR Override
+  0x 0x851 Numeric  Non Snoop Latency Value
+
+== 0x278E PCI Express Root Port 7 ==
+  0x 0x50E OneOf    PCI Express Root Port 7
+  0x 0x6EE OneOf    Topology
+  0x 0x522 OneOf    Automatic ASPM
+  0x 0x64E OneOf    L1 Substates
+  0x 0x68A OneOf    Gen3 Eq Phase3 Method
+  0x 0x69E Numeric  UPTP
+  0x 0x6B2 Numeric  DPTP
+  0x 0x662 OneOf    ACS
+  0x 0x536 OneOf    URR
+  0x 0x54A OneOf    FER
+  0x 0x55E OneOf    NFER
+  0x 0x572 OneOf    CER
+  0x 0x586 OneOf    CTO
+  0x 0x5AE OneOf    SEFE
+  0x 0x5C2 OneOf    SENFE
+  0x 0x5D6 OneOf    SECE
+  0x 0x5EA OneOf    PME SCI
+  0x 0x5FE OneOf    Hot Plug
+  0x 0x612 OneOf    Advanced Error Reporting
+  0x 0x626 OneOf    PCIe Speed
+  0x 0x63A OneOf    Transmitter Half Swing
+  0x 0x676 OneOf    Detect Non-Compliance Device
+  0x 0x70D Numeric  Extra Bus Reserved
+  0x 0x727 Numeric  Reseved Memory
+  0x 0x763 Numeric  Prefetchable Memory
+  0x 0x799 Numeric  Reserved I/O
+  0x 0x6DA Numeric  PCIE Cp
+  0x 0x6C6 Numeric  PCIE Cm
+  0x 0x7AD OneOf    PCIE LTR
+  0x 0x7C1 OneOf    PCIE LTR Lock
+  0x 0x875 OneOf    PCIE7 CLKREQ Mapping Override
+  0x 0x889 Numeric  CLKREQ Number
+  0x 0x7D5 OneOf    Snoop Latency Ocerride
+  0x 0x7E9 OneOf    Snoop Latency Multiplier
+  0x 0x82B Numeric  Snoop Latency Value
+  0x 0x7FD OneOf    Non Snoop Latency Ocerride
+  0x 0x811 OneOf    Non Snoop Latency Multiplier
+  0x 0xFC8 OneOf    Force LTR Override
+  0x 0x853 Numeric  Non Snoop Latency Value
+
+== 0x278F PCI Express Root Port 8 ==
+  0x 0x50F OneOf    PCI Express Root Port 8
+  0x 0x6EF OneOf    Topology
+  0x 0x523 OneOf    Automatic ASPM
+  0x 0x64F OneOf    L1 Substates
+  0x 0x68B OneOf    Gen3 Eq Phase3 Method
+  0x 0x69F Numeric  UPTP
+  0x 0x6B3 Numeric  DPTP
+  0x 0x663 OneOf    ACS
+  0x 0x537 OneOf    URR
+  0x 0x54B OneOf    FER
+  0x 0x55F OneOf    NFER
+  0x 0x573 OneOf    CER
+  0x 0x587 OneOf    CTO
+  0x 0x5AF OneOf    SEFE
+  0x 0x5C3 OneOf    SENFE
+  0x 0x5D7 OneOf    SECE
+  0x 0x5EB OneOf    PME SCI
+  0x 0x5FF OneOf    Hot Plug
+  0x 0x613 OneOf    Advanced Error Reporting
+  0x 0x627 OneOf    PCIe Speed
+  0x 0x63B OneOf    Transmitter Half Swing
+  0x 0x677 OneOf    Detect Non-Compliance Device
+  0x 0x70E Numeric  Extra Bus Reserved
+  0x 0x729 Numeric  Reseved Memory
+  0x 0x765 Numeric  Prefetchable Memory
+  0x 0x79A Numeric  Reserved I/O
+  0x 0x6DB Numeric  PCIE Cp
+  0x 0x6C7 Numeric  PCIE Cm
+  0x 0x7AE OneOf    PCIE LTR
+  0x 0x7C2 OneOf    PCIE LTR Lock
+  0x 0x876 OneOf    PCIE8 CLKREQ Mapping Override
+  0x 0x88A Numeric  CLKREQ Number
+  0x 0x7D6 OneOf    Snoop Latency Ocerride
+  0x 0x7EA OneOf    Snoop Latency Multiplier
+  0x 0x82D Numeric  Snoop Latency Value
+  0x 0x7FE OneOf    Non Snoop Latency Ocerride
+  0x 0x812 OneOf    Non Snoop Latency Multiplier
+  0x 0xFC9 OneOf    Force LTR Override
+  0x 0x855 Numeric  Non Snoop Latency Value
+
+== 0x2790 PCI Express Root Port 9 ==
+  0x 0x510 OneOf    PCI Express Root Port 9
+  0x 0x6F0 OneOf    Topology
+  0x 0x524 OneOf    Automatic ASPM
+  0x 0x650 OneOf    L1 Substates
+  0x 0x68C OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A0 Numeric  UPTP
+  0x 0x6B4 Numeric  DPTP
+  0x 0x664 OneOf    ACS
+  0x 0x538 OneOf    URR
+  0x 0x54C OneOf    FER
+  0x 0x560 OneOf    NFER
+  0x 0x574 OneOf    CER
+  0x 0x588 OneOf    CTO
+  0x 0x5B0 OneOf    SEFE
+  0x 0x5C4 OneOf    SENFE
+  0x 0x5D8 OneOf    SECE
+  0x 0x5EC OneOf    PME SCI
+  0x 0x600 OneOf    Hot Plug
+  0x 0x614 OneOf    Advanced Error Reporting
+  0x 0x628 OneOf    PCIe Speed
+  0x 0x63C OneOf    Transmitter Half Swing
+  0x 0x678 OneOf    Detect Non-Compliance Device
+  0x 0x70F Numeric  Extra Bus Reserved
+  0x 0x72B Numeric  Reseved Memory
+  0x 0x767 Numeric  Prefetchable Memory
+  0x 0x79B Numeric  Reserved I/O
+  0x 0x6DC Numeric  PCIE Cp
+  0x 0x6C8 Numeric  PCIE Cm
+  0x 0x7AF OneOf    PCIE LTR
+  0x 0x7C3 OneOf    PCIE LTR Lock
+  0x 0x877 OneOf    PCIE9 CLKREQ Mapping Override
+  0x 0x88B Numeric  CLKREQ Number
+  0x 0x7D7 OneOf    Snoop Latency Ocerride
+  0x 0x7EB OneOf    Snoop Latency Multiplier
+  0x 0x82F Numeric  Snoop Latency Value
+  0x 0x7FF OneOf    Non Snoop Latency Ocerride
+  0x 0x813 OneOf    Non Snoop Latency Multiplier
+  0x 0xFCA OneOf    Force LTR Override
+  0x 0x857 Numeric  Non Snoop Latency Value
+
+== 0x2791 PCI Express Root Port 10 ==
+  0x 0x511 OneOf    PCI Express Root Port 10
+  0x 0x6F1 OneOf    Topology
+  0x 0x525 OneOf    Automatic ASPM
+  0x 0x651 OneOf    L1 Substates
+  0x 0x68D OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A1 Numeric  UPTP
+  0x 0x6B5 Numeric  DPTP
+  0x 0x665 OneOf    ACS
+  0x 0x539 OneOf    URR
+  0x 0x54D OneOf    FER
+  0x 0x561 OneOf    NFER
+  0x 0x575 OneOf    CER
+  0x 0x589 OneOf    CTO
+  0x 0x5B1 OneOf    SEFE
+  0x 0x5C5 OneOf    SENFE
+  0x 0x5D9 OneOf    SECE
+  0x 0x5ED OneOf    PME SCI
+  0x 0x601 OneOf    Hot Plug
+  0x 0x615 OneOf    Advanced Error Reporting
+  0x 0x629 OneOf    PCIe Speed
+  0x 0x63D OneOf    Transmitter Half Swing
+  0x 0x679 OneOf    Detect Non-Compliance Device
+  0x 0x710 Numeric  Extra Bus Reserved
+  0x 0x72D Numeric  Reseved Memory
+  0x 0x769 Numeric  Prefetchable Memory
+  0x 0x79C Numeric  Reserved I/O
+  0x 0x6DD Numeric  PCIE Cp
+  0x 0x6C9 Numeric  PCIE Cm
+  0x 0x7B0 OneOf    PCIE LTR
+  0x 0x7C4 OneOf    PCIE LTR Lock
+  0x 0x878 OneOf    PCIE10 CLKREQ Mapping Override
+  0x 0x88C Numeric  CLKREQ Number
+  0x 0x7D8 OneOf    Snoop Latency Ocerride
+  0x 0x7EC OneOf    Snoop Latency Multiplier
+  0x 0x831 Numeric  Snoop Latency Value
+  0x 0x800 OneOf    Non Snoop Latency Ocerride
+  0x 0x814 OneOf    Non Snoop Latency Multiplier
+  0x 0xFCB OneOf    Force LTR Override
+  0x 0x859 Numeric  Non Snoop Latency Value
+
+== 0x2792 PCI Express Root Port 11 ==
+  0x 0x512 OneOf    PCI Express Root Port 11
+  0x 0x6F2 OneOf    Topology
+  0x 0x526 OneOf    Automatic ASPM
+  0x 0x652 OneOf    L1 Substates
+  0x 0x68E OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A2 Numeric  UPTP
+  0x 0x6B6 Numeric  DPTP
+  0x 0x666 OneOf    ACS
+  0x 0x53A OneOf    URR
+  0x 0x54E OneOf    FER
+  0x 0x562 OneOf    NFER
+  0x 0x576 OneOf    CER
+  0x 0x58A OneOf    CTO
+  0x 0x5B2 OneOf    SEFE
+  0x 0x5C6 OneOf    SENFE
+  0x 0x5DA OneOf    SECE
+  0x 0x5EE OneOf    PME SCI
+  0x 0x602 OneOf    Hot Plug
+  0x 0x616 OneOf    Advanced Error Reporting
+  0x 0x62A OneOf    PCIe Speed
+  0x 0x63E OneOf    Transmitter Half Swing
+  0x 0x67A OneOf    Detect Non-Compliance Device
+  0x 0x711 Numeric  Extra Bus Reserved
+  0x 0x72F Numeric  Reseved Memory
+  0x 0x76B Numeric  Prefetchable Memory
+  0x 0x79D Numeric  Reserved I/O
+  0x 0x6DE Numeric  PCIE Cp
+  0x 0x6CA Numeric  PCIE Cm
+  0x 0x7B1 OneOf    PCIE LTR
+  0x 0x7C5 OneOf    PCIE LTR Lock
+  0x 0x879 OneOf    PCIE11 CLKREQ Mapping Override
+  0x 0x88D Numeric  CLKREQ Number
+  0x 0x7D9 OneOf    Snoop Latency Ocerride
+  0x 0x7ED OneOf    Snoop Latency Multiplier
+  0x 0x833 Numeric  Snoop Latency Value
+  0x 0x801 OneOf    Non Snoop Latency Ocerride
+  0x 0x815 OneOf    Non Snoop Latency Multiplier
+  0x 0xFCC OneOf    Force LTR Override
+  0x 0x85B Numeric  Non Snoop Latency Value
+
+== 0x2793 PCI Express Root Port 12 ==
+  0x 0x513 OneOf    PCI Express Root Port 12
+  0x 0x6F3 OneOf    Topology
+  0x 0x527 OneOf    Automatic ASPM
+  0x 0x653 OneOf    L1 Substates
+  0x 0x68F OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A3 Numeric  UPTP
+  0x 0x6B7 Numeric  DPTP
+  0x 0x667 OneOf    ACS
+  0x 0x53B OneOf    URR
+  0x 0x54F OneOf    FER
+  0x 0x563 OneOf    NFER
+  0x 0x577 OneOf    CER
+  0x 0x58B OneOf    CTO
+  0x 0x5B3 OneOf    SEFE
+  0x 0x5C7 OneOf    SENFE
+  0x 0x5DB OneOf    SECE
+  0x 0x5EF OneOf    PME SCI
+  0x 0x603 OneOf    Hot Plug
+  0x 0x617 OneOf    Advanced Error Reporting
+  0x 0x62B OneOf    PCIe Speed
+  0x 0x63F OneOf    Transmitter Half Swing
+  0x 0x67B OneOf    Detect Non-Compliance Device
+  0x 0x712 Numeric  Extra Bus Reserved
+  0x 0x731 Numeric  Reseved Memory
+  0x 0x76D Numeric  Prefetchable Memory
+  0x 0x79E Numeric  Reserved I/O
+  0x 0x6DF Numeric  PCIE Cp
+  0x 0x6CB Numeric  PCIE Cm
+  0x 0x7B2 OneOf    PCIE LTR
+  0x 0x7C6 OneOf    PCIE LTR Lock
+  0x 0x87A OneOf    PCIE12 CLKREQ Mapping Override
+  0x 0x88E Numeric  CLKREQ Number
+  0x 0x7DA OneOf    Snoop Latency Ocerride
+  0x 0x7EE OneOf    Snoop Latency Multiplier
+  0x 0x835 Numeric  Snoop Latency Value
+  0x 0x802 OneOf    Non Snoop Latency Ocerride
+  0x 0x816 OneOf    Non Snoop Latency Multiplier
+  0x 0xFCD OneOf    Force LTR Override
+  0x 0x85D Numeric  Non Snoop Latency Value
+
+== 0x2794 PCI Express Root Port 13 ==
+  0x 0x514 OneOf    PCI Express Root Port 13
+  0x 0x6F4 OneOf    Topology
+  0x 0x528 OneOf    Automatic ASPM
+  0x 0x654 OneOf    L1 Substates
+  0x 0x690 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A4 Numeric  UPTP
+  0x 0x6B8 Numeric  DPTP
+  0x 0x668 OneOf    ACS
+  0x 0x53C OneOf    URR
+  0x 0x550 OneOf    FER
+  0x 0x564 OneOf    NFER
+  0x 0x578 OneOf    CER
+  0x 0x58C OneOf    CTO
+  0x 0x5B4 OneOf    SEFE
+  0x 0x5C8 OneOf    SENFE
+  0x 0x5DC OneOf    SECE
+  0x 0x5F0 OneOf    PME SCI
+  0x 0x604 OneOf    Hot Plug
+  0x 0x618 OneOf    Advanced Error Reporting
+  0x 0x62C OneOf    PCIe Speed
+  0x 0x640 OneOf    Transmitter Half Swing
+  0x 0x67C OneOf    Detect Non-Compliance Device
+  0x 0x713 Numeric  Extra Bus Reserved
+  0x 0x733 Numeric  Reseved Memory
+  0x 0x76F Numeric  Prefetchable Memory
+  0x 0x79F Numeric  Reserved I/O
+  0x 0x6E0 Numeric  PCIE Cp
+  0x 0x6CC Numeric  PCIE Cm
+  0x 0x7B3 OneOf    PCIE LTR
+  0x 0x7C7 OneOf    PCIE LTR Lock
+  0x 0x87B OneOf    PCIE13 CLKREQ Mapping Override
+  0x 0x88F Numeric  CLKREQ Number
+  0x 0x7DB OneOf    Snoop Latency Ocerride
+  0x 0x7EF OneOf    Snoop Latency Multiplier
+  0x 0x837 Numeric  Snoop Latency Value
+  0x 0x803 OneOf    Non Snoop Latency Ocerride
+  0x 0x817 OneOf    Non Snoop Latency Multiplier
+  0x 0xFCE OneOf    Force LTR Override
+  0x 0x85F Numeric  Non Snoop Latency Value
+
+== 0x2795 PCI Express Root Port 14 ==
+  0x 0x515 OneOf    PCI Express Root Port 14
+  0x 0x6F5 OneOf    Topology
+  0x 0x529 OneOf    Automatic ASPM
+  0x 0x655 OneOf    L1 Substates
+  0x 0x691 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A5 Numeric  UPTP
+  0x 0x6B9 Numeric  DPTP
+  0x 0x669 OneOf    ACS
+  0x 0x53D OneOf    URR
+  0x 0x551 OneOf    FER
+  0x 0x565 OneOf    NFER
+  0x 0x579 OneOf    CER
+  0x 0x58D OneOf    CTO
+  0x 0x5B5 OneOf    SEFE
+  0x 0x5C9 OneOf    SENFE
+  0x 0x5DD OneOf    SECE
+  0x 0x5F1 OneOf    PME SCI
+  0x 0x605 OneOf    Hot Plug
+  0x 0x619 OneOf    Advanced Error Reporting
+  0x 0x62D OneOf    PCIe Speed
+  0x 0x641 OneOf    Transmitter Half Swing
+  0x 0x67D OneOf    Detect Non-Compliance Device
+  0x 0x714 Numeric  Extra Bus Reserved
+  0x 0x735 Numeric  Reseved Memory
+  0x 0x771 Numeric  Prefetchable Memory
+  0x 0x7A0 Numeric  Reserved I/O
+  0x 0x6E1 Numeric  PCIE Cp
+  0x 0x6CD Numeric  PCIE Cm
+  0x 0x7B4 OneOf    PCIE LTR
+  0x 0x7C8 OneOf    PCIE LTR Lock
+  0x 0x87C OneOf    PCIE14 CLKREQ Mapping Override
+  0x 0x890 Numeric  CLKREQ Number
+  0x 0x7DC OneOf    Snoop Latency Ocerride
+  0x 0x7F0 OneOf    Snoop Latency Multiplier
+  0x 0x839 Numeric  Snoop Latency Value
+  0x 0x804 OneOf    Non Snoop Latency Ocerride
+  0x 0x818 OneOf    Non Snoop Latency Multiplier
+  0x 0xFCF OneOf    Force LTR Override
+  0x 0x861 Numeric  Non Snoop Latency Value
+
+== 0x2796 PCI Express Root Port 15 ==
+  0x 0x516 OneOf    PCI Express Root Port 15
+  0x 0x6F6 OneOf    Topology
+  0x 0x52A OneOf    Automatic ASPM
+  0x 0x656 OneOf    L1 Substates
+  0x 0x692 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A6 Numeric  UPTP
+  0x 0x6BA Numeric  DPTP
+  0x 0x66A OneOf    ACS
+  0x 0x53E OneOf    URR
+  0x 0x552 OneOf    FER
+  0x 0x566 OneOf    NFER
+  0x 0x57A OneOf    CER
+  0x 0x58E OneOf    CTO
+  0x 0x5B6 OneOf    SEFE
+  0x 0x5CA OneOf    SENFE
+  0x 0x5DE OneOf    SECE
+  0x 0x5F2 OneOf    PME SCI
+  0x 0x606 OneOf    Hot Plug
+  0x 0x61A OneOf    Advanced Error Reporting
+  0x 0x62E OneOf    PCIe Speed
+  0x 0x642 OneOf    Transmitter Half Swing
+  0x 0x67E OneOf    Detect Non-Compliance Device
+  0x 0x715 Numeric  Extra Bus Reserved
+  0x 0x737 Numeric  Reseved Memory
+  0x 0x773 Numeric  Prefetchable Memory
+  0x 0x7A1 Numeric  Reserved I/O
+  0x 0x6E2 Numeric  PCIE Cp
+  0x 0x6CE Numeric  PCIE Cm
+  0x 0x7B5 OneOf    PCIE LTR
+  0x 0x7C9 OneOf    PCIE LTR Lock
+  0x 0x87D OneOf    PCIE15 CLKREQ Mapping Override
+  0x 0x891 Numeric  CLKREQ Number
+  0x 0x7DD OneOf    Snoop Latency Ocerride
+  0x 0x7F1 OneOf    Snoop Latency Multiplier
+  0x 0x83B Numeric  Snoop Latency Value
+  0x 0x805 OneOf    Non Snoop Latency Ocerride
+  0x 0x819 OneOf    Non Snoop Latency Multiplier
+  0x 0xFD0 OneOf    Force LTR Override
+  0x 0x863 Numeric  Non Snoop Latency Value
+
+== 0x2797 PCI Express Root Port 16 ==
+  0x 0x517 OneOf    PCI Express Root Port 16
+  0x 0x6F7 OneOf    Topology
+  0x 0x52B OneOf    Automatic ASPM
+  0x 0x657 OneOf    L1 Substates
+  0x 0x693 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A7 Numeric  UPTP
+  0x 0x6BB Numeric  DPTP
+  0x 0x66B OneOf    ACS
+  0x 0x53F OneOf    URR
+  0x 0x553 OneOf    FER
+  0x 0x567 OneOf    NFER
+  0x 0x57B OneOf    CER
+  0x 0x58F OneOf    CTO
+  0x 0x5B7 OneOf    SEFE
+  0x 0x5CB OneOf    SENFE
+  0x 0x5DF OneOf    SECE
+  0x 0x5F3 OneOf    PME SCI
+  0x 0x607 OneOf    Hot Plug
+  0x 0x61B OneOf    Advanced Error Reporting
+  0x 0x62F OneOf    PCIe Speed
+  0x 0x643 OneOf    Transmitter Half Swing
+  0x 0x67F OneOf    Detect Non-Compliance Device
+  0x 0x716 Numeric  Extra Bus Reserved
+  0x 0x739 Numeric  Reseved Memory
+  0x 0x775 Numeric  Prefetchable Memory
+  0x 0x7A2 Numeric  Reserved I/O
+  0x 0x6E3 Numeric  PCIE Cp
+  0x 0x6CF Numeric  PCIE Cm
+  0x 0x7B6 OneOf    PCIE LTR
+  0x 0x7CA OneOf    PCIE LTR Lock
+  0x 0x87E OneOf    PCIE16 CLKREQ Mapping Override
+  0x 0x892 Numeric  CLKREQ Number
+  0x 0x7DE OneOf    Snoop Latency Ocerride
+  0x 0x7F2 OneOf    Snoop Latency Multiplier
+  0x 0x83D Numeric  Snoop Latency Value
+  0x 0x806 OneOf    Non Snoop Latency Ocerride
+  0x 0x81A OneOf    Non Snoop Latency Multiplier
+  0x 0xFD1 OneOf    Force LTR Override
+  0x 0x865 Numeric  Non Snoop Latency Value
+
+== 0x2798 PCI Express Root Port 17 ==
+  0x 0x518 OneOf    PCI Express Root Port 17
+  0x 0x6F8 OneOf    Topology
+  0x 0x52C OneOf    Automatic ASPM
+  0x 0x658 OneOf    L1 Substates
+  0x 0x694 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A8 Numeric  UPTP
+  0x 0x6BC Numeric  DPTP
+  0x 0x66C OneOf    ACS
+  0x 0x540 OneOf    URR
+  0x 0x554 OneOf    FER
+  0x 0x568 OneOf    NFER
+  0x 0x57C OneOf    CER
+  0x 0x590 OneOf    CTO
+  0x 0x5B8 OneOf    SEFE
+  0x 0x5CC OneOf    SENFE
+  0x 0x5E0 OneOf    SECE
+  0x 0x5F4 OneOf    PME SCI
+  0x 0x608 OneOf    Hot Plug
+  0x 0x61C OneOf    Advanced Error Reporting
+  0x 0x630 OneOf    PCIe Speed
+  0x 0x644 OneOf    Transmitter Half Swing
+  0x 0x680 OneOf    Detect Non-Compliance Device
+  0x 0x717 Numeric  Extra Bus Reserved
+  0x 0x73B Numeric  Reseved Memory
+  0x 0x777 Numeric  Prefetchable Memory
+  0x 0x7A3 Numeric  Reserved I/O
+  0x 0x6E4 Numeric  PCIE Cp
+  0x 0x6D0 Numeric  PCIE Cm
+  0x 0x7B7 OneOf    PCIE LTR
+  0x 0x7CB OneOf    PCIE LTR Lock
+  0x 0x87F OneOf    PCIE17 CLKREQ Mapping Override
+  0x 0x893 Numeric  CLKREQ Number
+  0x 0x7DF OneOf    Snoop Latency Ocerride
+  0x 0x7F3 OneOf    Snoop Latency Multiplier
+  0x 0x83F Numeric  Snoop Latency Value
+  0x 0x807 OneOf    Non Snoop Latency Ocerride
+  0x 0x81B OneOf    Non Snoop Latency Multiplier
+  0x 0xFD2 OneOf    Force LTR Override
+  0x 0x867 Numeric  Non Snoop Latency Value
+
+== 0x2799 PCI Express Root Port 18 ==
+  0x 0x519 OneOf    PCI Express Root Port 18
+  0x 0x6F9 OneOf    Topology
+  0x 0x52D OneOf    Automatic ASPM
+  0x 0x659 OneOf    L1 Substates
+  0x 0x695 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6A9 Numeric  UPTP
+  0x 0x6BD Numeric  DPTP
+  0x 0x66D OneOf    ACS
+  0x 0x541 OneOf    URR
+  0x 0x555 OneOf    FER
+  0x 0x569 OneOf    NFER
+  0x 0x57D OneOf    CER
+  0x 0x591 OneOf    CTO
+  0x 0x5B9 OneOf    SEFE
+  0x 0x5CD OneOf    SENFE
+  0x 0x5E1 OneOf    SECE
+  0x 0x5F5 OneOf    PME SCI
+  0x 0x609 OneOf    Hot Plug
+  0x 0x61D OneOf    Advanced Error Reporting
+  0x 0x631 OneOf    PCIe Speed
+  0x 0x645 OneOf    Transmitter Half Swing
+  0x 0x681 OneOf    Detect Non-Compliance Device
+  0x 0x718 Numeric  Extra Bus Reserved
+  0x 0x73D Numeric  Reseved Memory
+  0x 0x779 Numeric  Prefetchable Memory
+  0x 0x7A4 Numeric  Reserved I/O
+  0x 0x6E5 Numeric  PCIE Cp
+  0x 0x6D1 Numeric  PCIE Cm
+  0x 0x7B8 OneOf    PCIE LTR
+  0x 0x7CC OneOf    PCIE LTR Lock
+  0x 0x880 OneOf    PCIE18 CLKREQ Mapping Override
+  0x 0x894 Numeric  CLKREQ Number
+  0x 0x7E0 OneOf    Snoop Latency Ocerride
+  0x 0x7F4 OneOf    Snoop Latency Multiplier
+  0x 0x841 Numeric  Snoop Latency Value
+  0x 0x808 OneOf    Non Snoop Latency Ocerride
+  0x 0x81C OneOf    Non Snoop Latency Multiplier
+  0x 0xFD3 OneOf    Force LTR Override
+  0x 0x869 Numeric  Non Snoop Latency Value
+
+== 0x279A PCI Express Root Port 19 ==
+  0x 0x51A OneOf    PCI Express Root Port 19
+  0x 0x6FA OneOf    Topology
+  0x 0x52E OneOf    Automatic ASPM
+  0x 0x65A OneOf    L1 Substates
+  0x 0x696 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6AA Numeric  UPTP
+  0x 0x6BE Numeric  DPTP
+  0x 0x66E OneOf    ACS
+  0x 0x542 OneOf    URR
+  0x 0x556 OneOf    FER
+  0x 0x56A OneOf    NFER
+  0x 0x57E OneOf    CER
+  0x 0x592 OneOf    CTO
+  0x 0x5BA OneOf    SEFE
+  0x 0x5CE OneOf    SENFE
+  0x 0x5E2 OneOf    SECE
+  0x 0x5F6 OneOf    PME SCI
+  0x 0x60A OneOf    Hot Plug
+  0x 0x61E OneOf    Advanced Error Reporting
+  0x 0x632 OneOf    PCIe Speed
+  0x 0x646 OneOf    Transmitter Half Swing
+  0x 0x682 OneOf    Detect Non-Compliance Device
+  0x 0x719 Numeric  Extra Bus Reserved
+  0x 0x73F Numeric  Reseved Memory
+  0x 0x77B Numeric  Prefetchable Memory
+  0x 0x7A5 Numeric  Reserved I/O
+  0x 0x6E6 Numeric  PCIE Cp
+  0x 0x6D2 Numeric  PCIE Cm
+  0x 0x7B9 OneOf    PCIE LTR
+  0x 0x7CD OneOf    PCIE LTR Lock
+  0x 0x881 OneOf    PCIE19 CLKREQ Mapping Override
+  0x 0x895 Numeric  CLKREQ Number
+  0x 0x7E1 OneOf    Snoop Latency Ocerride
+  0x 0x7F5 OneOf    Snoop Latency Multiplier
+  0x 0x843 Numeric  Snoop Latency Value
+  0x 0x809 OneOf    Non Snoop Latency Ocerride
+  0x 0x81D OneOf    Non Snoop Latency Multiplier
+  0x 0xFD4 OneOf    Force LTR Override
+  0x 0x86B Numeric  Non Snoop Latency Value
+
+== 0x279B PCI Express Root Port 20 ==
+  0x 0x51B OneOf    PCI Express Root Port 20
+  0x 0x6FB OneOf    Topology
+  0x 0x52F OneOf    Automatic ASPM
+  0x 0x65B OneOf    L1 Substates
+  0x 0x697 OneOf    Gen3 Eq Phase3 Method
+  0x 0x6AB Numeric  UPTP
+  0x 0x6BF Numeric  DPTP
+  0x 0x66F OneOf    ACS
+  0x 0x543 OneOf    URR
+  0x 0x557 OneOf    FER
+  0x 0x56B OneOf    NFER
+  0x 0x57F OneOf    CER
+  0x 0x593 OneOf    CTO
+  0x 0x5BB OneOf    SEFE
+  0x 0x5CF OneOf    SENFE
+  0x 0x5E3 OneOf    SECE
+  0x 0x5F7 OneOf    PME SCI
+  0x 0x60B OneOf    Hot Plug
+  0x 0x61F OneOf    Advanced Error Reporting
+  0x 0x633 OneOf    PCIe Speed
+  0x 0x647 OneOf    Transmitter Half Swing
+  0x 0x683 OneOf    Detect Non-Compliance Device
+  0x 0x71A Numeric  Extra Bus Reserved
+  0x 0x741 Numeric  Reseved Memory
+  0x 0x77D Numeric  Prefetchable Memory
+  0x 0x7A6 Numeric  Reserved I/O
+  0x 0x6E7 Numeric  PCIE Cp
+  0x 0x6D3 Numeric  PCIE Cm
+  0x 0x7BA OneOf    PCIE LTR
+  0x 0x7CE OneOf    PCIE LTR Lock
+  0x 0x882 OneOf    PCIE20 CLKREQ Mapping Override
+  0x 0x896 Numeric  CLKREQ Number
+  0x 0x7E2 OneOf    Snoop Latency Ocerride
+  0x 0x7F6 OneOf    Snoop Latency Multiplier
+  0x 0x845 Numeric  Snoop Latency Value
+  0x 0x80A OneOf    Non Snoop Latency Ocerride
+  0x 0x81E OneOf    Non Snoop Latency Multiplier
+  0x 0xFD5 OneOf    Force LTR Override
+  0x 0x86D Numeric  Non Snoop Latency Value
+
+== 0x279C USB Configuration ==
+  0x 0x486 OneOf    USB Precondition
+  0x 0x488 OneOf    SSIC Port 1
+  0x 0x489 OneOf    SSIC Port 2
+  0x 0xF92 OneOf    XHCI Disable Compliance Mode
+  0x 0x48A OneOf    xDCI Support
+  0x 0x46B OneOf    USB Port Disable Override
+  0x 0x47C OneOf    USB SS Physical Connector #0
+  0x 0x47D OneOf    USB SS Physical Connector #1
+  0x 0x47E OneOf    USB SS Physical Connector #2
+  0x 0x47F OneOf    USB SS Physical Connector #3
+  0x 0x480 OneOf    USB SS Physical Connector #4
+  0x 0x481 OneOf    USB SS Physical Connector #5
+  0x 0x482 OneOf    USB SS Physical Connector #6
+  0x 0x483 OneOf    USB SS Physical Connector #7
+  0x 0x484 OneOf    USB SS Physical Connector #8
+  0x 0x485 OneOf    USB SS Physical Connector #9
+  0x 0x46C OneOf    USB HS Physical Connector #0
+  0x 0x46D OneOf    USB HS Physical Connector #1
+  0x 0x46E OneOf    USB HS Physical Connector #2
+  0x 0x46F OneOf    USB HS Physical Connector #3
+  0x 0x470 OneOf    USB HS Physical Connector #4
+  0x 0x471 OneOf    USB HS Physical Connector #5
+  0x 0x472 OneOf    USB HS Physical Connector #6
+  0x 0x473 OneOf    USB HS Physical Connector #7
+  0x 0x474 OneOf    USB HS Physical Connector #8
+  0x 0x475 OneOf    USB HS Physical Connector #9
+  0x 0x476 OneOf    USB HS Physical Connector #10
+  0x 0x477 OneOf    USB HS Physical Connector #11
+  0x 0x478 OneOf    USB HS Physical Connector #12
+  0x 0x479 OneOf    USB HS Physical Connector #13
+  0x 0x487 OneOf    USB Sensor Hub
+
+== 0x279D BIOS Security Configuration ==
+  0x 0x460 OneOf    RTC Lock
+  0x 0x461 OneOf    BIOS Lock
+
+== 0x279E HD Audio Configuration ==
+  0x 0x89A OneOf    Audio DSP
+  0x 0x89B OneOf    Audio DSP Compliance Mode
+  0x 0xFA7 OneOf    iDisplay Audio Disconnect
+  0x 0x89C OneOf    PME Enable
+
+== 0x279F HD Audio Advanced Configuration ==
+  0x 0x89D OneOf    I/O Buffer Ownership
+  0x 0x8A3 OneOf    I2S Codec Select
+  0x 0x89E OneOf    I/O Buffer Voltage Select
+  0x 0x89F OneOf    HD Audio Link Frequency
+  0x 0x8A0 OneOf    iDisplay Link Frequency
+  0x 0x8A1 OneOf    iDisplay Link T-Mode
+
+== 0x27A0 HD Audio DSP Features Configuration ==
+  0x 0x8A4 OneOf    DMIC
+  0x 0x8A5 OneOf    Bluetooth
+  0x 0x8A6 OneOf    I2S
+  0x 0x8A7 CheckBox WoV (Wake on Voice)
+  0x 0x8A8 CheckBox Bluetooth Sideband
+  0x 0x8AC CheckBox BT Intel HFP
+  0x 0x8AD CheckBox BT Intel A2DP
+  0x 0x8A9 CheckBox Codec based VAD
+  0x 0x8AE CheckBox DSP based Speech. Pre-Processing Disabled
+  0x 0x8AF OneOf    Voice Activity Detection
+  0x 0x8B0 CheckBox Waves
+  0x 0x8B1 CheckBox DTS
+  0x 0x8B2 CheckBox IntelSst Speech
+  0x 0x8B3 CheckBox Dolby
+  0x 0x8B4 CheckBox Samsung SoundAlive
+  0x 0x8B5 CheckBox Samsung SoundBooster
+  0x 0x8B6 CheckBox Samsung EQ/DRC
+  0x 0x8B7 CheckBox ForteMedia SAMSoft
+  0x 0x8B8 CheckBox Intel WoV
+  0x 0x8B9 CheckBox Sensory WoV
+  0x 0x8BA CheckBox Conexant Pre-Process
+  0x 0x8BB CheckBox Conexant Smart Amp
+  0x 0x8CD CheckBox Custom Module 'Alpha'
+  0x 0x8CE CheckBox Custom Module 'Beta'
+  0x 0x8CF CheckBox Custom Module 'Gamma'
+
+== 0x27A1 Serial IO Configuration ==
+  0x 0xC56 OneOf    Touch Panel
+  0x 0xC57 OneOf    BT/UART Mux Select
+  0x 0xC00 OneOf    I2C0 Controller
+  0x 0xC01 OneOf    I2C1 Controller
+  0x 0xC02 OneOf    I2C2 Controller
+  0x 0xC03 OneOf    I2C3 Controller
+  0x 0xC04 OneOf    I2C4 Controller
+  0x 0xC05 OneOf    I2C5 Controller
+  0x 0xC06 OneOf    SPI0 Controller
+  0x 0xC07 OneOf    SPI1 Controller
+  0x 0xC08 OneOf    UART0 Controller
+  0x 0xC09 OneOf    UART1 Controller
+  0x 0xC0A OneOf    UART2 Controller
+  0x 0xC0B OneOf    GPIO Controller
+  0x 0xC32 OneOf    WITT/MITT Test Device
+  0x 0xC33 OneOf    WITT/MITT Device selection
+  0x 0xC34 OneOf    UART Test Device
+  0x 0xC0D CheckBox Additional Serial IO devices
+
+== 0x27A2 Serial IO I2C0 Settings ==
+  0x 0xC11 OneOf    I2C IO Voltage Select
+  0x 0xC1C OneOf    Connected device
+  0x 0xC21 OneOf    Interrupt mode
+  0x 0xC1D Numeric  Device's bus address
+  0x 0xC1E Numeric  Device's HID address
+  0x 0xC20 OneOf    Device's bus speed
+
+== 0x27A3 Serial IO I2C1 Settings ==
+  0x 0xC12 OneOf    I2C IO Voltage Select
+  0x 0xC22 OneOf    Connected device
+  0x 0xC23 OneOf    Interrupt mode
+  0x 0xC24 Numeric  Device's bus address
+  0x 0xC25 Numeric  Device's HID address
+  0x 0xC27 OneOf    Device's bus speed
+
+== 0x27A4 Serial IO I2C2 Settings ==
+  0x 0xC13 OneOf    I2C IO Voltage Select
+
+== 0x27A5 Serial IO I2C3 Settings ==
+  0x 0xC14 OneOf    I2C IO Voltage Select
+
+== 0x27A6 Serial IO I2C4 Settings ==
+  0x 0xC15 OneOf    I2C IO Voltage Select
+
+== 0x27A7 Serial IO I2C5 Settings ==
+  0x 0xC16 OneOf    I2C IO Voltage Select
+
+== 0x27A8 Serial IO SPI0 Settings ==
+  0x 0xC17 OneOf    ChipSelect polarity
+
+== 0x27A9 Serial IO SPI1 Settings ==
+  0x 0xFA9 OneOf    Finger Print Sensor
+  0x 0xC2B OneOf    Finger Print Sensor
+  0x 0xC2C OneOf    Interrupt mode
+
+== 0x27AA Serial IO UART0 Settings ==
+  0x 0xC2D OneOf    Bluetooth Device
+  0x 0xC2E OneOf    Interrupt mode
+  0x 0xC19 OneOf    Hardware Flow Control
+
+== 0x27AB Serial IO UART1 Settings ==
+  0x 0xC1A OneOf    Hardware Flow Control
+
+== 0x27AC Serial IO UART2 Settings ==
+  0x 0xC1B OneOf    Hardware Flow Control
+
+== 0x27AD Serial IO GPIO Settings ==
+  0x 0xC0C OneOf    GPIO IRQ Route
+
+== 0x27AE SerialIO timing parameters ==
+  0x 0xC37 CheckBox SerialIO timing parameters
+  0x 0xC38 Numeric  StandardSpeed SCL High for I2C1
+  0x 0xC3A Numeric  StandardSpeed SCL Low for I2C1
+  0x 0xC3C Numeric  StandardSpeed SDA Hold for I2C1
+  0x 0xC3E Numeric  FastSpeed SCL High for I2C1
+  0x 0xC40 Numeric  FastSpeed SCL Low for I2C1
+  0x 0xC42 Numeric  FastSpeed SDA Hold for I2C1
+  0x 0xC44 Numeric  FastSpeedPlus SCL High for I2C1
+  0x 0xC46 Numeric  FastSpeedPlus SCL Low for I2C1
+  0x 0xC48 Numeric  FastSpeedPlus SDA Hold for I2C1
+  0x 0xC4A Numeric  D0->D3 idle timeout for I2C1 (screen off)
+  0x 0xC4C Numeric  D0->D3 idle timeout for I2C1 (screen on)
+  0x 0xC4E Numeric  D0->D3 idle timeout for SPI1 (screen off)
+  0x 0xC50 Numeric  D0->D3 idle timeout for SPI1 (screen on)
+  0x 0xC52 Numeric  D0->D3 idle timeout for UART1 (screen off)
+  0x 0xC54 Numeric  D0->D3 idle timeout for UART1 (screen on)
+
+== 0x27AF SkyCam Configuration ==
+  0x 0x9B0 OneOf    SkyCam CIO2 Device
+  0x 0x9CC OneOf    Control Logic 0
+  0x 0x9CD OneOf    Control Logic 1
+  0x 0x9CE OneOf    Control Logic 2
+  0x 0x9CF OneOf    Control Logic 3
+  0x 0x9D0 OneOf    Link0
+  0x 0x9D1 OneOf    Link1
+  0x 0x9D2 OneOf    Link2
+  0x 0x9D3 OneOf    Link3
+  0x 0x9B1 OneOf    PORT-A HS-RXEN / TEM-EN Override
+  0x 0x9B2 OneOf    PORT-B HS-RXEN / TEM-EN Override
+  0x 0x9B3 OneOf    PORT-C HS-RXEN / TEM-EN Override
+  0x 0x9B4 OneOf    PORT-D HS-RXEN / TEM-EN Override
+  0x 0x9B9 OneOf    PORT-A CTLE
+  0x 0x9BA OneOf    PORT-B CTLE
+  0x 0x9BB OneOf    PORT-C/D CTLE
+  0x 0x9C2 Numeric  PORT-A CTLE CAP Value
+  0x 0x9C5 Numeric  PORT-A CTLE RES Value
+  0x 0x9C3 Numeric  PORT-B CTLE CAP Value
+  0x 0x9C6 Numeric  PORT-B CTLE RES Value
+  0x 0x9C4 Numeric  PORT-C/D CTLE CAP Value
+  0x 0x9C7 Numeric  PORT-C/D CTLE RES Value
+  0x 0x9B5 OneOf    PORT-A TRIM
+  0x 0x9B6 OneOf    PORT-B TRIM
+  0x 0x9B7 OneOf    PORT-C TRIM
+  0x 0x9B8 OneOf    PORT-D TRIM
+  0x 0x9BC Numeric  PORT-A Data Trim Value
+  0x 0x9BE Numeric  PORT-B Data Trim Value
+  0x 0x9C0 Numeric  PORT-C/D Data Trim Value
+  0x 0x9C8 Numeric  PORT-A Clk Trim Value
+  0x 0x9C9 Numeric  PORT-B Clk Trim Value
+  0x 0x9CA Numeric  PORT-C Clk Trim Value
+  0x 0x9CB Numeric  PORT-D Clk Trim Value
+
+== 0x27B0 Control Logic options ==
+  0x 0x9D5 OneOf    Control Logic Type
+  0x 0x9D6 OneOf    CRD Version
+  0x 0x9DB OneOf    PMIC Flash Panel
+  0x 0x9D8 OneOf    I2C Channel
+  0x 0x9D9 Numeric  I2C Address
+  0x 0x9D7 Numeric  Number of GPIO Pins
+  0x 0x9DC Numeric  Group Pad Number
+  0x 0x9E0 OneOf    Group Number
+  0x 0x9E4 OneOf    Function
+  0x 0x9E8 Numeric  Active Value
+  0x 0x9EC Numeric  Initial Value
+  0x 0x9DD Numeric  Group Pad Number
+  0x 0x9E1 OneOf    Group Number
+  0x 0x9E5 OneOf    Function
+  0x 0x9E9 Numeric  Active Value
+  0x 0x9ED Numeric  Initial Value
+  0x 0x9DE Numeric  Group Pad Number
+  0x 0x9E2 OneOf    Group Number
+  0x 0x9E6 OneOf    Function
+  0x 0x9EA Numeric  Active Value
+  0x 0x9EE Numeric  Initial Value
+  0x 0x9DF Numeric  Group Pad Number
+  0x 0x9E3 OneOf    Group Number
+  0x 0x9E7 OneOf    Function
+  0x 0x9EB Numeric  Active Value
+  0x 0x9EF Numeric  Initial Value
+
+== 0x27B1 Control Logic options ==
+  0x 0x9F0 OneOf    Control Logic Type
+  0x 0x9F1 OneOf    CRD Version
+  0x 0x9F6 OneOf    PMIC Flash Panel
+  0x 0x9F3 OneOf    I2C Channel
+  0x 0x9F4 Numeric  I2C Address
+  0x 0x9F2 Numeric  Number of GPIO Pins
+  0x 0x9F7 Numeric  Group Pad Number
+  0x 0x9FB OneOf    Group Number
+  0x 0x9FF OneOf    Function
+  0x 0xA03 Numeric  Active Value
+  0x 0xA07 Numeric  Initial Value
+  0x 0x9F8 Numeric  Group Pad Number
+  0x 0x9FC OneOf    Group Number
+  0x 0xA00 OneOf    Function
+  0x 0xA04 Numeric  Active Value
+  0x 0xA08 Numeric  Initial Value
+  0x 0x9F9 Numeric  Group Pad Number
+  0x 0x9FD OneOf    Group Number
+  0x 0xA01 OneOf    Function
+  0x 0xA05 Numeric  Active Value
+  0x 0xA09 Numeric  Initial Value
+  0x 0x9FA Numeric  Group Pad Number
+  0x 0x9FE OneOf    Group Number
+  0x 0xA02 OneOf    Function
+  0x 0xA06 Numeric  Active Value
+  0x 0xA0A Numeric  Initial Value
+
+== 0x27B2 Control Logic options ==
+  0x 0xA0B OneOf    Control Logic Type
+  0x 0xA0C OneOf    CRD Version
+  0x 0xA11 OneOf    PMIC Flash Panel
+  0x 0xA0E OneOf    I2C Channel
+  0x 0xA0F Numeric  I2C Address
+  0x 0xA0D Numeric  Number of GPIO Pins
+  0x 0xA12 Numeric  Group Pad Number
+  0x 0xA16 OneOf    Group Number
+  0x 0xA1A OneOf    Function
+  0x 0xA1E Numeric  Active Value
+  0x 0xA22 Numeric  Initial Value
+  0x 0xA13 Numeric  Group Pad Number
+  0x 0xA17 OneOf    Group Number
+  0x 0xA1B OneOf    Function
+  0x 0xA1F Numeric  Active Value
+  0x 0xA23 Numeric  Initial Value
+  0x 0xA14 Numeric  Group Pad Number
+  0x 0xA18 OneOf    Group Number
+  0x 0xA1C OneOf    Function
+  0x 0xA20 Numeric  Active Value
+  0x 0xA24 Numeric  Initial Value
+  0x 0xA15 Numeric  Group Pad Number
+  0x 0xA19 OneOf    Group Number
+  0x 0xA1D OneOf    Function
+  0x 0xA21 Numeric  Active Value
+  0x 0xA25 Numeric  Initial Value
+
+== 0x27B3 Control Logic options ==
+  0x 0xA26 OneOf    Control Logic Type
+  0x 0xA27 OneOf    CRD Version
+  0x 0xA2C OneOf    PMIC Flash Panel
+  0x 0xA29 OneOf    I2C Channel
+  0x 0xA2A Numeric  I2C Address
+  0x 0xA28 Numeric  Number of GPIO Pins
+  0x 0xA2D Numeric  Group Pad Number
+  0x 0xA31 OneOf    Group Number
+  0x 0xA35 OneOf    Function
+  0x 0xA39 Numeric  Active Value
+  0x 0xA3D Numeric  Initial Value
+  0x 0xA2E Numeric  Group Pad Number
+  0x 0xA32 OneOf    Group Number
+  0x 0xA36 OneOf    Function
+  0x 0xA3A Numeric  Active Value
+  0x 0xA3E Numeric  Initial Value
+  0x 0xA2F Numeric  Group Pad Number
+  0x 0xA33 OneOf    Group Number
+  0x 0xA37 OneOf    Function
+  0x 0xA3B Numeric  Active Value
+  0x 0xA3F Numeric  Initial Value
+  0x 0xA30 Numeric  Group Pad Number
+  0x 0xA34 OneOf    Group Number
+  0x 0xA38 OneOf    Function
+  0x 0xA3C Numeric  Active Value
+  0x 0xA40 Numeric  Initial Value
+
+== 0x27B4 Link options ==
+  0x 0xA41 OneOf    Sensor Model
+  0x 0x9D4 OneOf    Lanes Clock division
+  0x 0xA9C OneOf    CRD Version
+  0x 0xAA8 OneOf    GPIO control
+  0x 0xA54 OneOf    Camera position
+  0x 0xAA9 OneOf    Flash Support
+  0x 0xAAA OneOf    Rotation
+  0x 0xA9D OneOf    LaneUsed
+  0x 0xAA4 OneOf    MCLK
+  0x 0xA9E OneOf    EEPROM Type
+  0x 0xA9F OneOf    VCM Type
+  0x 0xA75 Numeric  Number of I2C Components
+  0x 0xA76 OneOf    I2C Channel
+  0x 0xA77 Numeric  I2C Address
+  0x 0xA8F OneOf    Device Type
+  0x 0xA79 Numeric  I2C Address
+  0x 0xA90 OneOf    Device Type
+  0x 0xA7B Numeric  I2C Address
+  0x 0xA91 OneOf    Device Type
+  0x 0xA7D Numeric  I2C Address
+  0x 0xA92 OneOf    Device Type
+  0x 0xA7F Numeric  I2C Address
+  0x 0xA93 OneOf    Device Type
+  0x 0xA81 Numeric  I2C Address
+  0x 0xA94 OneOf    Device Type
+  0x 0xA83 Numeric  I2C Address
+  0x 0xA95 OneOf    Device Type
+  0x 0xA85 Numeric  I2C Address
+  0x 0xA96 OneOf    Device Type
+  0x 0xA87 Numeric  I2C Address
+  0x 0xA97 OneOf    Device Type
+  0x 0xA89 Numeric  I2C Address
+  0x 0xA98 OneOf    Device Type
+  0x 0xA8B Numeric  I2C Address
+  0x 0xA99 OneOf    Device Type
+  0x 0xA8D Numeric  I2C Address
+  0x 0xA9A OneOf    Device Type
+
+== 0x27B5 Link options ==
+  0x 0xAAB OneOf    Sensor Model
+  0x 0x9D4 OneOf    Lanes Clock division
+  0x 0xB06 OneOf    CRD Version
+  0x 0xB12 OneOf    GPIO control
+  0x 0xABE OneOf    Camera position
+  0x 0xB13 OneOf    Flash Support
+  0x 0xB14 OneOf    Rotation
+  0x 0xB07 OneOf    LaneUsed
+  0x 0xB0E OneOf    MCLK
+  0x 0xB08 OneOf    EEPROM Type
+  0x 0xB09 OneOf    VCM Type
+  0x 0xADF Numeric  Number of I2C Components
+  0x 0xAE0 OneOf    I2C Channel
+  0x 0xAE1 Numeric  I2C Address
+  0x 0xAF9 OneOf    Device Type
+  0x 0xAE3 Numeric  I2C Address
+  0x 0xAFA OneOf    Device Type
+  0x 0xAE5 Numeric  I2C Address
+  0x 0xAFB OneOf    Device Type
+  0x 0xAE7 Numeric  I2C Address
+  0x 0xAFC OneOf    Device Type
+  0x 0xAE9 Numeric  I2C Address
+  0x 0xAFD OneOf    Device Type
+  0x 0xAEB Numeric  I2C Address
+  0x 0xAFE OneOf    Device Type
+  0x 0xAED Numeric  I2C Address
+  0x 0xAFF OneOf    Device Type
+  0x 0xAEF Numeric  I2C Address
+  0x 0xB00 OneOf    Device Type
+  0x 0xAF1 Numeric  I2C Address
+  0x 0xB01 OneOf    Device Type
+  0x 0xAF3 Numeric  I2C Address
+  0x 0xB02 OneOf    Device Type
+  0x 0xAF5 Numeric  I2C Address
+  0x 0xB03 OneOf    Device Type
+  0x 0xAF7 Numeric  I2C Address
+  0x 0xB04 OneOf    Device Type
+
+== 0x27B6 Link options ==
+  0x 0xB15 OneOf    Sensor Model
+  0x 0x9D4 OneOf    Lanes Clock division
+  0x 0xB70 OneOf    CRD Version
+  0x 0xB7C OneOf    GPIO control
+  0x 0xB28 OneOf    Camera position
+  0x 0xB7D OneOf    Flash Support
+  0x 0xB7E OneOf    Rotation
+  0x 0xB71 OneOf    LaneUsed
+  0x 0xB78 OneOf    MCLK
+  0x 0xB72 OneOf    EEPROM Type
+  0x 0xB73 OneOf    VCM Type
+  0x 0xB49 Numeric  Number of I2C Components
+  0x 0xB4A OneOf    I2C Channel
+  0x 0xB4B Numeric  I2C Address
+  0x 0xB63 OneOf    Device Type
+  0x 0xB4D Numeric  I2C Address
+  0x 0xB64 OneOf    Device Type
+  0x 0xB4F Numeric  I2C Address
+  0x 0xB65 OneOf    Device Type
+  0x 0xB51 Numeric  I2C Address
+  0x 0xB66 OneOf    Device Type
+  0x 0xB53 Numeric  I2C Address
+  0x 0xB67 OneOf    Device Type
+  0x 0xB55 Numeric  I2C Address
+  0x 0xB68 OneOf    Device Type
+  0x 0xB57 Numeric  I2C Address
+  0x 0xB69 OneOf    Device Type
+  0x 0xB59 Numeric  I2C Address
+  0x 0xB6A OneOf    Device Type
+  0x 0xB5B Numeric  I2C Address
+  0x 0xB6B OneOf    Device Type
+  0x 0xB5D Numeric  I2C Address
+  0x 0xB6C OneOf    Device Type
+  0x 0xB5F Numeric  I2C Address
+  0x 0xB6D OneOf    Device Type
+  0x 0xB61 Numeric  I2C Address
+  0x 0xB6E OneOf    Device Type
+
+== 0x27B7 Link options ==
+  0x 0xB7F OneOf    Sensor Model
+  0x 0x9D4 OneOf    Lanes Clock division
+  0x 0xBDA OneOf    CRD Version
+  0x 0xBE6 OneOf    GPIO control
+  0x 0xB92 OneOf    Camera position
+  0x 0xBE7 OneOf    Flash Support
+  0x 0xBE8 OneOf    Rotation
+  0x 0xBDB OneOf    LaneUsed
+  0x 0xBE2 OneOf    MCLK
+  0x 0xBDC OneOf    EEPROM Type
+  0x 0xBDD OneOf    VCM Type
+  0x 0xBB3 Numeric  Number of I2C Components
+  0x 0xBB4 OneOf    I2C Channel
+  0x 0xBB5 Numeric  I2C Address
+  0x 0xBCD OneOf    Device Type
+  0x 0xBB7 Numeric  I2C Address
+  0x 0xBCE OneOf    Device Type
+  0x 0xBB9 Numeric  I2C Address
+  0x 0xBCF OneOf    Device Type
+  0x 0xBBB Numeric  I2C Address
+  0x 0xBD0 OneOf    Device Type
+  0x 0xBBD Numeric  I2C Address
+  0x 0xBD1 OneOf    Device Type
+  0x 0xBBF Numeric  I2C Address
+  0x 0xBD2 OneOf    Device Type
+  0x 0xBC1 Numeric  I2C Address
+  0x 0xBD3 OneOf    Device Type
+  0x 0xBC3 Numeric  I2C Address
+  0x 0xBD4 OneOf    Device Type
+  0x 0xBC5 Numeric  I2C Address
+  0x 0xBD5 OneOf    Device Type
+  0x 0xBC7 Numeric  I2C Address
+  0x 0xBD6 OneOf    Device Type
+  0x 0xBC9 Numeric  I2C Address
+  0x 0xBD7 OneOf    Device Type
+  0x 0xBCB Numeric  I2C Address
+  0x 0xBD8 OneOf    Device Type
+
+== 0x27B8 SCS Configuration ==
+  0x 0xBE9 OneOf    eMMC 5.0 Controller
+  0x 0xBEA OneOf    eMMC 5.0 HS400 Mode
+  0x 0xBEB OneOf    Driver Strength
+  0x 0xBEC OneOf    SDCard 3.0 Controller
+
+== 0x27B9 ISH Configuration ==
+  0x 0xBEE OneOf    ISH Controller
+  0x 0xBFD CheckBox PDT Unlock Message
+  0x 0xBEF CheckBox SPI
+  0x 0xBF0 CheckBox UART0
+  0x 0xBF1 CheckBox UART1
+  0x 0xBF2 CheckBox I2C0
+  0x 0xBF3 CheckBox I2C1
+  0x 0xBF4 CheckBox I2C2
+  0x 0xBF5 CheckBox GP_0
+  0x 0xBF6 CheckBox GP_1
+  0x 0xBF7 CheckBox GP_2
+  0x 0xBF8 CheckBox GP_3
+  0x 0xBF9 CheckBox GP_4
+  0x 0xBFA CheckBox GP_5
+  0x 0xBFB CheckBox GP_6
+  0x 0xBFC CheckBox GP_7
+
+== 0x27BA TraceHub Configuration Menu ==
+  0x 0xC58 OneOf    TraceHub Enable Mode
+  0x 0xC59 OneOf    MemRegion 0 Buffer Size
+  0x 0xC5A OneOf    MemRegion 1 Buffer Size
+
+== 0x27BB Pch Thermal Throttling Control ==
+  0x 0xC5B OneOf    Thermal Throttling Level
+  0x 0xC62 CheckBox Thermal Throttling
+  0x 0xC63 CheckBox TT State 13
+  0x 0xC64 CheckBox Thermal Throttling Lock
+  0x 0xC5C Numeric  T0 Level
+  0x 0xC5E Numeric  T1 Level
+  0x 0xC60 Numeric  T2 Level
+  0x 0xC65 OneOf    DMI Thermal Setting
+  0x 0xC6A CheckBox DMI Thermal Sensor Autonomous Width
+  0x 0xC66 OneOf    Thermal Sensor 0 Width
+  0x 0xC67 OneOf    Thermal Sensor 1 Width
+  0x 0xC68 OneOf    Thermal Sensor 2 Width
+  0x 0xC69 OneOf    Thermal Sensor 3 Width
+  0x 0xC6B OneOf    SATA Thermal Setting
+  0x 0xC6C OneOf    T1 Multipler
+  0x 0xC6D OneOf    T2 Multipler
+  0x 0xC6E OneOf    T3 Multipler
+  0x 0xC71 CheckBox Alternate Fast Init Tdispatch
+  0x 0xC6F OneOf    Tdispatch
+  0x 0xC70 OneOf    Tinactive
+  0x 0xC6F OneOf    Tdispatch
+  0x 0xC70 OneOf    Tinactive
+  0x 0xC72 OneOf    T1 Multipler
+  0x 0xC73 OneOf    T2 Multipler
+  0x 0xC74 OneOf    T3 Multipler
+  0x 0xC77 CheckBox Alternate Fast Init Tdispatch
+  0x 0xC75 OneOf    Tdispatch
+  0x 0xC76 OneOf    Tinactive
+  0x 0xC75 OneOf    Tdispatch
+  0x 0xC76 OneOf    Tinactive
+
+== 0x27BD Platform Thermal Configuration ==
+  0x 0xC79 OneOf    Automatic Thermal Reporting
+  0x 0xC7F OneOf    Critical Trip Point
+  0x 0xC7B OneOf    Active Trip Point 0
+  0x 0xC7D Numeric  Active Trip Point 0 Fan Speed
+  0x 0xC7A OneOf    Active Trip Point 1
+  0x 0xC7C Numeric  Active Trip Point 1 Fan Speed
+  0x 0xC7E OneOf    Passive Trip Point
+  0x 0xC80 Numeric  Passive TC1 Value
+  0x 0xC81 Numeric  Passive TC2 Value
+  0x 0xC82 Numeric  Passive TSP Value
+  0x 0xC83 OneOf    Active Trip Points
+  0x 0xC84 OneOf    Passive Trip Points
+  0x 0xC85 OneOf    Critical Trip Points
+  0x 0xC95 OneOf    SMBus Buffer Length
+  0x 0xC96 CheckBox Thermal Reporting EC PEC
+  0x 0xC91 CheckBox DIMM1 TS READ
+  0x 0xC92 CheckBox DIMM2 TS READ
+  0x 0xC93 CheckBox DIMM3 TS READ
+  0x 0xC94 CheckBox DIMM4 TS READ
+  0x 0xC86 OneOf    PCH Thermal Device
+  0x 0xC89 CheckBox PCH Temp Read
+  0x 0xC88 CheckBox CPU Energy Read
+  0x 0xC87 CheckBox CPU Temp Read
+  0x 0xC8A OneOf    Alert Enable Lock
+  0x 0xC8B OneOf    PCH Alert
+  0x 0xC8C OneOf    DIMM Alert
+  0x 0xC8D Numeric  CPU Temp
+  0x 0xC8E Numeric  CPU Fan Speed
+  0x 0xC8F Numeric  PCH Hot Level Select
+
+== 0x27BE SATA Configuration ==
+  0x 0x48B OneOf    SATA Controller(s)
+  0x 0x502 OneOf    CR#1 - RST Pcie Storage Remapping
+  0x 0x505 OneOf    CR#1 - Remap Port Selection
+  0x 0x503 OneOf    CR#2 - RST Pcie Storage Remapping
+  0x 0x506 OneOf    CR#2 - Remap Port Selection
+  0x 0x504 OneOf    CR#3 - RST Pcie Storage Remapping
+  0x 0x507 OneOf    CR#3 - Remap Port Selection
+  0x 0x4D3 OneOf    SATA Test Mode
+  0x 0x4D1 OneOf    Alternate ID
+  0x 0x4D2 OneOf    Aggressive LPM Support
+  0x 0x48D OneOf    Port 0
+  0x 0x495 OneOf    Hot Plug
+  0x 0x49D OneOf    Mechanical Presence Switch
+  0x 0x4AD OneOf    External SATA
+  0x 0x4A5 OneOf    Spin Up Device
+  0x 0x4B5 OneOf    SATA Device Type
+  0x 0x4BD OneOf    Topology
+  0x 0x4D4 OneOf    Device Sleep
+  0x 0x4DC OneOf    SATA DEVSLEP Idle Timeout Config
+  0x 0x4E4 Numeric  SATA DTIO Value
+  0x 0x4F4 Numeric  SATA DITO Multiplier Value
+  0x 0x48E OneOf    Port 1
+  0x 0x496 OneOf    Hot Plug
+  0x 0x49E OneOf    Mechanical Presence Switch
+  0x 0x4AE OneOf    External SATA
+  0x 0x4A6 OneOf    Spin Up Device
+  0x 0x4B6 OneOf    SATA Device Type
+  0x 0x4BE OneOf    Topology
+  0x 0x4D5 OneOf    Device Sleep
+  0x 0x4DD OneOf    SATA DEVSLEP Idle Timeout Config
+  0x 0x4E6 Numeric  SATA DTIO Value
+  0x 0x4F5 Numeric  SATA DITO Multiplier Value
+  0x 0x48F OneOf    Port 2
+  0x 0x497 OneOf    Hot Plug
+  0x 0x49F OneOf    Mechanical Presence Switch
+  0x 0x4AF OneOf    External SATA
+  0x 0x4A7 OneOf    Spin Up Device
+  0x 0x4B7 OneOf    SATA Device Type
+  0x 0x4BF OneOf    Topology
+  0x 0x4D6 OneOf    Device Sleep
+  0x 0x4DE OneOf    SATA DEVSLEP Idle Timeout Config
+  0x 0x4E8 Numeric  SATA DTIO Value
+  0x 0x4F6 Numeric  SATA DITO Multiplier Value
+  0x 0x490 OneOf    Port 3
+  0x 0x498 OneOf    Hot Plug
+  0x 0x4A0 OneOf    Mechanical Presence Switch
+  0x 0x4B0 OneOf    External SATA
+  0x 0x4A8 OneOf    Spin Up Device
+  0x 0x4B8 OneOf    SATA Device Type
+  0x 0x4C0 OneOf    Topology
+  0x 0x4D7 OneOf    Device Sleep
+  0x 0x4DF OneOf    SATA DEVSLEP Idle Timeout Config
+  0x 0x4EA Numeric  SATA DTIO Value
+  0x 0x4F7 Numeric  SATA DITO Multiplier Value
+  0x 0x491 OneOf    Port 4
+  0x 0x499 OneOf    Hot Plug
+  0x 0x4A1 OneOf    Mechanical Presence Switch
+  0x 0x4B1 OneOf    External SATA
+  0x 0x4A9 OneOf    Spin Up Device
+  0x 0x4B9 OneOf    SATA Device Type
+  0x 0x4C1 OneOf    Topology
+  0x 0x4D8 OneOf    Device Sleep
+  0x 0x4E0 OneOf    SATA DEVSLEP Idle Timeout Config
+  0x 0x4EC Numeric  SATA DTIO Value
+  0x 0x4F8 Numeric  SATA DITO Multiplier Value
+  0x 0x492 OneOf    Port 5
+  0x 0x49A OneOf    Hot Plug
+  0x 0x4A2 OneOf    Mechanical Presence Switch
+  0x 0x4B2 OneOf    External SATA
+  0x 0x4AA OneOf    Spin Up Device
+  0x 0x4BA OneOf    SATA Device Type
+  0x 0x4C2 OneOf    Topology
+  0x 0x4D9 OneOf    Device Sleep
+  0x 0x4E1 OneOf    SATA DEVSLEP Idle Timeout Config
+  0x 0x4EE Numeric  SATA DTIO Value
+  0x 0x4F9 Numeric  SATA DITO Multiplier Value
+
+== 0x27BF Software Feature Mask Configuration ==
+  0x 0x4C5 OneOf    RAID0
+  0x 0x4C6 OneOf    RAID1
+  0x 0x4C7 OneOf    RAID10
+  0x 0x4C8 OneOf    RAID5
+  0x 0x4C9 OneOf    Intel Rapid Recovery Technology
+  0x 0x4CA OneOf    OROM UI and BANNER
+  0x 0x4CB OneOf    HDD Unlock
+  0x 0x4CC OneOf    LED Locate
+  0x 0x4CD OneOf    IRRT Only on eSATA
+  0x 0x4CE OneOf    Smart Response Technology
+  0x 0x4CF OneOf    OROM UI Normal Delay
+  0x 0x4D0 OneOf    RST Force Form
+
+== 0x27C2 AMI Graphic Output Protocol Policy ==
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9C OneOf    Output Select
+  0x 0xC9D Numeric  Brightnesst Setting
+  0x 0xCA1 OneOf    BIST Enable
+
+== 0x27D0 CSM Configuration ==
+  0x 0xCA2 OneOf    CSM Support
+  0x 0xCA5 OneOf    GateA20 Active
+  0x 0xCA3 OneOf    Option ROM Messages
+  0x 0xCA6 OneOf    Boot option filter
+  0x 0xCA7 OneOf    Network
+  0x 0xCA8 OneOf    Storage
+  0x 0xCA9 OneOf    Video
+  0x 0xCAA OneOf    Other PCI devices
+
+== 0x27EF HyperThread control ==
+  0x  0x79 OneOf    Hyper-Threading
+
+== 0x27F0 C-States Control ==
+  0x  0x80 CheckBox C states
+
+== 0x27F1 Limit CPUID Value ==
+  0x 0x1EE CheckBox Enable CPUID Limit
+
+== 0x27F5 Deep Sleep Control ==
+  0x 0x450 OneOf    Deep Sleep
+
+== 0x27F7 Fan Control Override ==
+  0x 0xDDC CheckBox Fan Control Override
+
+== 0x280B OROM Keyboard Access ==
+  0x 0xE27 OneOf    Allow OROMs Keyboard Access
+
+== 0x280C UEFI Capsule Firmware Updates ==
+  0x 0xFBB CheckBox Enable UEFI Capsule Firmware Updates
+
+== 0x280D SMM Security Mitigation ==
+  0x 0xFE7 CheckBox SMM Security Mitigation
+
+== 0x280E Drives ==
+  0x 0xEAD CheckBox SATA-0
+  0x 0xEAE CheckBox SATA-1
+  0x 0xEAF CheckBox SATA-2
+  0x 0xEB0 CheckBox SATA-3
+  0x 0xEB1 CheckBox SATA-4
+  0x 0xEB2 CheckBox SATA-5
+  0x 0xED5 CheckBox M.2 PCIe SSD-0
+
+== 0x2815 Primary Display ==
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+  0x 0xD15 OneOf    Primary Display
+
+== 0x2816 ASPM ==
+  0x 0xEFA OneOf    Automatic ASPM
+
+== 0x800C Debug ==
+  0x 0xD21 CheckBox UWB
+  0x 0xDCA OneOf    HDD Acoustic Mode
+  0x 0xDD5 CheckBox Wake on AC
+  0x 0xDD6 OneOf    AC Recovery
+  0x 0xE33 CheckBox Dell Encryption Enable
+
+== 0x8200 Boot Sequence ==
+  0x 0xD30 OneOf    Boot List
+
+== 0x8201 Advanced Boot Options ==
+  0x 0xEFF CheckBox Enable Legacy Option ROMs
+  0x 0xFD7 CheckBox Enable Attempt Legacy Boot
+
+== 0x8202 UEFI Boot Path Security ==
+  0x 0xFD8 OneOf    UEFI Boot Path Security
+
+== 0x8402 SERR Messages ==
+  0x 0xCFE CheckBox Enable SERR Messages
+
+== 0x8403 Enable Watchdog Timer ==
+  0x 0xCFF CheckBox Watchdog Timer Support
+
+== 0x8404 Dell Development Configuration ==
+  0x 0xF13 CheckBox Enable Flash Update Signature Override
+
+== 0x8405 BIOS Downgrade ==
+  0x 0xF14 CheckBox Allow BIOS Downgrade
+
+== 0x8407 BIOS Recovery ==
+  0x 0xF1A CheckBox BIOS Recovery from Hard Drive
+
+== 0x8500 Intel® SpeedStep™ ==
+  0x  0x7D CheckBox Enable Intel® SpeedStep™
+
+== 0x8501 Intel® TurboBoost™ ==
+  0x  0x82 CheckBox Enable Intel® TurboBoost™
+
+== 0x8502 Multi Core Support ==
+  0x  0x7A OneOf    Active Processor Cores
+  0x  0x7A OneOf    Active Processor Cores
+  0x  0x7A OneOf    Active Processor Cores
+
+== 0x8503 HDD Protection Support ==
+  0x 0xDCB CheckBox HDD Protection Support
+
+== 0x8600 Adapter Warnings ==
+  0x 0xED9 CheckBox Enable Adapter Warnings
+
+== 0x8603 Numlock LED ==
+  0x   0x0 CheckBox Enable Numlock LED
+
+== 0x8606 Fastboot ==
+  0x 0xEE0 OneOf    Fastboot
+
+== 0x8608 Keyboard Errors ==
+  0x 0xEF2 CheckBox Enable Keyboard Error Detection
+
+== 0x8700 Auto On Time ==
+  0x 0xDD8 OneOf    Auto On
+  0x 0xDE5 CheckBox Sunday
+  0x 0xDE6 CheckBox Monday
+  0x 0xDE7 CheckBox Tuesday
+  0x 0xDE8 CheckBox Wednesday
+  0x 0xDE9 CheckBox Thursday
+  0x 0xDEA CheckBox Friday
+  0x 0xDEB CheckBox Saturday
+  0x 0xDD9 OneOf    Meridiem
+  0x 0xDDA Numeric  Auto On HOUR
+  0x 0xDDB Numeric  Auto On MINUTE
+
+== 0x8701 ERROR ==
+  0x 0xDD5 CheckBox Wake on AC
+  0x 0xDD6 OneOf    AC Recovery
+
+== 0x8702 USB Wake Support ==
+  0x 0xDDD CheckBox Enable USB Wake Support
+
+== 0x8707 Block Sleep ==
+  0x 0xDEE CheckBox Block Sleep (S3 State)
+
+== 0x8711 Intel Ready Mode ==
+  0x 0x272 CheckBox Enable Intel Ready Mode
+
+== 0x8730 Error! String not set. ==
+  0x 0xDDE OneOf    Wake on LAN/WLAN
+  0x 0xDDE OneOf    Wake on LAN
+
+== 0x8802 Chassis Intrusion ==
+  0x 0xE39 CheckBox Clear Intrusion Warning
+  0x 0xE37 OneOf    Chassis Intrusion
+
+== 0x8806 Password Bypass ==
+  0x 0xE30 OneOf    Password Bypass
+
+== 0x8807 Password Change ==
+  0x 0xE31 CheckBox Allow Non-Admin Password Changes
+
+== 0x8808 Password Configuration ==
+  0x 0xE23 Numeric  Admin Password Min
+  0x 0xE24 Numeric  Admin Password Max
+  0x 0xE25 Numeric  System Password Min
+  0x 0xE26 Numeric  System Password Max
+
+== 0x8809 TPM 1.2 Security ==
+  0x   0xE CheckBox TPM On
+  0x   0x9 OneOf    TPM State
+  0x   0xA CheckBox Clear
+  0x 0xF0D CheckBox TPM ACPI Support
+  0x 0xF0E CheckBox PPI Bypass for Enable Commands
+  0x 0xF0F CheckBox PPI Bypass for Disable Commands
+  0x 0xFE8 CheckBox PPI Bypass for Clear Command
+  0x 0xDFF OneOf    Current State
+  0x   0xD OneOf    TPM Owner Status:
+  0x 0xDFB CheckBox Kill TPM
+
+== 0x880A TCM Security ==
+  0x 0xE28 CheckBox TCM Security
+  0x 0xE29 OneOf    TCM Activation
+  0x 0xDFD CheckBox MOR State
+  0x 0xE2A OneOf    TCM Force Clear
+  0x 0xE2B OneOf    Current State
+
+== 0x880B Computrace® ==
+  0x 0xE35 OneOf    Computrace®
+  0x 0xE35 OneOf    Computrace®
+  0x 0xE35 OneOf    Computrace®
+
+== 0x880C CPU XD Support ==
+  0x 0x1ED CheckBox Enable CPU XD Support
+
+== 0x880E Admin Setup Lockout ==
+  0x 0xE21 CheckBox Enable Admin Setup Lockout
+
+== 0x880F Strong Password ==
+  0x 0xE22 CheckBox Enable Strong Password
+
+== 0x8814 Dell Encryption ==
+  0x 0xE32 CheckBox Clear Owner
+  0x 0xE3D CheckBox Clear Application Credentials
+
+== 0x8818 Intel® Software Guard Extensions™ ==
+  0x 0x14A OneOf    SW Guard Extensions (SGX)
+
+== 0x8819 Enclave Memory Size ==
+  0x 0xF1B OneOf    Enclave Memory Size
+
+== 0x8821 TPM 2.0 Security ==
+  0x   0xE CheckBox TPM On
+  0x   0x9 OneOf    TPM State
+  0x   0xA CheckBox Clear
+  0x 0xF0E CheckBox PPI Bypass for Enable Commands
+  0x  0x19 CheckBox Attestation Enable
+  0x 0xF0F CheckBox PPI Bypass for Disable Commands
+  0x  0x18 CheckBox Key Storage Enable
+  0x 0xFE8 CheckBox PPI Bypass for Clear Command
+  0x  0x16 CheckBox SHA-256
+
+== 0x8825 Master Password Lockout ==
+  0x 0xFE9 CheckBox Enable Master Password Lockout
+
+== 0x8901 System Management ==
+  0x 0xEA1 OneOf    System Management
+
+== 0x8903 Serial Port ==
+  0x 0xE42 OneOf    Serial Port
+
+== 0x8904 SATA Operation ==
+  0x 0x48C OneOf    SATA Operation
+
+== 0x8905 Miscellaneous Devices ==
+  0x 0xE51 CheckBox Enable PCI Slot
+  0x 0xDF7 OneOf    Enable Media Card
+
+== 0x8908 USB PowerShare ==
+  0x 0xE9C CheckBox Enable USB PowerShare
+
+== 0x8909 Enable SMART Reporting ==
+  0x 0xF93 CheckBox Enable SMART Reporting
+
+== 0x890A System Management ==
+  0x 0xEA2 CheckBox DASH dummy setup field
+
+== 0x890B USB Configuration ==
+  0x 0xE55 CheckBox Enable Boot Support
+  0x 0xE56 CheckBox Enable Front USB Ports
+  0x 0xE61 CheckBox Enable Rear USB Ports
+  0x 0xE6C CheckBox Enable Side USB Ports
+
+== 0x890D Integrated NIC ==
+  0x 0xEC6 OneOf    Integrated NIC
+
+== 0x890E Unobtrusive Mode ==
+  0x 0xEB4 CheckBox Enable Unobtrusive Mode
+
+== 0x890F Audio ==
+  0x 0x899 CheckBox Enable Audio
+  0x 0xE44 CheckBox Enable Microphone
+  0x 0xE45 CheckBox Enable Internal Speaker
+
+== 0x8918 Front USB Configuration ==
+  0x 0xE57 CheckBox Front Port 1
+  0x 0xE58 CheckBox Front Port 2
+  0x 0xE59 CheckBox Front Port 3
+  0x 0xE5A CheckBox Front Port 4
+  0x 0xE5B CheckBox Front Port 5
+  0x 0xE5C CheckBox Front Port 6
+  0x 0xE5D CheckBox Front Port 7
+  0x 0xE5E CheckBox Front Port 8
+  0x 0xE5F CheckBox Front Port 9
+  0x 0xE60 CheckBox Front Port 10
+
+== 0x8919 Rear USB Configuration ==
+  0x 0xE62 CheckBox Rear Port 1
+  0x 0xE63 CheckBox Rear Port 2
+  0x 0xE64 CheckBox Rear Port 3
+  0x 0xE65 CheckBox Rear Port 4
+  0x 0xE66 CheckBox Rear Port 5
+  0x 0xE67 CheckBox Rear Port 6
+  0x 0xE68 CheckBox Rear Port 7
+  0x 0xE69 CheckBox Rear Port 8
+  0x 0xE6A CheckBox Rear Port 9
+  0x 0xE6B CheckBox Rear Port 10
+
+== 0x891A Side USB Configuration ==
+  0x 0xE6D CheckBox Side Port 1
+  0x 0xE6E CheckBox Side Port 2
+  0x 0xE6F CheckBox Side Port 3
+  0x 0xE70 CheckBox Side Port 4
+  0x 0xE71 CheckBox Side Port 5
+  0x 0xE72 CheckBox Side Port 6
+  0x 0xE73 CheckBox Side Port 7
+  0x 0xE74 CheckBox Side Port 8
+  0x 0xE75 CheckBox Side Port 9
+  0x 0xE76 CheckBox Side Port 10
+
+== 0x8A00 BIOS Events ==
+  0x 0xD0D OneOf    Clear BIOS Log
+
+== 0x8B04 Multi-Display ==
+  0x 0xD14 CheckBox Enable Multi-Display
+
+== 0x8C00 Virtualization ==
+  0x 0x136 CheckBox Enable Intel Virtualization Technology
+
+== 0x8C01 VT for Direct I/O ==
+  0x 0x354 CheckBox Enable VT for Direct I/O
+
+== 0x8C02 Trusted Execution ==
+  0x 0x13E CheckBox Trusted Execution
+
+== 0x8D01 Wireless Device Enable ==
+  0x 0xD1E CheckBox UWB
+  0x 0xD1C CheckBox WLAN/WiGig
+  0x 0xD1D CheckBox Bluetooth®
+
+== 0xA002 MEBx Hotkey ==
+  0x 0xEF7 CheckBox Enable MEBx Hotkey
+
+
+==== KEYWORD HITS (any varstore) ====
+  off=      - vs= 0x0 Ref      Secure Boot
+  off=      - vs= 0x0 Ref      Virtualization Support
+  off=      - vs=   - Text     Memory Installed
+  off=      - vs=   - Text     Memory Available
+  off=      - vs=   - Text     Memory Speed
+  off=      - vs=   - Text     Memory Channel Mode
+  off=      - vs=   - Text     Memory Technology
+  off=      - vs=   - Text     NOTE: Due to an amount of memory being assigned for system use,
+  off=      - vs=   - Text     available memory.
+  off=      - vs=   - Text     Current Clock Speed
+  off=      - vs=   - Text     M.2 PCIe SSD-0
+  off=      - vs= 0x0 Ref      SATA Operation
+  off=      - vs= 0x0 Ref      USB Configuration
+  off=      - vs= 0x0 Ref      Front USB Configuration
+  off=      - vs= 0x0 Ref      Rear USB Configuration
+  off=      - vs= 0x0 Ref      Side USB Configuration
+  off=      - vs= 0x0 Ref      USB PowerShare
+  off=      - vs= 0x0 Ref      eSATA HDD Password
+  off=      - vs= 0x0 Ref      M.2 SATA SSD Password
+  off=      - vs= 0x0 Ref      TPM 1.2 Security
+  off=      - vs= 0x0 Ref      TPM 2.0 Security
+  off=      - vs= 0x0 Ref      Secure Boot Enable
+  off=      - vs= 0x0 Ref      Enclave Memory Size
+  off=      - vs= 0x0 Ref      Intel® SpeedStep™
+  off=      - vs= 0x0 Ref      C-States Control
+  off=      - vs= 0x0 Ref      Intel® TurboBoost™
+  off=      - vs= 0x0 Ref      HyperThread control
+  off=      - vs= 0x0 Ref      USB Wake Support
+  off=      - vs= 0x0 Ref      Virtualization
+  off=  0x136 vs= 0x1 CheckBox Enable Intel Virtualization Technology
+  off=   0x7D vs= 0x1 CheckBox Enable Intel® SpeedStep™
+  off=   0x82 vs= 0x1 CheckBox Enable Intel® TurboBoost™
+  off=   0x79 vs= 0x1 OneOf    Hyper-Threading
+  off=  0xDDD vs= 0x1 CheckBox Enable USB Wake Support
+  off=    0x0 vs=0x24 OneOf    Secure Boot Enable
+  off=  0xF1B vs= 0x1 OneOf    Enclave Memory Size
+  off=    0xE vs= 0x1 CheckBox TPM On
+  off=    0x9 vs= 0x1 OneOf    TPM State
+  off=  0xF0D vs= 0x1 CheckBox TPM ACPI Support
+  off=    0xD vs= 0x1 OneOf    TPM Owner Status:
+  off=  0xDFB vs= 0x1 CheckBox Kill TPM
+  off=    0xE vs= 0x1 CheckBox TPM On
+  off=    0x9 vs= 0x1 OneOf    TPM State
+  off=  0xE56 vs= 0x1 CheckBox Enable Front USB Ports
+  off=  0xE61 vs= 0x1 CheckBox Enable Rear USB Ports
+  off=  0xE6C vs= 0x1 CheckBox Enable Side USB Ports
+  off=  0x48C vs= 0x1 OneOf    SATA Operation
+  off=  0xEAD vs= 0x1 CheckBox SATA-0
+  off=  0xEAE vs= 0x1 CheckBox SATA-1
+  off=  0xEAF vs= 0x1 CheckBox SATA-2
+  off=  0xEB0 vs= 0x1 CheckBox SATA-3
+  off=  0xEB1 vs= 0x1 CheckBox SATA-4
+  off=  0xEB2 vs= 0x1 CheckBox SATA-5
+  off=  0xED5 vs= 0x1 CheckBox M.2 PCIe SSD-0
+  off=  0xE9C vs= 0x1 CheckBox Enable USB PowerShare
+  off=      - vs= 0x0 Ref      SATA Configuration
+  off=      - vs= 0x0 Ref      NVMe Configuration
+  off=      - vs= 0x0 Ref      Offboard SATA Controller Configuration
+  off=      - vs= 0x0 Ref      USB Configuration
+  off=    0xE vs= 0x1 OneOf    TPM Support in BIOS
+  off=    0xE vs= 0x1 OneOf    TPM Support in BIOS
+  off=    0x9 vs= 0x1 OneOf    TPM State
+  off=      - vs=   - Text     TPM Enabled Status:
+  off=      - vs=   - Text     TPM Active Status:
+  off=      - vs=   - Text     TPM Owner Status:
+  off=    0xE vs= 0x1 OneOf    TPM Support in BIOS
+  off=  0xFD9 vs= 0x1 OneOf    TPM2.0 UEFI Spec Version
+  off=   0x1A vs= 0x1 OneOf    TPM 20 InterfaceType
+  off=   0x35 vs= 0x1 OneOf    USB Provisioning of AMT
+  off=      - vs=   - Text     Fan1 Speed
+  off=      - vs=   - Text     Fan2 Speed
+  off=      - vs=   - Text     Fan3 Speed
+  off=      - vs=   - Text     Max CPU Speed
+  off=      - vs=   - Text     Min CPU Speed
+  off=      - vs=   - Text     Hyper Threading Technology
+  off=  0x136 vs= 0x1 OneOf    Intel Virtualization Technology
+  off=   0x7E vs= 0x1 OneOf    Intel(R) Speed Shift Technology
+  off=   0x82 vs= 0x1 OneOf    Turbo Mode
+  off=   0x81 vs= 0x1 OneOf    Enhanced C-states
+  off=   0xAA vs= 0x1 OneOf    C-State Auto Demotion
+  off=   0xAB vs= 0x1 OneOf    C-State Un-demotion
+  off=   0xA9 vs= 0x1 OneOf    CState Pre-Wake
+  off=   0xAF vs= 0x1 OneOf    CFG lock
+  off=  0x14C vs= 0x1 OneOf    Enclave Memory Size
+  off=  0x14C vs= 0x1 OneOf    Enclave Memory Size
+  off=  0x21C vs= 0x1 OneOf    Native PCIE Enable
+  off=  0x222 vs= 0x1 OneOf    Low Power Idle SATA Constraint
+  off=  0x1F6 vs= 0x1 Numeric  PCIE Slot Device Power-on
+  off=  0x1F7 vs= 0x1 Numeric  PCIE Slot Device Power-off
+  off=  0x207 vs= 0x1 OneOf    PEP SATA Support
+  off=  0x213 vs= 0x1 OneOf    USB Port 1
+  off=  0x214 vs= 0x1 OneOf    USB Port 2
+  off=  0x217 vs= 0x1 OneOf    USB Camera
+  off=  0x219 vs= 0x1 OneOf    Sata Port 1
+  off=  0x21A vs= 0x1 OneOf    Sata Port 2
+  off=  0x21B vs= 0x1 OneOf    MiniCard SATA Port3
+  off=  0xFAD vs= 0x1 OneOf    PCIe NVMe(Port5)
+  off=  0xC7D vs= 0x1 Numeric  Active Trip Point 0 Fan Speed
+  off=  0xC7C vs= 0x1 Numeric  Active Trip Point 1 Fan Speed
+  off=  0xC8E vs= 0x1 Numeric  CPU Fan Speed
+  off=  0x48B vs= 0x1 OneOf    SATA Controller(s)
+  off=  0x502 vs= 0x1 OneOf    CR#1 - RST Pcie Storage Remapping
+  off=  0x503 vs= 0x1 OneOf    CR#2 - RST Pcie Storage Remapping
+  off=  0x504 vs= 0x1 OneOf    CR#3 - RST Pcie Storage Remapping
+  off=  0x4D3 vs= 0x1 OneOf    SATA Test Mode
+  off=  0x4AD vs= 0x1 OneOf    External SATA
+  off=  0x4B5 vs= 0x1 OneOf    SATA Device Type
+  off=  0x4DC vs= 0x1 OneOf    SATA DEVSLEP Idle Timeout Config
+  off=  0x4E4 vs= 0x1 Numeric  SATA DTIO Value
+  off=  0x4F4 vs= 0x1 Numeric  SATA DITO Multiplier Value
+  off=  0x4AE vs= 0x1 OneOf    External SATA
+  off=  0x4B6 vs= 0x1 OneOf    SATA Device Type
+  off=  0x4DD vs= 0x1 OneOf    SATA DEVSLEP Idle Timeout Config
+  off=  0x4E6 vs= 0x1 Numeric  SATA DTIO Value
+  off=  0x4F5 vs= 0x1 Numeric  SATA DITO Multiplier Value
+  off=  0x4AF vs= 0x1 OneOf    External SATA
+  off=  0x4B7 vs= 0x1 OneOf    SATA Device Type
+  off=  0x4DE vs= 0x1 OneOf    SATA DEVSLEP Idle Timeout Config
+  off=  0x4E8 vs= 0x1 Numeric  SATA DTIO Value
+  off=  0x4F6 vs= 0x1 Numeric  SATA DITO Multiplier Value
+  off=  0x4B0 vs= 0x1 OneOf    External SATA
+  off=  0x4B8 vs= 0x1 OneOf    SATA Device Type
+  off=  0x4DF vs= 0x1 OneOf    SATA DEVSLEP Idle Timeout Config
+  off=  0x4EA vs= 0x1 Numeric  SATA DTIO Value
+  off=  0x4F7 vs= 0x1 Numeric  SATA DITO Multiplier Value
+  off=  0x4B1 vs= 0x1 OneOf    External SATA
+  off=  0x4B9 vs= 0x1 OneOf    SATA Device Type
+  off=  0x4E0 vs= 0x1 OneOf    SATA DEVSLEP Idle Timeout Config
+  off=  0x4EC vs= 0x1 Numeric  SATA DTIO Value
+  off=  0x4F8 vs= 0x1 Numeric  SATA DITO Multiplier Value
+  off=  0x4B2 vs= 0x1 OneOf    External SATA
+  off=  0x4BA vs= 0x1 OneOf    SATA Device Type
+  off=  0x4E1 vs= 0x1 OneOf    SATA DEVSLEP Idle Timeout Config
+  off=  0x4EE vs= 0x1 Numeric  SATA DTIO Value
+  off=  0x4F9 vs= 0x1 Numeric  SATA DITO Multiplier Value
+  off=  0x4CD vs= 0x1 OneOf    IRRT Only on eSATA
+  off=      - vs=   - Text     USB Module Version
+  off=      - vs=   - Text     USB Controllers:
+  off=      - vs=   - Text     USB Devices:
+  off=    0x0 vs=0x2C OneOf    USB Support
+  off=    0x1 vs=0x2C OneOf    Legacy USB Support
+  off=   0x1E vs=0x2C OneOf    USB 2.0 Controller Mode
+  off=   0x1F vs=0x2C OneOf    USB Mass Storage Driver Support
+  off=   0x20 vs=0x2C OneOf    USB S5 Wakeup Support
+  off=      - vs=   - Text     USB hardware delays and time-outs:
+  off=    0x9 vs=0x2C OneOf    USB transfer time-out
+  off=   0x24 vs= 0x1 OneOf    SATA RAID ROM
+  off=   0x24 vs= 0x1 OneOf    SATA RAID ROM
+  off=      - vs=   - Text     SA PCIe Code Version
+  off=      - vs=   - Text     VT-d
+  off=  0x355 vs= 0x1 OneOf    Above 4GB MMIO BIOS assignment
+  off=      - vs= 0x0 Ref      Memory Configuration
+  off=  0x37A vs= 0x1 Numeric  Graphics Turbo IMON Current
+  off=  0x445 vs= 0x1 OneOf    Primary PCIE
+  off=  0x342 vs= 0x1 Numeric  Reseved Memory
+  off=  0x344 vs= 0x1 Numeric  Reseved Memory
+  off=  0x346 vs= 0x1 Numeric  Reseved Memory
+  off=  0x325 vs= 0x1 OneOf    Program PCIe ASPM after OpROM
+  off=  0x2D5 vs= 0x1 OneOf    PCIe Rx CEM Test Mode
+  off=  0xF9A vs= 0x1 OneOf    PCIe Spread Spectrum Clocking
+  off=      - vs=   - Text     Memory RC Version
+  off=      - vs=   - Text     Memory Frequency
+  off=      - vs=   - Text     Total Memory
+  off=      - vs=   - Text     Memory Timings (tCL-tRCD-tRP-tRAS)
+  off=  0x37E vs= 0x1 OneOf    Memory Frequency
+  off=  0x37E vs= 0x1 OneOf    Memory Frequency
+  off=  0x37E vs= 0x1 OneOf    Memory Frequency
+  off=  0x39A vs= 0x1 OneOf    Memory Trace
+  off=  0x405 vs= 0x1 OneOf    Memory Scrambler
+  off=  0x408 vs= 0x1 OneOf    Memory Remap
+  off=      - vs= 0x0 Ref      Memory Thermal Configuration
+  off=      - vs= 0x0 Ref      Memory Training Algorithms
+  off=      - vs= 0x0 Ref      Memory Power and Thermal Throttling
+  off=  0x400 vs= 0x1 OneOf    Memory Thermal Management
+  off=  0x404 vs= 0x1 OneOf    Virtual Temperature Sensor (VTS)
+  off=  0x3B9 vs= 0x1 OneOf    Memory Test
+  off=      - vs= 0x0 Ref      Memory Thermal Reporting
+  off=      - vs= 0x0 Ref      Memory RAPL
+  off=  0x35D vs= 0x1 OneOf    DMI Max Link Speed
+  off=      - vs= 0x0 Ref      USB Configuration
+  off=  0x452 vs= 0x1 OneOf    USB/UART
+  off=  0x468 vs= 0x1 OneOf    Pcie Pll SSC
+  off=  0x4FF vs= 0x1 OneOf    Peer Memory Write Enable
+  off=  0x501 vs= 0x1 OneOf    PCIe-USB Glitch W/A
+  off=  0xF9D vs= 0x1 OneOf    PCIe function swap
+  off=      - vs=   - Text     PCIE Port 1 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 2 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 3 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 4 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 5 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 6 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 7 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 8 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 9 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 10 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 12 is assigned to LAN
+  off=      - vs=   - Text     PCIE Port 13 is assigned to LAN
+  off=  0x620 vs= 0x1 OneOf    PCIe Speed
+  off=  0x71B vs= 0x1 Numeric  Reseved Memory
+  off=  0x757 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6D4 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C0 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7A7 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7BB vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x86F vs= 0x1 OneOf    PCIE1 CLKREQ Mapping Override
+  off=  0x621 vs= 0x1 OneOf    PCIe Speed
+  off=  0x71D vs= 0x1 Numeric  Reseved Memory
+  off=  0x759 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6D5 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C1 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7A8 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7BC vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x870 vs= 0x1 OneOf    PCIE2 CLKREQ Mapping Override
+  off=  0x622 vs= 0x1 OneOf    PCIe Speed
+  off=  0x71F vs= 0x1 Numeric  Reseved Memory
+  off=  0x75B vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6D6 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C2 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7A9 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7BD vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x871 vs= 0x1 OneOf    PCIE3 CLKREQ Mapping Override
+  off=  0x623 vs= 0x1 OneOf    PCIe Speed
+  off=  0x721 vs= 0x1 Numeric  Reseved Memory
+  off=  0x75D vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6D7 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C3 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7AA vs= 0x1 OneOf    PCIE LTR
+  off=  0x7BE vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x872 vs= 0x1 OneOf    PCIE4 CLKREQ Mapping Override
+  off=  0x624 vs= 0x1 OneOf    PCIe Speed
+  off=  0x723 vs= 0x1 Numeric  Reseved Memory
+  off=  0x75F vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6D8 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C4 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7AB vs= 0x1 OneOf    PCIE LTR
+  off=  0x7BF vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x873 vs= 0x1 OneOf    PCIE5 CLKREQ Mapping Override
+  off=  0x625 vs= 0x1 OneOf    PCIe Speed
+  off=  0x725 vs= 0x1 Numeric  Reseved Memory
+  off=  0x761 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6D9 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C5 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7AC vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C0 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x874 vs= 0x1 OneOf    PCIE6 CLKREQ Mapping Override
+  off=  0x626 vs= 0x1 OneOf    PCIe Speed
+  off=  0x727 vs= 0x1 Numeric  Reseved Memory
+  off=  0x763 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6DA vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C6 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7AD vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C1 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x875 vs= 0x1 OneOf    PCIE7 CLKREQ Mapping Override
+  off=  0x627 vs= 0x1 OneOf    PCIe Speed
+  off=  0x729 vs= 0x1 Numeric  Reseved Memory
+  off=  0x765 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6DB vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C7 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7AE vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C2 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x876 vs= 0x1 OneOf    PCIE8 CLKREQ Mapping Override
+  off=  0x628 vs= 0x1 OneOf    PCIe Speed
+  off=  0x72B vs= 0x1 Numeric  Reseved Memory
+  off=  0x767 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6DC vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C8 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7AF vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C3 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x877 vs= 0x1 OneOf    PCIE9 CLKREQ Mapping Override
+  off=  0x629 vs= 0x1 OneOf    PCIe Speed
+  off=  0x72D vs= 0x1 Numeric  Reseved Memory
+  off=  0x769 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6DD vs= 0x1 Numeric  PCIE Cp
+  off=  0x6C9 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B0 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C4 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x878 vs= 0x1 OneOf    PCIE10 CLKREQ Mapping Override
+  off=  0x62A vs= 0x1 OneOf    PCIe Speed
+  off=  0x72F vs= 0x1 Numeric  Reseved Memory
+  off=  0x76B vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6DE vs= 0x1 Numeric  PCIE Cp
+  off=  0x6CA vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B1 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C5 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x879 vs= 0x1 OneOf    PCIE11 CLKREQ Mapping Override
+  off=  0x62B vs= 0x1 OneOf    PCIe Speed
+  off=  0x731 vs= 0x1 Numeric  Reseved Memory
+  off=  0x76D vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6DF vs= 0x1 Numeric  PCIE Cp
+  off=  0x6CB vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B2 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C6 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x87A vs= 0x1 OneOf    PCIE12 CLKREQ Mapping Override
+  off=  0x62C vs= 0x1 OneOf    PCIe Speed
+  off=  0x733 vs= 0x1 Numeric  Reseved Memory
+  off=  0x76F vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E0 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6CC vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B3 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C7 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x87B vs= 0x1 OneOf    PCIE13 CLKREQ Mapping Override
+  off=  0x62D vs= 0x1 OneOf    PCIe Speed
+  off=  0x735 vs= 0x1 Numeric  Reseved Memory
+  off=  0x771 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E1 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6CD vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B4 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C8 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x87C vs= 0x1 OneOf    PCIE14 CLKREQ Mapping Override
+  off=  0x62E vs= 0x1 OneOf    PCIe Speed
+  off=  0x737 vs= 0x1 Numeric  Reseved Memory
+  off=  0x773 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E2 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6CE vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B5 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7C9 vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x87D vs= 0x1 OneOf    PCIE15 CLKREQ Mapping Override
+  off=  0x62F vs= 0x1 OneOf    PCIe Speed
+  off=  0x739 vs= 0x1 Numeric  Reseved Memory
+  off=  0x775 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E3 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6CF vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B6 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7CA vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x87E vs= 0x1 OneOf    PCIE16 CLKREQ Mapping Override
+  off=  0x630 vs= 0x1 OneOf    PCIe Speed
+  off=  0x73B vs= 0x1 Numeric  Reseved Memory
+  off=  0x777 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E4 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6D0 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B7 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7CB vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x87F vs= 0x1 OneOf    PCIE17 CLKREQ Mapping Override
+  off=  0x631 vs= 0x1 OneOf    PCIe Speed
+  off=  0x73D vs= 0x1 Numeric  Reseved Memory
+  off=  0x779 vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E5 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6D1 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B8 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7CC vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x880 vs= 0x1 OneOf    PCIE18 CLKREQ Mapping Override
+  off=  0x632 vs= 0x1 OneOf    PCIe Speed
+  off=  0x73F vs= 0x1 Numeric  Reseved Memory
+  off=  0x77B vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E6 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6D2 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7B9 vs= 0x1 OneOf    PCIE LTR
+  off=  0x7CD vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x881 vs= 0x1 OneOf    PCIE19 CLKREQ Mapping Override
+  off=  0x633 vs= 0x1 OneOf    PCIe Speed
+  off=  0x741 vs= 0x1 Numeric  Reseved Memory
+  off=  0x77D vs= 0x1 Numeric  Prefetchable Memory
+  off=  0x6E7 vs= 0x1 Numeric  PCIE Cp
+  off=  0x6D3 vs= 0x1 Numeric  PCIE Cm
+  off=  0x7BA vs= 0x1 OneOf    PCIE LTR
+  off=  0x7CE vs= 0x1 OneOf    PCIE LTR Lock
+  off=  0x882 vs= 0x1 OneOf    PCIE20 CLKREQ Mapping Override
+  off=  0x486 vs= 0x1 OneOf    USB Precondition
+  off=  0x46B vs= 0x1 OneOf    USB Port Disable Override
+  off=  0x47C vs= 0x1 OneOf    USB SS Physical Connector #0
+  off=  0x47D vs= 0x1 OneOf    USB SS Physical Connector #1
+  off=  0x47E vs= 0x1 OneOf    USB SS Physical Connector #2
+  off=  0x47F vs= 0x1 OneOf    USB SS Physical Connector #3
+  off=  0x480 vs= 0x1 OneOf    USB SS Physical Connector #4
+  off=  0x481 vs= 0x1 OneOf    USB SS Physical Connector #5
+  off=  0x482 vs= 0x1 OneOf    USB SS Physical Connector #6
+  off=  0x483 vs= 0x1 OneOf    USB SS Physical Connector #7
+  off=  0x484 vs= 0x1 OneOf    USB SS Physical Connector #8
+  off=  0x485 vs= 0x1 OneOf    USB SS Physical Connector #9
+  off=  0x46C vs= 0x1 OneOf    USB HS Physical Connector #0
+  off=  0x46D vs= 0x1 OneOf    USB HS Physical Connector #1
+  off=  0x46E vs= 0x1 OneOf    USB HS Physical Connector #2
+  off=  0x46F vs= 0x1 OneOf    USB HS Physical Connector #3
+  off=  0x470 vs= 0x1 OneOf    USB HS Physical Connector #4
+  off=  0x471 vs= 0x1 OneOf    USB HS Physical Connector #5
+  off=  0x472 vs= 0x1 OneOf    USB HS Physical Connector #6
+  off=  0x473 vs= 0x1 OneOf    USB HS Physical Connector #7
+  off=  0x474 vs= 0x1 OneOf    USB HS Physical Connector #8
+  off=  0x475 vs= 0x1 OneOf    USB HS Physical Connector #9
+  off=  0x476 vs= 0x1 OneOf    USB HS Physical Connector #10
+  off=  0x477 vs= 0x1 OneOf    USB HS Physical Connector #11
+  off=  0x478 vs= 0x1 OneOf    USB HS Physical Connector #12
+  off=  0x479 vs= 0x1 OneOf    USB HS Physical Connector #13
+  off=  0x487 vs= 0x1 OneOf    USB Sensor Hub
+  off=  0x461 vs= 0x1 OneOf    BIOS Lock
+  off=  0xC20 vs= 0x1 OneOf    Device's bus speed
+  off=  0xC27 vs= 0x1 OneOf    Device's bus speed
+  off=  0xC38 vs= 0x1 Numeric  StandardSpeed SCL High for I2C1
+  off=  0xC3A vs= 0x1 Numeric  StandardSpeed SCL Low for I2C1
+  off=  0xC3C vs= 0x1 Numeric  StandardSpeed SDA Hold for I2C1
+  off=  0xC3E vs= 0x1 Numeric  FastSpeed SCL High for I2C1
+  off=  0xC40 vs= 0x1 Numeric  FastSpeed SCL Low for I2C1
+  off=  0xC42 vs= 0x1 Numeric  FastSpeed SDA Hold for I2C1
+  off=  0xC44 vs= 0x1 Numeric  FastSpeedPlus SCL High for I2C1
+  off=  0xC46 vs= 0x1 Numeric  FastSpeedPlus SCL Low for I2C1
+  off=  0xC48 vs= 0x1 Numeric  FastSpeedPlus SDA Hold for I2C1
+  off=  0xC6B vs= 0x1 OneOf    SATA Thermal Setting
+  off=      - vs= 0x0 Ref      Secure Boot menu
+  off=      - vs=   - Text     Secure Boot
+  off=      - vs=   - Text     Secure Boot
+  off=    0x0 vs=0x24 OneOf    Secure Boot
+  off=    0x1 vs=0x24 OneOf    Secure Boot Mode
+  off=      - vs= 0x0 Ref      Delete all Secure Boot variables
+  off=      - vs= 0x0 Ref      Save all Secure Boot variables
+  off=    0x2 vs= 0x1 OneOf    SATA Support
+  off=    0x4 vs= 0x1 OneOf    USB Support

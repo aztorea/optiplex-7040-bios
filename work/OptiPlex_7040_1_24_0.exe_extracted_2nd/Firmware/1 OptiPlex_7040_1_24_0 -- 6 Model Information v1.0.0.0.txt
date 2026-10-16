@@ -1,0 +1,5 @@
+VendorName=Dell Inc.
+OemString=
+SystemName=OptiPlex 7040
+Version=1.24.0
+Model=6b9

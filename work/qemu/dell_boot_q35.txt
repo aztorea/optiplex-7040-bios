@@ -1,0 +1,8 @@
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: warning: TCG doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: warning: TCG doesn't support requested feature: CPUID[eax=01h].ECX.tsc-deadline [bit 24]
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: warning: TCG doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.hle [bit 4]
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: warning: TCG doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: warning: TCG doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.rtm [bit 11]
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: warning: TCG doesn't support requested feature: CPUID[eax=0Dh,ecx=01h].EAX.xsavec [bit 1]
+C:\Users\Ghost\Desktop\bestproject\tools\qemu\qemu-system-x86_64.exe: combined size of system firmware exceeds 8388608 bytes
+

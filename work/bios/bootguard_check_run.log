@@ -1,0 +1,27 @@
+raw output -> work\bios\meinfo_verbose.txt
+Boot Guard / FPF report (read-only, MEInfo)
+==============================================
+MEInfo version : 11.8.92.4189
+
+policy row                  FPF         ME
+----------------------------------------------------
+Force Boot Guard ACM        Enabled       <== MISMATCH
+Protect BIOS Environment    Enabled       <== MISMATCH
+CPU Debugging               Enabled       <== MISMATCH
+BSP Initialization          Enabled       <== MISMATCH
+Measured Boot               Enabled       <== MISMATCH
+Verified Boot               Enabled       <== MISMATCH
+Key Manifest ID             0xF           <== MISMATCH
+Enforcement Policy          0x3           <== MISMATCH
+
+OEM key material:
+  OEM Public Key Hash FPF                      A53EF0C178D288B02E61FD71FC31874E89F041FE9332BA2A787A97F7146FB06C
+  Retrieving Variable "OEM Public Key Hash"
+  OEM Public Key Hash ME                       A53EF0C178D288B02E61FD71FC31874E89F041FE9332BA2A787A97F7146FB06C
+
+FPF provisioned : YES
+Boot Guard mode : Verified
+
+>>> ROUTE: Verified enforcement is ACTIVE: in-FV edits (W2/W3) WILL halt at BootGuardDxe -> build/flash the W2b base (BootGuardDxe bypass).
+
+summary    -> work\bios\bootguard_fpf.txt
